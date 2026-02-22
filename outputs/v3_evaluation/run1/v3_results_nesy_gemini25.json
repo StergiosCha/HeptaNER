@@ -1,0 +1,284 @@
+[
+  {
+    "core_layer": "Procedural acta",
+    "extension_layer": "Revocatio / Cassatio instrumenti",
+    "hybrid_tags": [],
+    "act_id": "24",
+    "corpus": "ALEXAKIS"
+  },
+  {
+    "core_layer": "Emphyteusis",
+    "extension_layer": "concessio cum canone",
+    "hybrid_tags": [],
+    "act_id": "66",
+    "corpus": "ALEXAKIS"
+  },
+  {
+    "core_layer": "Venditio",
+    "extension_layer": "venditio rei immobilis",
+    "hybrid_tags": [],
+    "act_id": "104",
+    "corpus": "ALEXAKIS"
+  },
+  {
+    "core_layer": "Emphyteusis",
+    "extension_layer": null,
+    "hybrid_tags": [],
+    "act_id": "26",
+    "corpus": "ALEXAKIS"
+  },
+  {
+    "core_layer": "Venditio",
+    "extension_layer": "venditio rei immobilis",
+    "hybrid_tags": [],
+    "act_id": "74",
+    "corpus": "ALEXAKIS"
+  },
+  {
+    "core_layer": "Emphyteusis",
+    "extension_layer": null,
+    "hybrid_tags": [],
+    "act_id": "34",
+    "corpus": "ALEXAKIS"
+  },
+  {
+    "core_layer": "Locatio conductio rei",
+    "extension_layer": "Concessio ecclesiastica",
+    "hybrid_tags": [],
+    "act_id": "6",
+    "corpus": "ALEXAKIS"
+  },
+  {
+    "core_layer": "Emphyteusis",
+    "extension_layer": "concessio cum canone",
+    "hybrid_tags": [],
+    "act_id": "85",
+    "corpus": "ALEXAKIS"
+  },
+  {
+    "core_layer": "Mutuum",
+    "extension_layer": null,
+    "hybrid_tags": [],
+    "act_id": "99",
+    "corpus": "FARMAKIS"
+  },
+  {
+    "core_layer": "Societas",
+    "extension_layer": "societas agricola",
+    "hybrid_tags": [],
+    "act_id": "131",
+    "corpus": "FARMAKIS"
+  },
+  {
+    "core_layer": "Venditio",
+    "extension_layer": "venditio rei immobilis",
+    "hybrid_tags": [],
+    "act_id": "27",
+    "corpus": "FARMAKIS"
+  },
+  {
+    "core_layer": "Testamentum",
+    "extension_layer": null,
+    "hybrid_tags": [],
+    "act_id": "71",
+    "corpus": "FARMAKIS"
+  },
+  {
+    "core_layer": "Procuratio",
+    "extension_layer": null,
+    "hybrid_tags": [],
+    "act_id": "109",
+    "corpus": "FARMAKIS"
+  },
+  {
+    "core_layer": "Praevenditio",
+    "extension_layer": null,
+    "hybrid_tags": [],
+    "act_id": "115",
+    "corpus": "FARMAKIS"
+  },
+  {
+    "core_layer": "Quietantia",
+    "extension_layer": null,
+    "hybrid_tags": [],
+    "act_id": "107",
+    "corpus": "FARMAKIS"
+  },
+  {
+    "core_layer": "Permutatio",
+    "extension_layer": null,
+    "hybrid_tags": [],
+    "act_id": "117",
+    "corpus": "FARMAKIS"
+  },
+  {
+    "core_layer": "Praevenditio",
+    "extension_layer": null,
+    "hybrid_tags": [],
+    "act_id": "160",
+    "corpus": "SPYRIS"
+  },
+  {
+    "core_layer": "Procedural acta",
+    "extension_layer": "Divisio / Partitio",
+    "hybrid_tags": [],
+    "act_id": "230",
+    "corpus": "SPYRIS"
+  },
+  {
+    "core_layer": "Praevenditio",
+    "extension_layer": null,
+    "hybrid_tags": [],
+    "act_id": "255",
+    "corpus": "SPYRIS"
+  },
+  {
+    "core_layer": "Praevenditio",
+    "extension_layer": "forward agricultural sale",
+    "hybrid_tags": [],
+    "act_id": "162",
+    "corpus": "SPYRIS"
+  },
+  {
+    "core_layer": "Procedural acta",
+    "extension_layer": "Transactio",
+    "hybrid_tags": [],
+    "act_id": "333",
+    "corpus": "SPYRIS"
+  },
+  {
+    "core_layer": "Procedural acta",
+    "extension_layer": "Concessio ecclesiastica",
+    "hybrid_tags": [],
+    "act_id": "323",
+    "corpus": "SPYRIS"
+  },
+  {
+    "core_layer": "Societas",
+    "extension_layer": "societas agricola",
+    "hybrid_tags": [],
+    "act_id": "313",
+    "corpus": "SPYRIS"
+  },
+  {
+    "core_layer": "Mutuum",
+    "extension_layer": "mutuum cum solutione in fructibus",
+    "hybrid_tags": [
+      "forward sale + security"
+    ],
+    "act_id": "113",
+    "corpus": "SPYRIS"
+  },
+  {
+    "core_layer": "Procuratio",
+    "extension_layer": null,
+    "hybrid_tags": [],
+    "act_id": "156",
+    "corpus": "TOXOTIS"
+  },
+  {
+    "core_layer": "Praevenditio",
+    "extension_layer": null,
+    "hybrid_tags": [],
+    "act_id": "179",
+    "corpus": "TOXOTIS"
+  },
+  {
+    "core_layer": "Procedural acta",
+    "extension_layer": "Declaratio",
+    "hybrid_tags": [],
+    "act_id": "218",
+    "corpus": "TOXOTIS"
+  },
+  {
+    "core_layer": "Quietantia",
+    "extension_layer": null,
+    "hybrid_tags": [],
+    "act_id": "170",
+    "corpus": "TOXOTIS"
+  },
+  {
+    "core_layer": "Procuratio",
+    "extension_layer": null,
+    "hybrid_tags": [],
+    "act_id": "137",
+    "corpus": "TOXOTIS"
+  },
+  {
+    "core_layer": "Mutuum",
+    "extension_layer": null,
+    "hybrid_tags": [],
+    "act_id": "130",
+    "corpus": "TOXOTIS"
+  },
+  {
+    "core_layer": "Procedural acta",
+    "extension_layer": "Declaratio",
+    "hybrid_tags": [],
+    "act_id": "203",
+    "corpus": "TOXOTIS"
+  },
+  {
+    "core_layer": "Locatio conductio rei",
+    "extension_layer": null,
+    "hybrid_tags": [],
+    "act_id": "181",
+    "corpus": "TOXOTIS"
+  },
+  {
+    "core_layer": "Permutatio",
+    "extension_layer": "Divisio / Partitio",
+    "hybrid_tags": [],
+    "act_id": "3",
+    "corpus": "VARAGAS"
+  },
+  {
+    "core_layer": "Locatio conductio rei",
+    "extension_layer": "Colonia / Metayage-type agreement",
+    "hybrid_tags": [],
+    "act_id": "9",
+    "corpus": "VARAGAS"
+  },
+  {
+    "core_layer": "Testamentum",
+    "extension_layer": null,
+    "hybrid_tags": [],
+    "act_id": "95",
+    "corpus": "VARAGAS"
+  },
+  {
+    "core_layer": "Testamentum",
+    "extension_layer": null,
+    "hybrid_tags": [],
+    "act_id": "89",
+    "corpus": "VARAGAS"
+  },
+  {
+    "core_layer": "Emphyteusis",
+    "extension_layer": null,
+    "hybrid_tags": [],
+    "act_id": "51",
+    "corpus": "VARAGAS"
+  },
+  {
+    "core_layer": "Procedural acta",
+    "extension_layer": "Declaratio",
+    "hybrid_tags": [],
+    "act_id": "85",
+    "corpus": "VARAGAS"
+  },
+  {
+    "core_layer": "Instrumentum obligationis",
+    "extension_layer": null,
+    "hybrid_tags": [],
+    "act_id": "19",
+    "corpus": "VARAGAS"
+  },
+  {
+    "core_layer": "Quietantia",
+    "extension_layer": null,
+    "hybrid_tags": [],
+    "act_id": "39",
+    "corpus": "VARAGAS"
+  }
+]

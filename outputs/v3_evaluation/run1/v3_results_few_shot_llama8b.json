@@ -1,0 +1,326 @@
+[
+  {
+    "core_layer": "Divisio / Partitio",
+    "extension_layer": "divisio rei immobilies",
+    "hybrid_tags": [],
+    "act_id": "24",
+    "corpus": "ALEXAKIS"
+  },
+  {
+    "core_layer": "Instrumentum obligationis",
+    "extension_layer": "Concessio rei immobilis",
+    "hybrid_tags": [
+      "solicitationis"
+    ],
+    "act_id": "66",
+    "corpus": "ALEXAKIS"
+  },
+  {
+    "core_layer": "Donatio",
+    "extension_layer": "donatio rei immobilis",
+    "hybrid_tags": [],
+    "act_id": "104",
+    "corpus": "ALEXAKIS"
+  },
+  {
+    "core_layer": "Locatio conductio rei",
+    "extension_layer": "locatio conductio rei immobilis",
+    "hybrid_tags": [],
+    "act_id": "26",
+    "corpus": "ALEXAKIS"
+  },
+  {
+    "core_layer": "Venditio",
+    "extension_layer": "venditio rei immobilis",
+    "hybrid_tags": [
+      "emphyteusis-like",
+      "agricultural credit"
+    ],
+    "act_id": "74",
+    "corpus": "ALEXAKIS"
+  },
+  {
+    "core_layer": "Divisio / Partitio",
+    "extension_layer": "partitio rerum",
+    "hybrid_tags": [],
+    "act_id": "34",
+    "corpus": "ALEXAKIS"
+  },
+  {
+    "core_layer": "Concessio ecclesiastica",
+    "extension_layer": null,
+    "hybrid_tags": [
+      "emphyteusis-like",
+      "usufruct"
+    ],
+    "act_id": "6",
+    "corpus": "ALEXAKIS"
+  },
+  {
+    "core_layer": "Donatio",
+    "extension_layer": "donatio inter vivos",
+    "hybrid_tags": [
+      "donatio mortis causa"
+    ],
+    "act_id": "85",
+    "corpus": "ALEXAKIS"
+  },
+  {
+    "core_layer": "Donatio",
+    "extension_layer": "donatio rei mobilis",
+    "hybrid_tags": [
+      "gift of personal property",
+      "dispute resolution"
+    ],
+    "act_id": "99",
+    "corpus": "FARMAKIS"
+  },
+  {
+    "core_layer": "Societas",
+    "extension_layer": "societas agricola",
+    "hybrid_tags": [],
+    "act_id": "131",
+    "corpus": "FARMAKIS"
+  },
+  {
+    "core_layer": "Instrumentum obligationis",
+    "extension_layer": "Concessio rei immobilis",
+    "hybrid_tags": [
+      "renunciation of rights",
+      "emphyteusis-like"
+    ],
+    "act_id": "27",
+    "corpus": "FARMAKIS"
+  },
+  {
+    "core_layer": "Testamentum",
+    "extension_layer": "Testamentum generale",
+    "hybrid_tags": [
+      "Dispositio universalia"
+    ],
+    "act_id": "71",
+    "corpus": "FARMAKIS"
+  },
+  {
+    "core_layer": "Instrumentum obligationis",
+    "extension_layer": "Praestitutio",
+    "hybrid_tags": [],
+    "act_id": "109",
+    "corpus": "FARMAKIS"
+  },
+  {
+    "core_layer": "Locatio conductio rei",
+    "extension_layer": "locatio conductio rei immobilis",
+    "hybrid_tags": [],
+    "act_id": "115",
+    "corpus": "FARMAKIS"
+  },
+  {
+    "core_layer": "Instrumentum obligationis",
+    "extension_layer": "Instrumentum confessionis",
+    "hybrid_tags": [],
+    "act_id": "107",
+    "corpus": "FARMAKIS"
+  },
+  {
+    "core_layer": "Divisio / Partitio",
+    "extension_layer": "Partitio rei immobiliis",
+    "hybrid_tags": [],
+    "act_id": "117",
+    "corpus": "FARMAKIS"
+  },
+  {
+    "core_layer": "Locatio conductio rei",
+    "extension_layer": "locatio rei futurae",
+    "hybrid_tags": [
+      "agricultural credit"
+    ],
+    "act_id": "160",
+    "corpus": "SPYRIS"
+  },
+  {
+    "core_layer": "Divisio / Partitio",
+    "extension_layer": "partitio rerum",
+    "hybrid_tags": [],
+    "act_id": "230",
+    "corpus": "SPYRIS"
+  },
+  {
+    "core_layer": "Locatio conductio rei",
+    "extension_layer": "locatio conductio rei immobilis",
+    "hybrid_tags": [],
+    "act_id": "255",
+    "corpus": "SPYRIS"
+  },
+  {
+    "core_layer": "Locatio conductio rei",
+    "extension_layer": "venditio futurae rei",
+    "hybrid_tags": [
+      "agricultural credit"
+    ],
+    "act_id": "162",
+    "corpus": "SPYRIS"
+  },
+  {
+    "core_layer": "Procedural acta",
+    "extension_layer": "Renuntiatio",
+    "hybrid_tags": [],
+    "act_id": "333",
+    "corpus": "SPYRIS"
+  },
+  {
+    "core_layer": "Concessio ecclesiastica",
+    "extension_layer": null,
+    "hybrid_tags": [
+      "emphyteusis-like",
+      "donatio"
+    ],
+    "act_id": "323",
+    "corpus": "SPYRIS"
+  },
+  {
+    "core_layer": "Locatio conductio rei",
+    "extension_layer": "locatio conductio operis",
+    "hybrid_tags": [
+      "agricultural labor"
+    ],
+    "act_id": "313",
+    "corpus": "SPYRIS"
+  },
+  {
+    "core_layer": "Instrumentum obligationis",
+    "extension_layer": "mutuum",
+    "hybrid_tags": [
+      "agricultural credit"
+    ],
+    "act_id": "113",
+    "corpus": "SPYRIS"
+  },
+  {
+    "core_layer": "Instrumentum obligationis",
+    "extension_layer": "testamentum",
+    "hybrid_tags": [],
+    "act_id": "156",
+    "corpus": "TOXOTIS"
+  },
+  {
+    "core_layer": "Venditio",
+    "extension_layer": "venditio rei immobilis",
+    "hybrid_tags": [
+      "agricultural produce",
+      "conditional sale"
+    ],
+    "act_id": "179",
+    "corpus": "TOXOTIS"
+  },
+  {
+    "core_layer": "Instrumentum obligationis",
+    "extension_layer": "confessio et purgatio",
+    "hybrid_tags": [],
+    "act_id": "218",
+    "corpus": "TOXOTIS"
+  },
+  {
+    "core_layer": "Instrumentum obligationis",
+    "extension_layer": "renuntiatio iuris",
+    "hybrid_tags": [],
+    "act_id": "170",
+    "corpus": "TOXOTIS"
+  },
+  {
+    "core_layer": "Procuratio",
+    "extension_layer": "Procuratio generalis",
+    "hybrid_tags": [
+      "appointment of a procurator"
+    ],
+    "act_id": "137",
+    "corpus": "TOXOTIS"
+  },
+  {
+    "core_layer": "Instrumentum obligationis",
+    "extension_layer": "mutuum",
+    "hybrid_tags": [],
+    "act_id": "130",
+    "corpus": "TOXOTIS"
+  },
+  {
+    "core_layer": "Instrumentum obligationis",
+    "extension_layer": "Conditio servitutis",
+    "hybrid_tags": [],
+    "act_id": "203",
+    "corpus": "TOXOTIS"
+  },
+  {
+    "core_layer": "Locatio conductio rei",
+    "extension_layer": "locatio conductio rei immobilis",
+    "hybrid_tags": [],
+    "act_id": "181",
+    "corpus": "TOXOTIS"
+  },
+  {
+    "core_layer": "Permutatio",
+    "extension_layer": "mutuum inter partes",
+    "hybrid_tags": [],
+    "act_id": "3",
+    "corpus": "VARAGAS"
+  },
+  {
+    "core_layer": "Locatio conductio rei",
+    "extension_layer": "emphyteusis-like",
+    "hybrid_tags": [
+      "agricultural management",
+      "usufruct"
+    ],
+    "act_id": "9",
+    "corpus": "VARAGAS"
+  },
+  {
+    "core_layer": "Testamentum",
+    "extension_layer": "Testamentum universale",
+    "hybrid_tags": [],
+    "act_id": "95",
+    "corpus": "VARAGAS"
+  },
+  {
+    "core_layer": "Instrumentum obligationis",
+    "extension_layer": "Testamentum",
+    "hybrid_tags": [
+      "Divisio / Partitio"
+    ],
+    "act_id": "89",
+    "corpus": "VARAGAS"
+  },
+  {
+    "core_layer": "Locatio conductio rei",
+    "extension_layer": "emphyteusis-like",
+    "hybrid_tags": [
+      "agricultural lease"
+    ],
+    "act_id": "51",
+    "corpus": "VARAGAS"
+  },
+  {
+    "core_layer": "Instrumentum obligationis",
+    "extension_layer": "renuntiatio iuris in re hereditaria",
+    "hybrid_tags": [],
+    "act_id": "85",
+    "corpus": "VARAGAS"
+  },
+  {
+    "core_layer": "Instrumentum obligationis",
+    "extension_layer": "Pignus",
+    "hybrid_tags": [],
+    "act_id": "19",
+    "corpus": "VARAGAS"
+  },
+  {
+    "core_layer": "Instrumentum obligationis",
+    "extension_layer": "obligatio non solvendi",
+    "hybrid_tags": [
+      "renunciation of rights",
+      "pledge"
+    ],
+    "act_id": "39",
+    "corpus": "VARAGAS"
+  }
+]

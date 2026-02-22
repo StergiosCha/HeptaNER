@@ -1,0 +1,604 @@
+==================================================================================================================================
+FULL PREDICTIONS: All 12 models x 4 strategies vs Gold (Core Layer)
+For each act: + = correct, - = wrong, ! = API error
+==================================================================================================================================
+
+--- Act 24 (ALEXAKIS)  |  GOLD: Procedural acta  /  Revocatio / Cassatio instrumenti ---
+  Model     zero_shot                     few_shot                      full_context                  nesy                          
+  Cl.3.7Son + Procedural acta             + Procedural acta             + Procedural acta             + Procedural acta             
+  Cl.Son4   + Procedural acta             + Procedural acta             + Procedural acta             + Procedural acta             
+  Cl.Opus4  + Procedural acta             + Procedural acta             + Procedural acta             + Procedural acta             
+  GPT-4o    - Transactio                  + Procedural acta             + Revocatio                   + Procedural acta             
+  GPT-5.2   + Procedural acta             + Procedural acta             + Procedural acta             + Procedural acta             
+  Ll.70B    - Transactio                  - Quietantia                  + Procedural acta             + Procedural acta             
+  Ll.8B     - Divisio / Partitio          - Divisio / Partitio          - Mutuum                      + Procedural acta             
+  Ll.Mav    + Procedural acta             - Transactio                  - Transactio                  + Procedural acta             
+  DSv3      - Permutatio                  - Transactio                  + Renuntiatio                 + Procedural acta             
+  DSr1      + Procedural acta             + Procedural acta             + Procedural acta             + Procedural acta             
+  Qwen72    - Quietantia                  + Procedural acta             - Confessio                   + Procedural acta             
+  Gem2.5    + Procedural acta             + Procedural acta             + Procedural acta             + Procedural acta             
+
+--- Act 66 (ALEXAKIS)  |  GOLD: Emphyteusis  /  concessio cum canone ---
+  Model     zero_shot                     few_shot                      full_context                  nesy                          
+  Cl.3.7Son + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 
+  Cl.Son4   - Locatio conductio rei       + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 
+  Cl.Opus4  + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 
+  GPT-4o    + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 
+  GPT-5.2   + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 
+  Ll.70B    - Locatio conductio rei       - Locatio conductio rei       + Emphyteusis                 + Emphyteusis                 
+  Ll.8B     - Locatio conductio rei       - Instrumentum obligationis   - Donatio                     + Emphyteusis                 
+  Ll.Mav    + Emphyteusis                 ! ERROR                       + Emphyteusis                 + Emphyteusis                 
+  DSv3      + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 
+  DSr1      + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 
+  Qwen72    + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 
+  Gem2.5    + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 
+
+--- Act 104 (ALEXAKIS)  |  GOLD: Donatio  /  donatio inter vivos ---
+  Model     zero_shot                     few_shot                      full_context                  nesy                          
+  Cl.3.7Son + Donatio                     - Permutatio                  + Donatio                     + Donatio                     
+  Cl.Son4   + Donatio                     + Donatio                     + Donatio                     + Donatio                     
+  Cl.Opus4  + Donatio                     + Donatio                     + Donatio                     + Donatio                     
+  GPT-4o    + Donatio                     + Donatio                     + Donatio                     + Donatio                     
+  GPT-5.2   + Donatio                     + Donatio                     + Donatio                     + Donatio                     
+  Ll.70B    + Donatio                     + Donatio                     + Donatio                     + Donatio                     
+  Ll.8B     + Donatio                     + Donatio                     + Donatio                     + Donatio                     
+  Ll.Mav    + Donatio                     + Donatio                     + Donatio                     + Donatio                     
+  DSv3      + Donatio                     + Donatio                     + Donatio                     + Donatio                     
+  DSr1      + Donatio                     + Donatio                     + Donatio                     + Donatio                     
+  Qwen72    + Donatio                     + Donatio                     + Donatio                     + Donatio                     
+  Gem2.5    - Venditio                    - Venditio                    - Venditio                    - Venditio                    
+
+--- Act 26 (ALEXAKIS)  |  GOLD: Emphyteusis  /  concessio cum canone ---
+  Model     zero_shot                     few_shot                      full_context                  nesy                          
+  Cl.3.7Son + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 
+  Cl.Son4   + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 
+  Cl.Opus4  + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 
+  GPT-4o    + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 
+  GPT-5.2   + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 
+  Ll.70B    + Emphyteusis                 - Locatio conductio rei       - Locatio conductio rei       + Emphyteusis                 
+  Ll.8B     - Locatio conductio rei       - Locatio conductio rei       - Locatio conductio rei       + Emphyteusis                 
+  Ll.Mav    + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 
+  DSv3      + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 
+  DSr1      + Emphyteusis                 + Emphyteusis                 - Locatio conductio rei       + Emphyteusis                 
+  Qwen72    + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 
+  Gem2.5    + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 
+
+--- Act 74 (ALEXAKIS)  |  GOLD: Venditio  /  venditio rei immobilis ---
+  Model     zero_shot                     few_shot                      full_context                  nesy                          
+  Cl.3.7Son + Venditio                    + Venditio                    + Venditio                    + Venditio                    
+  Cl.Son4   + Venditio                    + Venditio                    + Venditio                    + Venditio                    
+  Cl.Opus4  + Venditio                    + Venditio                    + Venditio                    + Venditio                    
+  GPT-4o    + Venditio                    + Venditio                    + Venditio                    + Venditio                    
+  GPT-5.2   + Venditio                    + Venditio                    + Venditio                    + Venditio                    
+  Ll.70B    + Venditio                    + Venditio                    + Venditio                    + Venditio                    
+  Ll.8B     + Venditio                    + Venditio                    + Venditio                    + Venditio                    
+  Ll.Mav    + Venditio                    + Venditio                    + Venditio                    + Venditio                    
+  DSv3      + Venditio (Sale)             + Venditio                    + Venditio                    + Venditio                    
+  DSr1      + Venditio                    + Venditio                    + Venditio                    + Venditio                    
+  Qwen72    + Venditio                    + Venditio                    + Venditio                    + Venditio                    
+  Gem2.5    + Venditio                    + Venditio                    + Venditio                    + Venditio                    
+
+--- Act 34 (ALEXAKIS)  |  GOLD: Emphyteusis  /  concessio cum canone ---
+  Model     zero_shot                     few_shot                      full_context                  nesy                          
+  Cl.3.7Son + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 
+  Cl.Son4   + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 
+  Cl.Opus4  + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 
+  GPT-4o    + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 
+  GPT-5.2   + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 
+  Ll.70B    + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 
+  Ll.8B     - Divisio / Partitio          - Divisio / Partitio          - Locatio conductio rei       + Emphyteusis                 
+  Ll.Mav    + Emphyteusis                 - Societas                    + Emphyteusis                 + Emphyteusis                 
+  DSv3      + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 
+  DSr1      + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 
+  Qwen72    + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 
+  Gem2.5    + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 
+
+--- Act 6 (ALEXAKIS)  |  GOLD: Concessio ecclesiastica  /  concessio temporalis ---
+  Model     zero_shot                     few_shot                      full_context                  nesy                          
+  Cl.3.7Son - Locatio conductio rei       + Concessio ecclesiastica     + Concessio ecclesiastica     + Concessio ecclesiastica     
+  Cl.Son4   - Locatio conductio rei       + Concessio ecclesiastica     + Concessio ecclesiastica     - Locatio conductio rei       
+  Cl.Opus4  - Locatio conductio rei       - Locatio conductio rei       + Concessio ecclesiastica     - Procedural acta             
+  GPT-4o    + Concessio ecclesiastica     + Concessio ecclesiastica     + Concessio ecclesiastica     + Concessio ecclesiastica     
+  GPT-5.2   - Locatio conductio rei       + Concessio ecclesiastica     + Concessio ecclesiastica     - Locatio conductio rei       
+  Ll.70B    - Locatio conductio rei       + Concessio ecclesiastica     - Locatio conductio rei       - Locatio conductio rei       
+  Ll.8B     + Concessio ecclesiastica     + Concessio ecclesiastica     + Concessio                   + Concessio                   
+  Ll.Mav    - Locatio conductio rei       + Concessio ecclesiastica     - Locatio conductio rei       - Emphyteusis                 
+  DSv3      - Locatio conductio operis    + Concessio ecclesiastica     + Concessio ecclesiastica     - Locatio conductio rei       
+  DSr1      - Locatio conductio rei       + Concessio ecclesiastica     - Locatio conductio rei       - Locatio conductio rei       
+  Qwen72    - Locatio conductio rei       + Concessio ecclesiastica     + Concessio ecclesiastica     + Concessio                   
+  Gem2.5    - Locatio conductio rei       - Locatio conductio rei       - Locatio conductio rei       - Locatio conductio rei       
+
+--- Act 85 (ALEXAKIS)  |  GOLD: Emphyteusis  /  concessio cum canone ---
+  Model     zero_shot                     few_shot                      full_context                  nesy                          
+  Cl.3.7Son + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 
+  Cl.Son4   + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 
+  Cl.Opus4  + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 
+  GPT-4o    + Emphyteusis                 - Donatio                     + Emphyteusis                 + Emphyteusis                 
+  GPT-5.2   + Emphyteusis                 - Donatio                     + Emphyteusis                 + Emphyteusis                 
+  Ll.70B    + Emphyteusis                 - Venditio                    - Donatio                     - Venditio                    
+  Ll.8B     - Donatio                     - Donatio                     - Donatio                     - Donatio                     
+  Ll.Mav    + Emphyteusis                 - Donatio                     + Emphyteusis                 + Emphyteusis                 
+  DSv3      + Emphyteusis                 - Donatio                     - Donatio                     - Donatio                     
+  DSr1      + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 + Emphyteusis                 
+  Qwen72    - Donatio                     - Donatio                     - Donatio                     + Emphyteusis                 
+  Gem2.5    - Venditio                    - Donatio                     + Emphyteusis                 + Emphyteusis                 
+
+--- Act 99 (FARMAKIS)  |  GOLD: Instrumentum obligationis ---
+  Model     zero_shot                     few_shot                      full_context                  nesy                          
+  Cl.3.7Son + Instrumentum obligationis   - Mutuum                      + Instrumentum obligationis   + Instrumentum obligationis   
+  Cl.Son4   + Instrumentum obligationis   - Quietantia                  - Transactio                  + Instrumentum obligationis   
+  Cl.Opus4  - Transactio                  - Mutuum                      + Instrumentum obligationis   + Instrumentum obligationis   
+  GPT-4o    - Quietantia                  - Mutuum                      - Mutuum                      - Mutuum                      
+  GPT-5.2   + Instrumentum obligationis   + Instrumentum obligationis   + Instrumentum obligationis   + Instrumentum obligationis   
+  Ll.70B    + Instrumentum obligationis   - Mutuum                      - Mutuum                      - Mutuum                      
+  Ll.8B     - Locatio conductio rei       - Donatio                     - Mutuum                      - Mutuum                      
+  Ll.Mav    ! ERROR                       - Quietantia                  + Instrumentum obligationis   + Instrumentum obligationis   
+  DSv3      - Mutuum                      - Mutuum                      - Mutuum                      - Mutuum                      
+  DSr1      - Transactio                  + Instrumentum obligationis   - Mutuum                      - Mutuum                      
+  Qwen72    - Mutuum                      - Mutuum                      - Mutuum                      - Mutuum                      
+  Gem2.5    + Instrumentum obligationis   + Instrumentum obligationis   + Instrumentum obligationis   - Mutuum                      
+
+--- Act 131 (FARMAKIS)  |  GOLD: Contractus agrarius mixtus  /  Conventio culturae ---
+  Model     zero_shot                     few_shot                      full_context                  nesy                          
+  Cl.3.7Son - Societas                    - Societas                    - Societas                    - Societas agricola           
+  Cl.Son4   - Locatio conductio rei       - Societas                    - Societas                    - Locatio conductio rei       
+  Cl.Opus4  - Societas                    - Societas                    - Societas                    - Procedural acta             
+  GPT-4o    - Societas                    - Societas                    - Societas                    - Locatio conductio rei       
+  GPT-5.2   - Societas                    - Societas                    + Contractus agrarius mixtus  - Locatio conductio rei       
+  Ll.70B    - Emphyteusis                 - Societas                    - Locatio conductio rei       - Locatio conductio rei       
+  Ll.8B     - Divisio / Partitio          - Societas                    - Locatio conductio rei       - Locatio conductio rei       
+  Ll.Mav    - Emphyteusis                 - Locatio conductio rei       - Locatio conductio rei       - Locatio conductio rei       
+  DSv3      - Emphyteusis                 - Divisio / Partitio          - Emphyteusis                 - Locatio conductio rei       
+  DSr1      - Locatio conductio rei (Le~  - Locatio conductio rei       - Societas                    - Locatio conductio rei       
+  Qwen72    - Emphyteusis                 - Societas                    - Societas                    - Societas agricola           
+  Gem2.5    - Societas                    - Societas                    - Societas                    - Societas                    
+
+--- Act 27 (FARMAKIS)  |  GOLD: Venditio  /  venditio rei immobilis ---
+  Model     zero_shot                     few_shot                      full_context                  nesy                          
+  Cl.3.7Son + Venditio                    + Venditio                    + Venditio                    + Venditio                    
+  Cl.Son4   + Venditio                    + Venditio                    + Venditio                    + Venditio                    
+  Cl.Opus4  + Venditio                    + Venditio                    + Venditio                    + Venditio                    
+  GPT-4o    + Venditio                    + Venditio                    + Venditio                    + Venditio                    
+  GPT-5.2   + Venditio                    + Venditio                    + Venditio                    + Venditio                    
+  Ll.70B    + Venditio                    + Venditio                    + Venditio                    + Venditio                    
+  Ll.8B     - Divisio / Partitio          - Instrumentum obligationis   + Venditio                    + Venditio                    
+  Ll.Mav    + Venditio                    + Venditio                    + Venditio                    + Venditio                    
+  DSv3      + Venditio (Sale)             + Venditio                    + Venditio                    + Venditio                    
+  DSr1      + Venditio (Sale)             + Venditio                    + Venditio                    + Venditio                    
+  Qwen72    + Venditio                    + Venditio                    + Venditio                    + Venditio                    
+  Gem2.5    + Venditio                    + Venditio                    + Venditio                    + Venditio                    
+
+--- Act 71 (FARMAKIS)  |  GOLD: Testamentum ---
+  Model     zero_shot                     few_shot                      full_context                  nesy                          
+  Cl.3.7Son + Testamentum                 + Testamentum                 + Testamentum                 + Testamentum                 
+  Cl.Son4   + Testamentum                 + Testamentum                 + Testamentum                 + Testamentum                 
+  Cl.Opus4  + Testamentum                 + Testamentum                 + Testamentum                 + Testamentum                 
+  GPT-4o    + Testamentum                 + Testamentum                 + Testamentum                 + Testamentum                 
+  GPT-5.2   + Testamentum                 + Testamentum                 + Testamentum                 + Testamentum                 
+  Ll.70B    + Testamentum                 + Testamentum                 + Testamentum                 + Testamentum                 
+  Ll.8B     - Divisio / Partitio          + Testamentum                 + Testamentum                 + Testamentum                 
+  Ll.Mav    + Testamentum                 + Testamentum                 + Testamentum                 + Testamentum                 
+  DSv3      + Testamentum                 + Testamentum                 + Testamentum                 + Testamentum                 
+  DSr1      + Testamentum                 + Testamentum                 + Testamentum                 + Testamentum                 
+  Qwen72    + Testamentum                 + Testamentum                 + Testamentum                 + Testamentum                 
+  Gem2.5    + Testamentum                 + Testamentum                 + Testamentum                 + Testamentum                 
+
+--- Act 109 (FARMAKIS)  |  GOLD: Procuratio ---
+  Model     zero_shot                     few_shot                      full_context                  nesy                          
+  Cl.3.7Son + Procuratio                  + Procuratio                  + Procuratio                  + Procuratio                  
+  Cl.Son4   + Procuratio                  + Procuratio                  + Procuratio                  + Procuratio                  
+  Cl.Opus4  + Procuratio                  + Procuratio                  + Procuratio                  + Procuratio                  
+  GPT-4o    + Procuratio                  + Procuratio                  + Procuratio                  + Procuratio                  
+  GPT-5.2   + Procuratio                  + Procuratio                  + Procuratio                  + Procuratio                  
+  Ll.70B    + Procuratio                  + Procuratio                  + Procuratio                  + Procuratio                  
+  Ll.8B     - Donatio                     - Instrumentum obligationis   - Emphyteusis                 + Procuratio                  
+  Ll.Mav    + Procuratio                  + Procuratio                  + Procuratio                  + Procuratio                  
+  DSv3      - Transactio (Settlement)     + Procuratio                  + Procuratio                  + Procuratio                  
+  DSr1      + Procuratio                  + Procuratio                  + Procuratio                  + Procuratio                  
+  Qwen72    + Procuratio                  + Procuratio                  + Procuratio                  + Procuratio                  
+  Gem2.5    + Procuratio                  + Procuratio                  + Procuratio                  + Procuratio                  
+
+--- Act 115 (FARMAKIS)  |  GOLD: Praevenditio  /  venditio futurae rei ---
+  Model     zero_shot                     few_shot                      full_context                  nesy                          
+  Cl.3.7Son + Praevenditio                + Praevenditio                + Praevenditio                + Praevenditio                
+  Cl.Son4   - Locatio conductio rei       - Locatio conductio rei       - Locatio conductio rei       + Praevenditio                
+  Cl.Opus4  + Praevenditio                - Locatio conductio rei       + Praevenditio                + Praevenditio                
+  GPT-4o    - Locatio conductio rei       - Locatio conductio rei       - Locatio conductio rei       + Praevenditio                
+  GPT-5.2   - Locatio conductio rei       + Praevenditio                + Praevenditio                + Praevenditio                
+  Ll.70B    - Locatio conductio rei       - Locatio conductio rei       - Locatio conductio rei       + Praevenditio                
+  Ll.8B     - Emphyteusis                 - Locatio conductio rei       - Locatio conductio rei       + Praevenditio                
+  Ll.Mav    + Praevenditio                ! ERROR                       - Mutuum                      + Praevenditio                
+  DSv3      - Locatio conductio rei       - Locatio conductio rei       - Locatio conductio rei       + Praevenditio                
+  DSr1      - Locatio conductio rei (Le~  - Locatio conductio rei       - Locatio conductio rei       + Praevenditio                
+  Qwen72    - Locatio conductio rei       - Societas                    - Locatio conductio operis    + Praevenditio                
+  Gem2.5    + Praevenditio                + Praevenditio                + Praevenditio                + Praevenditio                
+
+--- Act 107 (FARMAKIS)  |  GOLD: Quietantia  /  confessio solutionis ---
+  Model     zero_shot                     few_shot                      full_context                  nesy                          
+  Cl.3.7Son + Quietantia                  + Quietantia                  + Quietantia                  + Quietantia                  
+  Cl.Son4   + Quietantia                  + Quietantia                  + Quietantia                  + Quietantia                  
+  Cl.Opus4  + Quietantia                  + Quietantia                  + Quietantia                  + Quietantia                  
+  GPT-4o    + Quietantia                  + Quietantia                  + Quietantia                  + Quietantia                  
+  GPT-5.2   + Quietantia                  + Quietantia                  + Quietantia                  + Quietantia                  
+  Ll.70B    + Quietantia                  + Quietantia                  + Quietantia                  + Quietantia                  
+  Ll.8B     - Donatio                     - Instrumentum obligationis   - Donatio                     + Quietantia                  
+  Ll.Mav    + Quietantia                  - Mutuum                      + Quietantia                  + Quietantia                  
+  DSv3      + Quietantia                  + Quietantia                  + Quietantia                  + Quietantia                  
+  DSr1      + Quietantia (Receipt of pa~  + Quietantia                  + Quietantia                  + Quietantia                  
+  Qwen72    + Quietantia                  - Mutuum                      - Mutuum                      + Quietantia                  
+  Gem2.5    + Quietantia                  + Quietantia                  + Quietantia                  + Quietantia                  
+
+--- Act 117 (FARMAKIS)  |  GOLD: Permutatio ---
+  Model     zero_shot                     few_shot                      full_context                  nesy                          
+  Cl.3.7Son + Permutatio                  + Permutatio                  + Permutatio                  + Permutatio                  
+  Cl.Son4   + Permutatio                  + Permutatio                  + Permutatio                  + Permutatio                  
+  Cl.Opus4  + Permutatio                  + Permutatio                  + Permutatio                  + Permutatio                  
+  GPT-4o    + Permutatio                  + Permutatio                  + Permutatio                  + Permutatio                  
+  GPT-5.2   + Permutatio                  + Permutatio                  + Permutatio                  + Permutatio                  
+  Ll.70B    + Permutatio                  + Permutatio                  + Permutatio                  + Permutatio                  
+  Ll.8B     + Permutatio                  - Divisio / Partitio          + Permutatio                  + Permutatio                  
+  Ll.Mav    + Permutatio                  + Permutatio                  + Permutatio                  + Permutatio                  
+  DSv3      + Permutatio                  + Permutatio                  + Permutatio                  + Permutatio                  
+  DSr1      + Permutatio                  + Permutatio                  + Permutatio                  + Permutatio                  
+  Qwen72    + Permutatio                  + Permutatio                  + Permutatio                  + Permutatio                  
+  Gem2.5    + Permutatio                  + Permutatio                  + Permutatio                  + Permutatio                  
+
+--- Act 160 (SPYRIS)  |  GOLD: Praevenditio ---
+  Model     zero_shot                     few_shot                      full_context                  nesy                          
+  Cl.3.7Son + Praevenditio                + Praevenditio                + Praevenditio                + Praevenditio                
+  Cl.Son4   + Praevenditio (Forward sal~  + Praevenditio                + Praevenditio                + Praevenditio                
+  Cl.Opus4  + Praevenditio                + Praevenditio                + Praevenditio                + Praevenditio                
+  GPT-4o    + Praevenditio                + Praevenditio                + Praevenditio                + Praevenditio                
+  GPT-5.2   + Praevenditio                + Praevenditio                + Praevenditio                + Praevenditio                
+  Ll.70B    - Mutuum                      + Praevenditio                + Praevenditio                + Praevenditio                
+  Ll.8B     - Locatio conductio rei       - Locatio conductio rei       - Locatio conductio rei       + Praevenditio                
+  Ll.Mav    + Praevenditio                - Mutuum                      + Praevenditio                + Praevenditio                
+  DSv3      - Mutuum                      + Praevenditio                - Mutuum                      + Praevenditio                
+  DSr1      + Praevenditio                + Praevenditio                + Praevenditio                + Praevenditio                
+  Qwen72    - Mutuum                      + Praevenditio                - Mutuum                      + Praevenditio                
+  Gem2.5    + Praevenditio                + Praevenditio                + Praevenditio                + Praevenditio                
+
+--- Act 230 (SPYRIS)  |  GOLD: Divisio / Partitio ---
+  Model     zero_shot                     few_shot                      full_context                  nesy                          
+  Cl.3.7Son + Divisio / Partitio          + Divisio / Partitio          + Divisio / Partitio          - Procedural acta             
+  Cl.Son4   + Divisio / Partitio          + Divisio / Partitio          + Divisio / Partitio          + Divisio / Partitio          
+  Cl.Opus4  + Divisio / Partitio          + Divisio / Partitio          + Divisio / Partitio          - Procedural acta             
+  GPT-4o    + Divisio / Partitio          + Divisio / Partitio          + Divisio / Partitio          + Divisio / Partitio          
+  GPT-5.2   + Divisio / Partitio          + Divisio / Partitio          + Divisio / Partitio          + Divisio / Partitio          
+  Ll.70B    + Divisio / Partitio          + Divisio / Partitio          + Divisio / Partitio          + Divisio / Partitio          
+  Ll.8B     + Divisio / Partitio          + Divisio / Partitio          - Permutatio                  + Divisio / Partitio          
+  Ll.Mav    + Divisio / Partitio          + Divisio / Partitio          + Divisio / Partitio          + Divisio / Partitio          
+  DSv3      + Divisio / Partitio          + Divisio / Partitio          + Divisio / Partitio          + Divisio / Partitio          
+  DSr1      + Divisio / Partitio          + Divisio / Partitio          + Divisio / Partitio          - Procedural acta             
+  Qwen72    + Divisio / Partitio          + Divisio / Partitio          + Divisio / Partitio          + Divisio / Partitio          
+  Gem2.5    + Divisio / Partitio          + Divisio / Partitio          + Divisio / Partitio          - Procedural acta             
+
+--- Act 255 (SPYRIS)  |  GOLD: Praevenditio ---
+  Model     zero_shot                     few_shot                      full_context                  nesy                          
+  Cl.3.7Son + Praevenditio                + Praevenditio                + Praevenditio                + Praevenditio                
+  Cl.Son4   + Praevenditio                + Praevenditio                + Praevenditio                + Praevenditio                
+  Cl.Opus4  + Praevenditio                + Praevenditio                + Praevenditio                + Praevenditio                
+  GPT-4o    + Praevenditio                + Praevenditio                + Praevenditio                + Praevenditio                
+  GPT-5.2   + Praevenditio                + Praevenditio                + Praevenditio                + Praevenditio                
+  Ll.70B    - Mutuum                      - Mutuum                      + Praevenditio                + Praevenditio                
+  Ll.8B     - Donatio                     - Locatio conductio rei       - Venditio                    + Praevenditio                
+  Ll.Mav    + Praevenditio                - Mutuum                      + Praevenditio                + Praevenditio                
+  DSv3      - Mutuum                      + Praevenditio                + Praevenditio                + Praevenditio                
+  DSr1      + Praevenditio (Forward sal~  + Praevenditio                + Praevenditio                + Praevenditio                
+  Qwen72    - Mutuum                      + Praevenditio                - Mutuum                      + Praevenditio                
+  Gem2.5    + Praevenditio                + Praevenditio                + Praevenditio                + Praevenditio                
+
+--- Act 162 (SPYRIS)  |  GOLD: Praevenditio ---
+  Model     zero_shot                     few_shot                      full_context                  nesy                          
+  Cl.3.7Son + Praevenditio                + Praevenditio                + Praevenditio                + Praevenditio                
+  Cl.Son4   + Praevenditio                + Praevenditio                + Praevenditio                + Praevenditio                
+  Cl.Opus4  + Praevenditio                + Praevenditio                + Praevenditio                + Praevenditio                
+  GPT-4o    + Praevenditio                + Praevenditio                + Praevenditio                + Praevenditio                
+  GPT-5.2   + Praevenditio                + Praevenditio                + Praevenditio                + Praevenditio                
+  Ll.70B    - Locatio conductio rei       + Praevenditio                + Praevenditio                + Praevenditio                
+  Ll.8B     - Donatio                     - Locatio conductio rei       - Mutuum                      + Praevenditio                
+  Ll.Mav    + Praevenditio                - Mutuum                      + Praevenditio                + Praevenditio                
+  DSv3      - Mutuum (Loan)               + Praevenditio                + Praevenditio                + Praevenditio                
+  DSr1      + Praevenditio (Forward sal~  + Praevenditio                + Praevenditio                + Praevenditio                
+  Qwen72    - Mutuum                      + Praevenditio                - Mutuum                      + Praevenditio                
+  Gem2.5    + Praevenditio                + Praevenditio                + Praevenditio                + Praevenditio                
+
+--- Act 333 (SPYRIS)  |  GOLD: Procedural acta  /  arbitrium ---
+  Model     zero_shot                     few_shot                      full_context                  nesy                          
+  Cl.3.7Son + Procedural acta             - Transactio                  - Transactio                  + Procedural acta             
+  Cl.Son4   - Transactio                  + Procedural acta             - Transactio                  + Procedural acta             
+  Cl.Opus4  - Transactio                  + Procedural acta             + Procedural acta             + Procedural acta             
+  GPT-4o    - Transactio                  - Transactio                  - Transactio                  + Procedural acta             
+  GPT-5.2   + Procedural acta             + Procedural acta             + Procedural acta             + Procedural acta             
+  Ll.70B    - Transactio                  + Procedural acta             - Transactio                  + Procedural acta             
+  Ll.8B     - Divisio / Partitio          + Procedural acta             - Procuratio                  + Procedural acta             
+  Ll.Mav    - Transactio                  ! ERROR                       + Procedural acta             + Procedural acta             
+  DSv3      - Transactio                  + Procedural acta             - Transactio                  + Procedural acta             
+  DSr1      + Procedural acta             + Procedural acta             + Procedural acta             + Procedural acta             
+  Qwen72    - Transactio                  + Procedural acta             - Transactio                  + Procedural acta             
+  Gem2.5    + Procedural acta             + Procedural acta             + Procedural acta             + Procedural acta             
+
+--- Act 323 (SPYRIS)  |  GOLD: Concessio ecclesiastica  /  Beneficium-like ---
+  Model     zero_shot                     few_shot                      full_context                  nesy                          
+  Cl.3.7Son + Concessio ecclesiastica     + Concessio ecclesiastica     + Concessio ecclesiastica     + Concessio ecclesiastica     
+  Cl.Son4   + Concessio ecclesiastica     + Concessio ecclesiastica     + Concessio ecclesiastica     + Concessio ecclesiastica     
+  Cl.Opus4  + Concessio ecclesiastica     + Concessio ecclesiastica     + Concessio ecclesiastica     + Concessio ecclesiastica     
+  GPT-4o    + Concessio ecclesiastica     + Concessio ecclesiastica     + Concessio ecclesiastica     + Concessio ecclesiastica     
+  GPT-5.2   + Concessio ecclesiastica     + Concessio ecclesiastica     + Concessio ecclesiastica     + Concessio ecclesiastica     
+  Ll.70B    - Emphyteusis                 + Concessio ecclesiastica     + Concessio ecclesiastica     + Concessio                   
+  Ll.8B     - Donatio (Donation)          + Concessio ecclesiastica     - Beneficium                  + Concessio ecclesiastica     
+  Ll.Mav    + Concessio ecclesiastica     + Concessio ecclesiastica     - Donatio                     + Concessio ecclesiastica     
+  DSv3      + Concessio ecclesiastica     + Concessio ecclesiastica     + Concessio ecclesiastica     + Concessio ecclesiastica     
+  DSr1      - Emphyteusis                 + Concessio ecclesiastica     + Concessio ecclesiastica     - Emphyteusis                 
+  Qwen72    + Concessio ecclesiastica     + Concessio ecclesiastica     + Concessio ecclesiastica     + Concessio ecclesiastica     
+  Gem2.5    + Concessio ecclesiastica     + Concessio ecclesiastica     + Concessio ecclesiastica     - Procedural acta             
+
+--- Act 313 (SPYRIS)  |  GOLD: Societas  /  societas operis ---
+  Model     zero_shot                     few_shot                      full_context                  nesy                          
+  Cl.3.7Son - Locatio conductio rei       + Societas                    + Societas                    + Societas                    
+  Cl.Son4   - Locatio conductio rei       + Societas                    + Societas                    + Societas                    
+  Cl.Opus4  - Locatio conductio operis    + Societas                    + Societas                    + Societas                    
+  GPT-4o    + Societas                    + Societas                    + Societas                    + Societas                    
+  GPT-5.2   - Locatio conductio rei       + Societas                    + Societas                    + Societas                    
+  Ll.70B    - Locatio conductio rei       + Societas                    + Societas                    + Societas                    
+  Ll.8B     - Locatio conductio rei       - Locatio conductio rei       - Locatio conductio rei       + Societas                    
+  Ll.Mav    - Locatio conductio rei       - Locatio conductio operis    - Locatio conductio rei       + Societas                    
+  DSv3      - Locatio conductio operis    + Societas                    + Societas                    + Societas                    
+  DSr1      + Societas                    - Locatio conductio rei       + Societas                    + Societas                    
+  Qwen72    - Locatio conductio rei       + Societas                    + Societas                    + Societas                    
+  Gem2.5    - Locatio conductio operis    - Locatio conductio operis    - Locatio conductio operis    + Societas                    
+
+--- Act 113 (SPYRIS)  |  GOLD: Mutuum  /  solutione in fructibus ---
+  Model     zero_shot                     few_shot                      full_context                  nesy                          
+  Cl.3.7Son - Praevenditio                - Praevenditio                - Praevenditio                - Praevenditio                
+  Cl.Son4   - Praevenditio                - Praevenditio                - Praevenditio                - Praevenditio                
+  Cl.Opus4  - Praevenditio                - Praevenditio                - Praevenditio                - Praevenditio                
+  GPT-4o    + Mutuum                      - Praevenditio                + Mutuum                      + Mutuum                      
+  GPT-5.2   + Mutuum                      - Praevenditio                - Praevenditio                + Mutuum                      
+  Ll.70B    + Mutuum                      + Mutuum                      + Mutuum                      + Mutuum                      
+  Ll.8B     - Locatio conductio rei       - Instrumentum obligationis   + Mutuum                      + Mutuum                      
+  Ll.Mav    - Praevenditio                + Mutuum                      - Praevenditio                + Mutuum                      
+  DSv3      + Mutuum                      - Praevenditio                - Praevenditio                + Mutuum                      
+  DSr1      - Praevenditio                - Praevenditio                - Praevenditio                + Mutuum                      
+  Qwen72    + Mutuum                      - Praevenditio                + Mutuum                      + Mutuum                      
+  Gem2.5    - Praevenditio                - Praevenditio                - Praevenditio                + Mutuum                      
+
+--- Act 156 (TOXOTIS)  |  GOLD: Procedural acta  /  arbitrium ---
+  Model     zero_shot                     few_shot                      full_context                  nesy                          
+  Cl.3.7Son - Procuratio                  - Procuratio                  - Procuratio                  - Procuratio                  
+  Cl.Son4   - Procuratio                  - Procuratio                  - Procuratio                  - Procuratio                  
+  Cl.Opus4  - Procuratio                  - Procuratio                  - Procuratio                  - Procuratio                  
+  GPT-4o    - Procuratio                  - Procuratio                  - Procuratio                  - Procuratio                  
+  GPT-5.2   - Procuratio                  - Procuratio                  - Procuratio                  - Procuratio                  
+  Ll.70B    - Procuratio                  - Procuratio                  - Procuratio                  - Procuratio                  
+  Ll.8B     - Instrumentum obligationis   - Instrumentum obligationis   - Procuratio                  - Procuratio                  
+  Ll.Mav    - Procuratio                  - Procuratio                  - Procuratio                  - Procuratio                  
+  DSv3      - Procuratio                  - Procuratio                  - Procuratio                  - Procuratio                  
+  DSr1      - Procuratio (Power of atto~  - Procuratio                  - Procuratio                  - Procuratio                  
+  Qwen72    - Procuratio                  - Procuratio                  - Procuratio                  - Procuratio                  
+  Gem2.5    - Procuratio                  - Procuratio                  - Procuratio                  - Procuratio                  
+
+--- Act 179 (TOXOTIS)  |  GOLD: Procedural acta  /  Declaratio ---
+  Model     zero_shot                     few_shot                      full_context                  nesy                          
+  Cl.3.7Son - Venditio                    - Venditio                    - Venditio                    - Praevenditio                
+  Cl.Son4   - Praevenditio                - Praevenditio                - Praevenditio                - Praevenditio                
+  Cl.Opus4  - Venditio                    - Praevenditio                - Praevenditio                - Praevenditio                
+  GPT-4o    - Venditio                    - Praevenditio                - Venditio                    - Praevenditio                
+  GPT-5.2   - Venditio                    - Praevenditio                - Praevenditio                - Praevenditio                
+  Ll.70B    - Venditio                    - Venditio                    - Venditio                    - Venditio                    
+  Ll.8B     - Venditio                    - Venditio                    - Venditio                    - Venditio                    
+  Ll.Mav    ! ERROR                       - Venditio                    - Venditio                    - Venditio                    
+  DSv3      - Venditio                    - Praevenditio                - Praevenditio                - Venditio                    
+  DSr1      - Venditio                    - Venditio                    - Praevenditio                - Venditio                    
+  Qwen72    - Venditio                    - Venditio                    - Venditio                    - Venditio                    
+  Gem2.5    - Praevenditio                - Praevenditio                - Praevenditio                - Praevenditio                
+
+--- Act 218 (TOXOTIS)  |  GOLD: Procedural acta  /  Renuntiatio ---
+  Model     zero_shot                     few_shot                      full_context                  nesy                          
+  Cl.3.7Son - Quietantia                  - Quietantia                  - Quietantia                  - Quietantia                  
+  Cl.Son4   - Transactio                  - Quietantia                  - Transactio                  + Procedural acta             
+  Cl.Opus4  - Transactio                  - Quietantia                  - Quietantia                  - Quietantia                  
+  GPT-4o    - Quietantia                  - Transactio                  - Quietantia                  - Quietantia                  
+  GPT-5.2   - Quietantia                  - Quietantia                  - Quietantia                  - Transactio                  
+  Ll.70B    - Quietantia                  - Quietantia                  - Quietantia                  - Instrumentum obligationis   
+  Ll.8B     - Divisio / Partitio          - Instrumentum obligationis   - Mutuum                      - Instrumentum obligationis   
+  Ll.Mav    - Transactio                  - Quietantia                  - Quietantia                  - Transactio                  
+  DSv3      - Quietantia                  - Quietantia                  - Quietantia                  - Quietantia                  
+  DSr1      - Quietantia                  - Quietantia                  - Quietantia                  - Quietantia                  
+  Qwen72    - Transactio                  - Transactio                  - Transactio                  - Instrumentum obligationis   
+  Gem2.5    - Quietantia                  - Quietantia                  - Quietantia                  + Procedural acta             
+
+--- Act 170 (TOXOTIS)  |  GOLD: Procuratio ---
+  Model     zero_shot                     few_shot                      full_context                  nesy                          
+  Cl.3.7Son - Quietantia                  - Quietantia                  - Quietantia                  - Quietantia                  
+  Cl.Son4   - Quietantia                  - Quietantia                  - Quietantia                  - Quietantia                  
+  Cl.Opus4  - Quietantia                  - Quietantia                  - Quietantia                  - Quietantia                  
+  GPT-4o    - Quietantia                  - Quietantia                  - Quietantia                  - Quietantia                  
+  GPT-5.2   - Quietantia                  - Quietantia                  - Quietantia                  - Quietantia                  
+  Ll.70B    - Quietantia                  - Quietantia                  - Quietantia                  - Quietantia                  
+  Ll.8B     - Emphyteusis                 - Instrumentum obligationis   - Locatio conductio rei       - Quietantia                  
+  Ll.Mav    - Quietantia                  - Quietantia                  - Quietantia                  - Quietantia                  
+  DSv3      - Quietantia                  - Quietantia                  - Quietantia                  - Quietantia                  
+  DSr1      - Quietantia                  - Quietantia                  - Quietantia                  - Quietantia                  
+  Qwen72    - Quietantia                  - Instrumentum obligationis   - Quietantia                  - Quietantia                  
+  Gem2.5    - Quietantia                  - Quietantia                  - Quietantia                  - Quietantia                  
+
+--- Act 137 (TOXOTIS)  |  GOLD: Concessio ecclesiastica  /  Conventio culturae ---
+  Model     zero_shot                     few_shot                      full_context                  nesy                          
+  Cl.3.7Son - Procuratio                  - Procuratio                  - Procuratio                  - Procuratio                  
+  Cl.Son4   - Procuratio                  - Procuratio                  - Procuratio                  - Procuratio                  
+  Cl.Opus4  - Procuratio                  - Procuratio                  - Procuratio                  - Procuratio                  
+  GPT-4o    - Procuratio                  - Procuratio                  - Procuratio                  - Procuratio                  
+  GPT-5.2   - Procuratio                  - Procuratio                  - Procuratio                  - Procuratio                  
+  Ll.70B    - Procuratio                  - Procuratio                  - Procuratio                  - Procuratio                  
+  Ll.8B     - Instrumentum obligationis   - Procuratio                  - Procuratio                  - Procuratio                  
+  Ll.Mav    - Procuratio                  - Procuratio                  - Procuratio                  - Procuratio                  
+  DSv3      - Procuratio                  - Procuratio                  - Procuratio                  - Procuratio                  
+  DSr1      - Procuratio (Power of atto~  - Procuratio                  - Procuratio                  - Procuratio                  
+  Qwen72    - Procuratio                  - Procuratio                  - Procuratio                  - Procuratio                  
+  Gem2.5    - Procuratio                  - Procuratio                  - Procuratio                  - Procuratio                  
+
+--- Act 130 (TOXOTIS)  |  GOLD: Procedural acta  /  Declaratio ---
+  Model     zero_shot                     few_shot                      full_context                  nesy                          
+  Cl.3.7Son - Mutuum                      - Mutuum                      - Mutuum                      - Mutuum                      
+  Cl.Son4   - Mutuum                      - Mutuum                      - Instrumentum obligationis   - Mutuum                      
+  Cl.Opus4  - Mutuum                      - Mutuum                      - Mutuum                      - Mutuum                      
+  GPT-4o    - Mutuum                      - Mutuum                      - Mutuum                      - Mutuum                      
+  GPT-5.2   - Mutuum                      - Mutuum                      - Mutuum                      - Mutuum                      
+  Ll.70B    - Mutuum                      - Mutuum                      - Mutuum                      - Mutuum                      
+  Ll.8B     - Mutuum (Loan)               - Instrumentum obligationis   - Mutuum                      - Mutuum                      
+  Ll.Mav    - Mutuum                      - Mutuum                      - Mutuum                      - Mutuum                      
+  DSv3      - Mutuum                      - Mutuum                      - Mutuum                      - Mutuum                      
+  DSr1      - Mutuum (Loan)               - Mutuum                      - Mutuum                      - Mutuum                      
+  Qwen72    - Mutuum                      - Mutuum                      - Mutuum                      - Mutuum                      
+  Gem2.5    - Mutuum                      - Mutuum                      - Mutuum                      - Mutuum                      
+
+--- Act 203 (TOXOTIS)  |  GOLD: Transactio ---
+  Model     zero_shot                     few_shot                      full_context                  nesy                          
+  Cl.3.7Son - Societas                    - Societas                    - Procuratio                  - Procuratio                  
+  Cl.Son4   - Locatio conductio operis    - Locatio conductio operis    - Locatio conductio operis    - Procuratio                  
+  Cl.Opus4  - Procuratio                  - Locatio conductio operis    - Locatio conductio operis    - Procuratio                  
+  GPT-4o    - Procuratio                  - Procuratio                  - Procuratio                  - Mutuum                      
+  GPT-5.2   - Locatio conductio operis    - Procuratio                  - Procuratio                  - Procuratio                  
+  Ll.70B    - Locatio conductio operis    - Locatio conductio operis    ! ERROR                       - Locatio conductio rei       
+  Ll.8B     - Divisio / Partitio          - Instrumentum obligationis   - Locatio conductio rei       - Mutuum                      
+  Ll.Mav    - Procuratio                  - Procuratio                  - Locatio conductio operis    - Mutuum                      
+  DSv3      - Locatio conductio operis    - Instrumentum obligationis   - Locatio conductio operis    - Mutuum                      
+  DSr1      - Locatio conductio operis    - Locatio conductio operis    - Locatio conductio rei       - Mutuum                      
+  Qwen72    - Locatio conductio rei       - Societas                    - Locatio conductio operis    - Mutuum                      
+  Gem2.5    - Locatio conductio operis    - Societas                    - Locatio conductio operis    - Procedural acta             
+
+--- Act 181 (TOXOTIS)  |  GOLD: Procuratio ---
+  Model     zero_shot                     few_shot                      full_context                  nesy                          
+  Cl.3.7Son - Locatio conductio rei       - Locatio conductio rei       - Locatio conductio rei       - Locatio conductio rei       
+  Cl.Son4   - Locatio conductio rei       - Locatio conductio rei       - Locatio conductio rei       - Locatio conductio rei       
+  Cl.Opus4  - Locatio conductio rei       - Locatio conductio rei       - Locatio conductio rei       - Locatio conductio rei       
+  GPT-4o    - Locatio conductio rei       - Locatio conductio rei       - Locatio conductio rei       - Locatio conductio rei       
+  GPT-5.2   - Locatio conductio rei (Le~  - Locatio conductio rei       - Locatio conductio rei       - Locatio conductio rei       
+  Ll.70B    - Locatio conductio rei       - Locatio conductio rei       - Locatio conductio rei       - Locatio conductio rei       
+  Ll.8B     - Locatio conductio rei       - Locatio conductio rei       - Locatio conductio rei       - Locatio conductio rei       
+  Ll.Mav    - Praevenditio                - Praevenditio                - Praevenditio                - Praevenditio                
+  DSv3      - Locatio conductio rei       - Locatio conductio operis    - Locatio conductio rei       - Locatio conductio rei       
+  DSr1      - Locatio conductio rei       - Locatio conductio rei       - Locatio conductio rei       - Praevenditio                
+  Qwen72    - Locatio conductio rei       - Locatio conductio rei       - Locatio conductio rei       - Locatio conductio rei       
+  Gem2.5    - Locatio conductio rei       - Locatio conductio rei       - Locatio conductio rei       - Locatio conductio rei       
+
+--- Act 3 (VARAGAS)  |  GOLD: Permutatio ---
+  Model     zero_shot                     few_shot                      full_context                  nesy                          
+  Cl.3.7Son + Permutatio                  + Permutatio                  + Permutatio                  + Permutatio                  
+  Cl.Son4   + Permutatio                  + Permutatio                  + Permutatio                  + Permutatio                  
+  Cl.Opus4  + Permutatio                  + Permutatio                  + Permutatio                  + Permutatio                  
+  GPT-4o    + Permutatio                  + Permutatio                  + Permutatio                  + Permutatio                  
+  GPT-5.2   + Permutatio                  + Permutatio                  + Permutatio                  + Permutatio                  
+  Ll.70B    + Permutatio                  + Permutatio                  + Permutatio                  + Permutatio                  
+  Ll.8B     + Permutatio                  + Permutatio                  + Permutatio                  + Permutatio                  
+  Ll.Mav    + Permutatio                  + Permutatio                  + Permutatio                  + Permutatio                  
+  DSv3      + Permutatio                  + Permutatio                  + Permutatio                  + Permutatio                  
+  DSr1      + Permutatio                  + Permutatio                  + Permutatio                  + Permutatio                  
+  Qwen72    + Permutatio                  + Permutatio                  + Permutatio                  + Permutatio                  
+  Gem2.5    + Permutatio                  + Permutatio                  + Permutatio                  + Permutatio                  
+
+--- Act 9 (VARAGAS)  |  GOLD: Locatio conductio rei  /  locatio agricola ---
+  Model     zero_shot                     few_shot                      full_context                  nesy                          
+  Cl.3.7Son + Locatio conductio rei       + Locatio conductio rei       + Locatio conductio rei       + Locatio conductio rei       
+  Cl.Son4   + Locatio conductio rei       + Locatio conductio rei       - Societas                    - Procedural acta             
+  Cl.Opus4  + Locatio conductio rei       - Locatio conductio operis    - Contractus agrarius mixtus  - Societas                    
+  GPT-4o    + Locatio conductio rei       + Locatio conductio rei       - Societas                    + Locatio conductio rei       
+  GPT-5.2   + Locatio conductio rei       + Locatio conductio rei       - Contractus agrarius mixtus  + Locatio conductio rei       
+  Ll.70B    + Locatio conductio rei       + Locatio conductio rei       + Locatio conductio rei       + Locatio conductio rei       
+  Ll.8B     - Emphyteusis                 + Locatio conductio rei       - Donatio                     + Locatio conductio rei       
+  Ll.Mav    + Locatio conductio rei       - Locatio conductio operis    + Locatio conductio rei       + Locatio conductio rei       
+  DSv3      + Locatio conductio rei       - Locatio conductio operis    + Locatio conductio rei       + Locatio conductio rei       
+  DSr1      + Locatio conductio rei       - Emphyteusis                 + Locatio conductio rei       + Locatio conductio rei       
+  Qwen72    + Locatio conductio rei       + Locatio conductio rei       + Locatio conductio rei       + Locatio conductio rei       
+  Gem2.5    + Locatio conductio rei       - Locatio conductio operis    + Locatio conductio rei       + Locatio conductio rei       
+
+--- Act 95 (VARAGAS)  |  GOLD: Testamentum ---
+  Model     zero_shot                     few_shot                      full_context                  nesy                          
+  Cl.3.7Son + Testamentum                 + Testamentum                 + Testamentum                 + Testamentum                 
+  Cl.Son4   + Testamentum                 + Testamentum                 + Testamentum                 + Testamentum                 
+  Cl.Opus4  + Testamentum                 + Testamentum                 + Testamentum                 + Testamentum                 
+  GPT-4o    + Testamentum                 + Testamentum                 + Testamentum                 + Testamentum                 
+  GPT-5.2   + Testamentum                 + Testamentum                 + Testamentum                 + Testamentum                 
+  Ll.70B    + Testamentum                 + Testamentum                 + Testamentum                 + Testamentum                 
+  Ll.8B     + Testamentum                 + Testamentum                 + Testamentum                 + Testamentum                 
+  Ll.Mav    + Testamentum                 + Testamentum                 + Testamentum                 + Testamentum                 
+  DSv3      + Testamentum                 + Testamentum                 + Testamentum                 + Testamentum                 
+  DSr1      + Testamentum                 + Testamentum                 + Testamentum                 + Testamentum                 
+  Qwen72    + Testamentum                 + Testamentum                 + Testamentum                 + Testamentum                 
+  Gem2.5    + Testamentum                 + Testamentum                 + Testamentum                 + Testamentum                 
+
+--- Act 89 (VARAGAS)  |  GOLD: Testamentum ---
+  Model     zero_shot                     few_shot                      full_context                  nesy                          
+  Cl.3.7Son + Testamentum                 + Testamentum                 + Testamentum                 + Testamentum                 
+  Cl.Son4   + Testamentum                 + Testamentum                 + Testamentum                 + Testamentum                 
+  Cl.Opus4  + Testamentum                 + Testamentum                 + Testamentum                 + Testamentum                 
+  GPT-4o    + Testamentum                 + Testamentum                 + Testamentum                 + Testamentum                 
+  GPT-5.2   + Testamentum                 + Testamentum                 + Testamentum                 + Testamentum                 
+  Ll.70B    + Testamentum                 + Testamentum                 + Testamentum                 + Testamentum                 
+  Ll.8B     - Divisio / Partitio          - Instrumentum obligationis   - Donatio                     + Testamentum                 
+  Ll.Mav    + Testamentum                 + Testamentum                 + Testamentum                 + Testamentum                 
+  DSv3      + Testamentum                 + Testamentum                 + Testamentum                 + Testamentum                 
+  DSr1      + Testamentum                 + Testamentum                 + Testamentum                 + Testamentum                 
+  Qwen72    + Testamentum                 + Testamentum                 + Testamentum                 + Testamentum                 
+  Gem2.5    + Testamentum                 + Testamentum                 + Testamentum                 + Testamentum                 
+
+--- Act 51 (VARAGAS)  |  GOLD: Locatio conductio rei  /  Conventio culturae ---
+  Model     zero_shot                     few_shot                      full_context                  nesy                          
+  Cl.3.7Son - Emphyteusis                 - Emphyteusis                 - Emphyteusis                 - Emphyteusis                 
+  Cl.Son4   - Emphyteusis                 - Emphyteusis                 - Emphyteusis                 - Emphyteusis                 
+  Cl.Opus4  - Emphyteusis                 - Emphyteusis                 - Emphyteusis                 + Locatio conductio rei       
+  GPT-4o    - Emphyteusis                 - Emphyteusis                 - Emphyteusis                 - Emphyteusis                 
+  GPT-5.2   - Emphyteusis                 - Emphyteusis                 - Emphyteusis                 - Emphyteusis                 
+  Ll.70B    - Emphyteusis                 - Emphyteusis                 + Locatio conductio rei       - Emphyteusis                 
+  Ll.8B     - Emphyteusis                 + Locatio conductio rei       - Emphyteusis                 - Emphyteusis                 
+  Ll.Mav    - Emphyteusis                 - Emphyteusis                 - Emphyteusis                 - Emphyteusis                 
+  DSv3      - Emphyteusis                 - Emphyteusis                 - Emphyteusis                 - Emphyteusis                 
+  DSr1      - Emphyteusis                 - Emphyteusis                 - Emphyteusis                 - Emphyteusis                 
+  Qwen72    - Emphyteusis                 - Emphyteusis                 - Emphyteusis                 - Emphyteusis                 
+  Gem2.5    - Emphyteusis                 - Emphyteusis                 - Emphyteusis                 - Emphyteusis                 
+
+--- Act 85 (VARAGAS)  |  GOLD: Procedural acta  /  Renuntiatio ---
+  Model     zero_shot                     few_shot                      full_context                  nesy                          
+  Cl.3.7Son - Donatio                     + Procedural acta             + Procedural acta             + Renuntiatio                 
+  Cl.Son4   - Transactio                  + Procedural acta             + Procedural acta             + Procedural acta             
+  Cl.Opus4  - Quietantia                  + Procedural acta             + Procedural acta             + Procedural acta             
+  GPT-4o    - Donatio                     - Donatio                     + Renuntiatio                 + Renuntiatio                 
+  GPT-5.2   - Donatio                     + Procedural acta             - Donatio                     + Procedural acta             
+  Ll.70B    - Donatio                     - Quietantia                  - Donatio                     - Transactio                  
+  Ll.8B     - Divisio / Partitio          - Instrumentum obligationis   - Donatio                     - Donatio                     
+  Ll.Mav    - Transactio                  ! ERROR                       + Procedural acta             + Renuntiatio                 
+  DSv3      - Donatio                     - Donatio                     - Donatio                     + Procedural acta             
+  DSr1      - Donatio                     + Procedural acta             + Procedural acta             + Procedural acta             
+  Qwen72    - Divisio / Partitio          - Transactio                  - Transactio                  - Procuratio                  
+  Gem2.5    - Donatio                     - Donatio                     - Donatio                     + Procedural acta             
+
+--- Act 19 (VARAGAS)  |  GOLD: Instrumentum obligationis ---
+  Model     zero_shot                     few_shot                      full_context                  nesy                          
+  Cl.3.7Son + Instrumentum obligationis   + Instrumentum obligationis   + Instrumentum obligationis   + Instrumentum obligationis   
+  Cl.Son4   + Instrumentum obligationis   + Instrumentum obligationis   + Instrumentum obligationis   + Instrumentum obligationis   
+  Cl.Opus4  + Instrumentum obligationis   + Instrumentum obligationis   + Instrumentum obligationis   + Instrumentum obligationis   
+  GPT-4o    + Instrumentum obligationis   - Mutuum                      - Mutuum                      + Instrumentum obligationis   
+  GPT-5.2   + Instrumentum obligationis   + Instrumentum obligationis   + Instrumentum obligationis   + Instrumentum obligationis   
+  Ll.70B    - Mutuum                      - Mutuum                      - Mutuum                      - Mutuum                      
+  Ll.8B     - Emphyteusis                 + Instrumentum obligationis   - Donatio                     + Instrumentum obligationis   
+  Ll.Mav    + Instrumentum obligationis   - Mutuum                      + Instrumentum obligationis   + Instrumentum obligationis   
+  DSv3      - Donatio                     + Instrumentum obligationis   - Mutuum                      + Instrumentum obligationis   
+  DSr1      - Mutuum (Loan)               - Mutuum                      - Mutuum                      - Mutuum                      
+  Qwen72    - Mutuum                      - Praevenditio                - Mutuum                      + Instrumentum obligationis   
+  Gem2.5    + Instrumentum obligationis   + Instrumentum obligationis   + Instrumentum obligationis   + Instrumentum obligationis   
+
+--- Act 39 (VARAGAS)  |  GOLD: Quietantia ---
+  Model     zero_shot                     few_shot                      full_context                  nesy                          
+  Cl.3.7Son + Quietantia                  + Quietantia                  + Quietantia                  + Quietantia                  
+  Cl.Son4   + Quietantia                  + Quietantia                  + Quietantia                  + Quietantia                  
+  Cl.Opus4  + Quietantia                  + Quietantia                  + Quietantia                  + Quietantia                  
+  GPT-4o    + Quietantia                  + Quietantia                  + Quietantia                  + Quietantia                  
+  GPT-5.2   + Quietantia                  + Quietantia                  + Quietantia                  + Quietantia                  
+  Ll.70B    + Quietantia                  + Quietantia                  + Quietantia                  + Quietantia                  
+  Ll.8B     - Donatio                     - Instrumentum obligationis   - Donatio                     - Donatio                     
+  Ll.Mav    + Quietantia                  + Quietantia                  + Quietantia                  + Quietantia                  
+  DSv3      + Quietantia                  + Quietantia                  + Quietantia                  + Quietantia                  
+  DSr1      + Quietantia                  + Quietantia                  + Quietantia                  - Transactio                  
+  Qwen72    + Quietantia                  - Procedural acta             - Donatio                     - Instrumentum obligationis   
+  Gem2.5    + Quietantia                  + Quietantia                  + Quietantia                  + Quietantia                  

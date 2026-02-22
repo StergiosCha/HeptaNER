@@ -1,0 +1,363 @@
+[
+  {
+    "core_layer": "Procedural acta",
+    "extension_layer": "Annulment and voluntary revocation of a prior notarial instrument",
+    "hybrid_tags": [
+      "revocation",
+      "cancellation of deed"
+    ],
+    "act_id": "24",
+    "corpus": "ALEXAKIS"
+  },
+  {
+    "core_layer": "Emphyteusis",
+    "extension_layer": "Emphyteusis perpetua (soliatikon)",
+    "hybrid_tags": [
+      "traditio possessionis",
+      "warranty of title"
+    ],
+    "act_id": "66",
+    "corpus": "ALEXAKIS"
+  },
+  {
+    "core_layer": "Donatio",
+    "extension_layer": "Donatio inter vivos of immovable property",
+    "hybrid_tags": [],
+    "act_id": "104",
+    "corpus": "ALEXAKIS"
+  },
+  {
+    "core_layer": "Emphyteusis",
+    "extension_layer": "Emphyteusis perpetua agraria cum canone in kind",
+    "hybrid_tags": [],
+    "act_id": "26",
+    "corpus": "ALEXAKIS"
+  },
+  {
+    "core_layer": "Venditio",
+    "extension_layer": "Venditio rei immobilis (vineyard)",
+    "hybrid_tags": [
+      "Quietantia"
+    ],
+    "act_id": "74",
+    "corpus": "ALEXAKIS"
+  },
+  {
+    "core_layer": "Emphyteusis",
+    "extension_layer": "Emphyteusis perpetua (συνκράτεια / hereditary sharecropping tenure)",
+    "hybrid_tags": [],
+    "act_id": "34",
+    "corpus": "ALEXAKIS"
+  },
+  {
+    "core_layer": "Locatio conductio rei",
+    "extension_layer": "Lease of ecclesiastical property (temporary concession of a monastery for use and cultivation)",
+    "hybrid_tags": [
+      "Procuratio"
+    ],
+    "act_id": "6",
+    "corpus": "ALEXAKIS"
+  },
+  {
+    "core_layer": "Emphyteusis",
+    "extension_layer": "Emphyteusis perpetua with annual canon (soliatikon)",
+    "hybrid_tags": [
+      "Donatio",
+      "Instrumentum obligationis",
+      "Investitura / traditio in possessionem"
+    ],
+    "act_id": "85",
+    "corpus": "ALEXAKIS"
+  },
+  {
+    "core_layer": "Instrumentum obligationis",
+    "extension_layer": "Confessio debiti (λογαριασμός και ομολογία υπολοίπου)",
+    "hybrid_tags": [
+      "Mutuum (Loan)",
+      "Venditio (Sale)",
+      "Quietantia (Receipt of payment)",
+      "Locatio conductio operis (Contract for work)"
+    ],
+    "act_id": "99",
+    "corpus": "FARMAKIS"
+  },
+  {
+    "core_layer": "Societas",
+    "extension_layer": "Agricultural partnership / sharecropping agreement (mezzadria-type cultivation of vineyard)",
+    "hybrid_tags": [
+      "Instrumentum obligationis"
+    ],
+    "act_id": "131",
+    "corpus": "FARMAKIS"
+  },
+  {
+    "core_layer": "Venditio",
+    "extension_layer": "Venditio rei immobilis (sale of olive trees)",
+    "hybrid_tags": [
+      "Quietantia"
+    ],
+    "act_id": "27",
+    "corpus": "FARMAKIS"
+  },
+  {
+    "core_layer": "Testamentum",
+    "extension_layer": null,
+    "hybrid_tags": [
+      "Donatio mortis causa",
+      "Assignment of credit"
+    ],
+    "act_id": "71",
+    "corpus": "FARMAKIS"
+  },
+  {
+    "core_layer": "Procuratio",
+    "extension_layer": "General power of attorney",
+    "hybrid_tags": [],
+    "act_id": "109",
+    "corpus": "FARMAKIS"
+  },
+  {
+    "core_layer": "Locatio conductio rei",
+    "extension_layer": "Agricultural lease of a vineyard with rent paid in kind (wine)",
+    "hybrid_tags": [
+      "Instrumentum obligationis",
+      "Conditional transfer of ownership as security"
+    ],
+    "act_id": "115",
+    "corpus": "FARMAKIS"
+  },
+  {
+    "core_layer": "Quietantia",
+    "extension_layer": "Receipt acknowledging full payment",
+    "hybrid_tags": [],
+    "act_id": "107",
+    "corpus": "FARMAKIS"
+  },
+  {
+    "core_layer": "Permutatio",
+    "extension_layer": "Exchange of immovable property",
+    "hybrid_tags": [
+      "Warranty against eviction",
+      "Mutual conveyance with hereditary succession"
+    ],
+    "act_id": "117",
+    "corpus": "FARMAKIS"
+  },
+  {
+    "core_layer": "Praevenditio",
+    "extension_layer": "Praevenditio fructuum (oil to be delivered at the coming harvest)",
+    "hybrid_tags": [
+      "Quietantia"
+    ],
+    "act_id": "160",
+    "corpus": "SPYRIS"
+  },
+  {
+    "core_layer": "Divisio / Partitio",
+    "extension_layer": "Partitio bonorum inter fratres (amicabilis divisio)",
+    "hybrid_tags": [
+      "Transactio"
+    ],
+    "act_id": "230",
+    "corpus": "SPYRIS"
+  },
+  {
+    "core_layer": "Praevenditio",
+    "extension_layer": "Praevenditio vini",
+    "hybrid_tags": [
+      "Quietantia",
+      "Instrumentum obligationis"
+    ],
+    "act_id": "255",
+    "corpus": "SPYRIS"
+  },
+  {
+    "core_layer": "Praevenditio",
+    "extension_layer": "Forward sale of agricultural produce (olive oil) with advance payment",
+    "hybrid_tags": [
+      "Quietantia",
+      "Instrumentum obligationis"
+    ],
+    "act_id": "162",
+    "corpus": "SPYRIS"
+  },
+  {
+    "core_layer": "Procedural acta",
+    "extension_layer": "Compromissum arbitri (appointment of arbitrators to resolve a dispute)",
+    "hybrid_tags": [],
+    "act_id": "333",
+    "corpus": "SPYRIS"
+  },
+  {
+    "core_layer": "Concessio ecclesiastica",
+    "extension_layer": "Concessio beneficii ecclesiastici ad vitam (παραχώρηση ναού με εσοδήματα εφ’ όρου ζωής)",
+    "hybrid_tags": [
+      "Instrumentum obligationis"
+    ],
+    "act_id": "323",
+    "corpus": "SPYRIS"
+  },
+  {
+    "core_layer": "Locatio conductio rei",
+    "extension_layer": "Lease of an olive mill for a fixed agricultural season (olive harvest)",
+    "hybrid_tags": [
+      "Locatio conductio operis",
+      "Societas"
+    ],
+    "act_id": "313",
+    "corpus": "SPYRIS"
+  },
+  {
+    "core_layer": "Mutuum",
+    "extension_layer": "Mutuum with repayment in kind (agricultural produce)",
+    "hybrid_tags": [],
+    "act_id": "113",
+    "corpus": "SPYRIS"
+  },
+  {
+    "core_layer": "Procuratio",
+    "extension_layer": "General power of attorney (plenary representation in judicial and extrajudicial matters)",
+    "hybrid_tags": [],
+    "act_id": "156",
+    "corpus": "TOXOTIS"
+  },
+  {
+    "core_layer": "Venditio",
+    "extension_layer": "Venditio mercium cum traditione differita (sale of goods with deferred delivery)",
+    "hybrid_tags": [
+      "Quietantia"
+    ],
+    "act_id": "179",
+    "corpus": "TOXOTIS"
+  },
+  {
+    "core_layer": "Quietantia",
+    "extension_layer": "Καθαροσύνη / εξοφλητική ομολογία (full and final receipt after settlement of accounts)",
+    "hybrid_tags": [
+      "Transactio"
+    ],
+    "act_id": "218",
+    "corpus": "TOXOTIS"
+  },
+  {
+    "core_layer": "Quietantia",
+    "extension_layer": "Receipt for payment of dazio (tax-farm revenues)",
+    "hybrid_tags": [],
+    "act_id": "170",
+    "corpus": "TOXOTIS"
+  },
+  {
+    "core_layer": "Procuratio",
+    "extension_layer": "Procuratio ad lites (general power of attorney for litigation)",
+    "hybrid_tags": [
+      "Procedural acta"
+    ],
+    "act_id": "137",
+    "corpus": "TOXOTIS"
+  },
+  {
+    "core_layer": "Mutuum",
+    "extension_layer": "Joint and several loan (in solidum)",
+    "hybrid_tags": [
+      "Quietantia"
+    ],
+    "act_id": "130",
+    "corpus": "TOXOTIS"
+  },
+  {
+    "core_layer": "Locatio conductio operis",
+    "extension_layer": "Maritime service and wage-collection agreement",
+    "hybrid_tags": [
+      "Procuratio"
+    ],
+    "act_id": "203",
+    "corpus": "TOXOTIS"
+  },
+  {
+    "core_layer": "Locatio conductio rei (Lease)",
+    "extension_layer": "Nautical lease (charter-party of a vessel)",
+    "hybrid_tags": [],
+    "act_id": "181",
+    "corpus": "TOXOTIS"
+  },
+  {
+    "core_layer": "Permutatio",
+    "extension_layer": "Permutatio immobilium (exchange of immovable property)",
+    "hybrid_tags": [
+      "mutual conveyance (traditio)",
+      "warranty against eviction",
+      "grant of free disposition"
+    ],
+    "act_id": "3",
+    "corpus": "VARAGAS"
+  },
+  {
+    "core_layer": "Locatio conductio rei",
+    "extension_layer": "Mezzadria / sharecropping agricultural lease",
+    "hybrid_tags": [
+      "Societas"
+    ],
+    "act_id": "9",
+    "corpus": "VARAGAS"
+  },
+  {
+    "core_layer": "Testamentum",
+    "extension_layer": "Last will (eschate diatheke)",
+    "hybrid_tags": [
+      "Donatio",
+      "Concessio ecclesiastica"
+    ],
+    "act_id": "95",
+    "corpus": "VARAGAS"
+  },
+  {
+    "core_layer": "Testamentum",
+    "extension_layer": null,
+    "hybrid_tags": [
+      "Manumissio (emancipation of a slave)",
+      "Legata (bequests)",
+      "Funerary and burial provisions"
+    ],
+    "act_id": "89",
+    "corpus": "VARAGAS"
+  },
+  {
+    "core_layer": "Emphyteusis",
+    "extension_layer": "Perpetual emphyteutic concession with obligation to plant a vineyard and pay tetartia (quarter-fruit canon)",
+    "hybrid_tags": [
+      "Instrumentum obligationis"
+    ],
+    "act_id": "51",
+    "corpus": "VARAGAS"
+  },
+  {
+    "core_layer": "Donatio",
+    "extension_layer": "Donatio inter vivos cum renuntiatione iurium",
+    "hybrid_tags": [
+      "Renuntiatio iurium",
+      "Transactio"
+    ],
+    "act_id": "85",
+    "corpus": "VARAGAS"
+  },
+  {
+    "core_layer": "Instrumentum obligationis",
+    "extension_layer": "Obligatio with collateral (pignus / hypotheca)",
+    "hybrid_tags": [
+      "repayment in kind",
+      "security over immovable property",
+      "self-help collection from produce"
+    ],
+    "act_id": "19",
+    "corpus": "VARAGAS"
+  },
+  {
+    "core_layer": "Quietantia",
+    "extension_layer": "Quietantia dotis (receipt and release for κουμέσιον)",
+    "hybrid_tags": [
+      "renuntiatio actionum"
+    ],
+    "act_id": "39",
+    "corpus": "VARAGAS"
+  }
+]

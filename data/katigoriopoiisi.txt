@@ -1,0 +1,192 @@
+Core layer (σταθερές βασικές κατηγορίες)
+Αυτές καλύπτουν ~80–90% των εγγράφων.
+Venditio — Sale — Πώληση
+➡ Οριστική μεταβίβαση κυριότητας με τίμημα.
+
+Donatio — Donation — Δωρεά
+➡ Μεταβίβαση κυριότητας χωρίς αντάλλαγμα.
+
+Permutatio — Exchange — Ανταλλαγή
+➡ Ανταλλαγή πραγμάτων αντί τιμήματος.
+
+Emphyteusis — Emphyteusis — Εμφύτευση
+➡ Διαρκής παραχώρηση με ετήσιο κανόνα.
+
+Locatio conductio rei — Lease — Εκμίσθωση
+➡ Προσωρινή παραχώρηση χρήσης ακινήτου.
+
+Mutuum — Loan — Δάνειο
+➡ Παράδοση ποσού με υποχρέωση επιστροφής.
+
+Praevenditio — Forward sale — Προπώληση
+➡ Χρήματα τώρα, προϊόν αργότερα.
+
+Quietantia — Receipt — Απόδειξη πληρωμής
+➡ Δήλωση ότι η οφειλή εξοφλήθηκε.
+
+Instrumentum obligationis — Debt acknowledgement — Ομολογία χρέους
+➡ Αναγνώριση οφειλής.
+
+Testamentum — Will — Διαθήκη
+➡ Ρύθμιση περιουσίας μετά θάνατον.
+
+Procuratio — Power of attorney — Πληρεξούσιο
+➡ Εξουσιοδότηση εκπροσώπησης.
+
+Procedural acta — Procedural acts — Διαδικαστικές πράξεις
+➡ Δηλωτικές ή νομικές πράξεις χωρίς κύρια σύμβαση (renuntiatio, revocatio κλπ).
+👉 Αυτό είναι σημαντικό “buffer category”.
+
+⭐ 2️⃣ Extension layer (υποκατηγορίες όταν χρειαστεί)
+Δεν τις βάζεις από την αρχή — τις ανοίγεις όταν εμφανιστούν.
+⭐ Property extensions (ακίνητα / εμπράγματες σχέσεις)
+Divisio / Partitio
+English: Division of propertyΕλληνικά: Διανομή περιουσίας➡ Πράξη με την οποία κοινή περιουσία ή ακίνητο διαχωρίζεται και κατανέμεται μεταξύ συνιδιοκτητών ή κληρονόμων.
+
+Concessio
+English: Concession / Grant of useΕλληνικά: Παραχώρηση➡ Πράξη παραχώρησης χρήσης ή δικαιώματος επί ακινήτου, συχνά χωρίς πλήρη μεταβίβαση κυριότητας και με ειδικούς όρους.
+
+Concessio ecclesiastica
+English: Ecclesiastical concessionΕλληνικά: Εκκλησιαστική παραχώρηση➡ Παραχώρηση εκκλησιαστικού ακινήτου ή δικαιώματος εκμετάλλευσης σε πρόσωπο για ορισμένο χρόνο ή υπό όρους.
+
+Beneficium
+English: BeneficeΕλληνικά: Εκκλησιαστικό ωφέλημα / εκκλησιαστική πρόσοδος➡ Πράξη που αφορά παραχώρηση ή διαχείριση εκκλησιαστικού εισοδήματος, αξιώματος ή περιουσίας.
+
+Servitus
+English: Easement / ServitudeΕλληνικά: Δουλεία➡ Πράξη με την οποία θεσπίζεται δικαίωμα χρήσης επί ξένου ακινήτου (π.χ. διέλευση, νερό, βοσκή).
+
+⭐ Credit extensions (πίστωση / ασφάλειες)
+Hypotheca
+English: MortgageΕλληνικά: Υποθήκη➡ Πράξη με την οποία ακίνητο δεσμεύεται ως εγγύηση για την εξασφάλιση οφειλής χωρίς μεταβίβαση κατοχής.
+
+Pignus
+English: PledgeΕλληνικά: Ενέχυρο➡ Παροχή κινητού πράγματος ως εγγύηση για οφειλή με δυνατότητα ικανοποίησης του πιστωτή σε περίπτωση μη πληρωμής.
+
+Cessio debiti / Cessio iuris
+English: Assignment of debt / assignment of rightsΕλληνικά: Εκχώρηση χρέους / εκχώρηση δικαιώματος➡ Πράξη με την οποία δικαίωμα ή απαίτηση μεταβιβάζεται από έναν πιστωτή σε άλλον.
+
+Prorogatio / Renovatio obligationis
+English: Extension / Renewal of debtΕλληνικά: Παράταση / ανανέωση οφειλής➡ Πράξη με την οποία παρατείνεται ή ανανεώνεται υφιστάμενη οικονομική υποχρέωση.
+
+⭐ Agricultural / production extensions (πολύ σημαντικά για Επτάνησα)
+Societas agricola
+English: Agricultural partnershipΕλληνικά: Αγροτική εταιρική σύμβαση➡ Συμφωνία συνεργασίας για κοινή καλλιέργεια ή εκμετάλλευση γης με κατανομή παραγωγής και κινδύνου.
+
+Colonia / Metayage-type agreement
+English: Sharecropping agreementΕλληνικά: Μεριστική καλλιέργεια➡ Σύμβαση όπου καλλιεργητής εκμεταλλεύεται γη και αποδίδει μέρος της παραγωγής στον κύριο.
+(ο λατινικός όρος ποικίλλει — γι’ αυτό είναι extension)
+
+Conventio culturae
+English: Cultivation agreementΕλληνικά: Σύμβαση καλλιέργειας➡ Συμφωνία για καλλιέργεια συγκεκριμένου αγρού ή φυτείας με καθορισμένες υποχρεώσεις παραγωγής.
+
+Contractus agrarius mixtus
+English: Mixed agricultural contractΕλληνικά: Μικτή αγροτική σύμβαση➡ Αγροτική σύμβαση που συνδυάζει στοιχεία εκμίσθωσης, πίστωσης και εγγύησης.
+
+⭐ Procedural extensions (εμφανίζονται πάντα σε μεγάλα corpora)
+Declaratio
+English: DeclarationΕλληνικά: Δήλωση➡ Δηλωτική πράξη με την οποία πρόσωπο βεβαιώνει γεγονός, κατάσταση ή πρόθεση χωρίς σύναψη κύριας σύμβασης.
+
+Confessio
+English: Formal acknowledgmentΕλληνικά: Ομολογία➡ Νοταριακή δήλωση με την οποία πρόσωπο αναγνωρίζει γεγονός, οφειλή ή κατάσταση.
+
+Protestatio
+English: ProtestΕλληνικά: Διαμαρτυρία➡ Πράξη με την οποία πρόσωπο δηλώνει αντίρρηση ή επιφυλάσσει δικαιώματα έναντι μελλοντικών συνεπειών.
+
+Notificatio
+English: NotificationΕλληνικά: Κοινοποίηση➡ Πράξη κοινοποίησης γεγονότος ή αξίωσης σε άλλο πρόσωπο μέσω νοταρίου.
+
+Transactio
+English: SettlementΕλληνικά: Συμβιβασμός➡ Συμφωνία με την οποία τα μέρη επιλύουν διαφορά με αμοιβαίες παραχωρήσεις.
+
+⭐ 3️⃣ Hybrid layer (πολύ κρίσιμο — αυτό λείπει από πολλά schema)
+Δεν είναι νέα κατηγορία. Είναι tag.
+Παραδείγματα:
+loan + pledge
+forward sale + security
+emphyteusis-like
+agricultural credit
+settlement-like
+👉 Hybrid = feature, όχι type.
+
+I. Contractus de rebus (μεταβίβαση / χρήση ακινήτων)
+1. Venditio
+πώληση ακινήτου / κινητού
+subtype:
+venditio rei immobilis
+venditio cum pacto
+venditio futurae rei (forward sale)
+
+2. Donatio
+δωρεά
+subtype:
+donatio inter vivos
+donatio propter animam
+donatio dotis
+
+3. Permutatio
+ανταλλαγή
+
+4. Emphyteusis
+εμφύτευση
+subtype:
+emphyteusis perpetua
+emphyteusis ecclesiastica
+concessio cum canone (σολιάτικο)
+
+5. Locatio conductio rei
+εκμίσθωση / αγροτική χρήση
+subtype:
+locatio agricola
+locatio vineae
+locatio ecclesiastica
+concessio temporalis
+
+II. Contractus de credito (πίστωση / οικονομικές πράξεις)
+6. Mutuum
+δάνειο χρηματικό
+subtypes:
+mutuum cum pignore
+mutuum agrarium
+mutuum cum solutione in fructibus
+
+7. Instrumentum obligationis
+γενική οφειλή / debt acknowledgement
+8. Quietantia
+απόδειξη πληρωμής
+confessio solutionis
+9. Pignus / Hypotheca
+υποθήκη / ενέχυρο
+III. Contractus operarum / παραγωγής
+10. Locatio conductio operis
+σύμβαση έργου
+11. Societas
+εταιρικές / αγροτικές συνεργασίες
+subtypes:
+societas agricola
+societas mercatoria
+12. Venditio futura / Praevenditio
+(πολύ χρήσιμη για Σπυρή)
+προπώληση προϊόντος
+forward agricultural sale
+IV. Acta familiaris et personalia
+13. Testamentum
+14. Dos / Instrumenta dotis
+προίκα
+15. Divisio / Partitio
+διανομή περιουσίας
+
+V. Acta procedurales (procedural / juridical)
+16. Procuratio
+πληρεξούσιο
+17. Renuntiatio
+παραίτηση δικαιώματος
+18. Revocatio / Cassatio instrumenti
+ακύρωση πράξης
+
+19. Transactio
+συμβιβασμός
+VI. Acta ecclesiastica
+20. Concessio ecclesiastica
+παραχώρηση εκκλησιαστικού ακινήτου
+21. Beneficium
+εκκλησιαστικό αξίωμα / εκμετάλλευση

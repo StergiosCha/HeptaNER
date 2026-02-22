@@ -1,0 +1,1114 @@
+==================================================================================================================================
+SECTION A: MISCLASSIFIED ACTS PER MODEL AND STRATEGY (Core Layer)
+==================================================================================================================================
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ZERO_SHOT ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Claude 3.7 Sonnet: 26/40 correct (65.0%), 14 wrong, 0 errors
+    Act   6 (ALEXAKIS  ): gold=Concessio ecclesiastica          pred=Locatio conductio rei
+    Act 131 (FARMAKIS  ): gold=Contractus agrarius mixtus       pred=Societas
+    Act 313 (SPYRIS    ): gold=Societas                         pred=Locatio conductio rei
+    Act 113 (SPYRIS    ): gold=Mutuum                           pred=Praevenditio
+    Act 156 (TOXOTIS   ): gold=Procedural acta                  pred=Procuratio
+    Act 179 (TOXOTIS   ): gold=Procedural acta                  pred=Venditio
+    Act 218 (TOXOTIS   ): gold=Procedural acta                  pred=Quietantia
+    Act 170 (TOXOTIS   ): gold=Procuratio                       pred=Quietantia
+    Act 137 (TOXOTIS   ): gold=Concessio ecclesiastica          pred=Procuratio
+    Act 130 (TOXOTIS   ): gold=Procedural acta                  pred=Mutuum
+    Act 203 (TOXOTIS   ): gold=Transactio                       pred=Societas
+    Act 181 (TOXOTIS   ): gold=Procuratio                       pred=Locatio conductio rei
+    Act  51 (VARAGAS   ): gold=Locatio conductio rei            pred=Emphyteusis
+    Act  85 (VARAGAS   ): gold=Procedural acta                  pred=Donatio
+
+  Claude Sonnet 4: 23/40 correct (57.5%), 17 wrong, 0 errors
+    Act  66 (ALEXAKIS  ): gold=Emphyteusis                      pred=Locatio conductio rei
+    Act   6 (ALEXAKIS  ): gold=Concessio ecclesiastica          pred=Locatio conductio rei
+    Act 131 (FARMAKIS  ): gold=Contractus agrarius mixtus       pred=Locatio conductio rei
+    Act 115 (FARMAKIS  ): gold=Praevenditio                     pred=Locatio conductio rei
+    Act 333 (SPYRIS    ): gold=Procedural acta                  pred=Transactio
+    Act 313 (SPYRIS    ): gold=Societas                         pred=Locatio conductio rei
+    Act 113 (SPYRIS    ): gold=Mutuum                           pred=Praevenditio
+    Act 156 (TOXOTIS   ): gold=Procedural acta                  pred=Procuratio
+    Act 179 (TOXOTIS   ): gold=Procedural acta                  pred=Praevenditio
+    Act 218 (TOXOTIS   ): gold=Procedural acta                  pred=Transactio
+    Act 170 (TOXOTIS   ): gold=Procuratio                       pred=Quietantia
+    Act 137 (TOXOTIS   ): gold=Concessio ecclesiastica          pred=Procuratio
+    Act 130 (TOXOTIS   ): gold=Procedural acta                  pred=Mutuum
+    Act 203 (TOXOTIS   ): gold=Transactio                       pred=Locatio conductio operis
+    Act 181 (TOXOTIS   ): gold=Procuratio                       pred=Locatio conductio rei
+    Act  51 (VARAGAS   ): gold=Locatio conductio rei            pred=Emphyteusis
+    Act  85 (VARAGAS   ): gold=Procedural acta                  pred=Transactio
+
+  Claude Opus 4: 24/40 correct (60.0%), 16 wrong, 0 errors
+    Act   6 (ALEXAKIS  ): gold=Concessio ecclesiastica          pred=Locatio conductio rei
+    Act  99 (FARMAKIS  ): gold=Instrumentum obligationis        pred=Transactio
+    Act 131 (FARMAKIS  ): gold=Contractus agrarius mixtus       pred=Societas
+    Act 333 (SPYRIS    ): gold=Procedural acta                  pred=Transactio
+    Act 313 (SPYRIS    ): gold=Societas                         pred=Locatio conductio operis
+    Act 113 (SPYRIS    ): gold=Mutuum                           pred=Praevenditio
+    Act 156 (TOXOTIS   ): gold=Procedural acta                  pred=Procuratio
+    Act 179 (TOXOTIS   ): gold=Procedural acta                  pred=Venditio
+    Act 218 (TOXOTIS   ): gold=Procedural acta                  pred=Transactio
+    Act 170 (TOXOTIS   ): gold=Procuratio                       pred=Quietantia
+    Act 137 (TOXOTIS   ): gold=Concessio ecclesiastica          pred=Procuratio
+    Act 130 (TOXOTIS   ): gold=Procedural acta                  pred=Mutuum
+    Act 203 (TOXOTIS   ): gold=Transactio                       pred=Procuratio
+    Act 181 (TOXOTIS   ): gold=Procuratio                       pred=Locatio conductio rei
+    Act  51 (VARAGAS   ): gold=Locatio conductio rei            pred=Emphyteusis
+    Act  85 (VARAGAS   ): gold=Procedural acta                  pred=Quietantia
+
+  GPT-4o: 25/40 correct (62.5%), 15 wrong, 0 errors
+    Act  24 (ALEXAKIS  ): gold=Procedural acta                  pred=Transactio
+    Act  99 (FARMAKIS  ): gold=Instrumentum obligationis        pred=Quietantia
+    Act 131 (FARMAKIS  ): gold=Contractus agrarius mixtus       pred=Societas
+    Act 115 (FARMAKIS  ): gold=Praevenditio                     pred=Locatio conductio rei
+    Act 333 (SPYRIS    ): gold=Procedural acta                  pred=Transactio
+    Act 156 (TOXOTIS   ): gold=Procedural acta                  pred=Procuratio
+    Act 179 (TOXOTIS   ): gold=Procedural acta                  pred=Venditio
+    Act 218 (TOXOTIS   ): gold=Procedural acta                  pred=Quietantia
+    Act 170 (TOXOTIS   ): gold=Procuratio                       pred=Quietantia
+    Act 137 (TOXOTIS   ): gold=Concessio ecclesiastica          pred=Procuratio
+    Act 130 (TOXOTIS   ): gold=Procedural acta                  pred=Mutuum
+    Act 203 (TOXOTIS   ): gold=Transactio                       pred=Procuratio
+    Act 181 (TOXOTIS   ): gold=Procuratio                       pred=Locatio conductio rei
+    Act  51 (VARAGAS   ): gold=Locatio conductio rei            pred=Emphyteusis
+    Act  85 (VARAGAS   ): gold=Procedural acta                  pred=Donatio
+
+  GPT-5.2 Chat: 26/40 correct (65.0%), 14 wrong, 0 errors
+    Act   6 (ALEXAKIS  ): gold=Concessio ecclesiastica          pred=Locatio conductio rei
+    Act 131 (FARMAKIS  ): gold=Contractus agrarius mixtus       pred=Societas
+    Act 115 (FARMAKIS  ): gold=Praevenditio                     pred=Locatio conductio rei
+    Act 313 (SPYRIS    ): gold=Societas                         pred=Locatio conductio rei
+    Act 156 (TOXOTIS   ): gold=Procedural acta                  pred=Procuratio
+    Act 179 (TOXOTIS   ): gold=Procedural acta                  pred=Venditio
+    Act 218 (TOXOTIS   ): gold=Procedural acta                  pred=Quietantia
+    Act 170 (TOXOTIS   ): gold=Procuratio                       pred=Quietantia
+    Act 137 (TOXOTIS   ): gold=Concessio ecclesiastica          pred=Procuratio
+    Act 130 (TOXOTIS   ): gold=Procedural acta                  pred=Mutuum
+    Act 203 (TOXOTIS   ): gold=Transactio                       pred=Locatio conductio operis
+    Act 181 (TOXOTIS   ): gold=Procuratio                       pred=Locatio conductio rei (Lease)
+    Act  51 (VARAGAS   ): gold=Locatio conductio rei            pred=Emphyteusis
+    Act  85 (VARAGAS   ): gold=Procedural acta                  pred=Donatio
+
+  Llama 3.3 70B: 18/40 correct (45.0%), 22 wrong, 0 errors
+    Act  24 (ALEXAKIS  ): gold=Procedural acta                  pred=Transactio
+    Act  66 (ALEXAKIS  ): gold=Emphyteusis                      pred=Locatio conductio rei
+    Act   6 (ALEXAKIS  ): gold=Concessio ecclesiastica          pred=Locatio conductio rei
+    Act 131 (FARMAKIS  ): gold=Contractus agrarius mixtus       pred=Emphyteusis
+    Act 115 (FARMAKIS  ): gold=Praevenditio                     pred=Locatio conductio rei
+    Act 160 (SPYRIS    ): gold=Praevenditio                     pred=Mutuum
+    Act 255 (SPYRIS    ): gold=Praevenditio                     pred=Mutuum
+    Act 162 (SPYRIS    ): gold=Praevenditio                     pred=Locatio conductio rei
+    Act 333 (SPYRIS    ): gold=Procedural acta                  pred=Transactio
+    Act 323 (SPYRIS    ): gold=Concessio ecclesiastica          pred=Emphyteusis
+    Act 313 (SPYRIS    ): gold=Societas                         pred=Locatio conductio rei
+    Act 156 (TOXOTIS   ): gold=Procedural acta                  pred=Procuratio
+    Act 179 (TOXOTIS   ): gold=Procedural acta                  pred=Venditio
+    Act 218 (TOXOTIS   ): gold=Procedural acta                  pred=Quietantia
+    Act 170 (TOXOTIS   ): gold=Procuratio                       pred=Quietantia
+    Act 137 (TOXOTIS   ): gold=Concessio ecclesiastica          pred=Procuratio
+    Act 130 (TOXOTIS   ): gold=Procedural acta                  pred=Mutuum
+    Act 203 (TOXOTIS   ): gold=Transactio                       pred=Locatio conductio operis
+    Act 181 (TOXOTIS   ): gold=Procuratio                       pred=Locatio conductio rei
+    Act  51 (VARAGAS   ): gold=Locatio conductio rei            pred=Emphyteusis
+    Act  85 (VARAGAS   ): gold=Procedural acta                  pred=Donatio
+    Act  19 (VARAGAS   ): gold=Instrumentum obligationis        pred=Mutuum
+
+  Llama 3.1 8B: 7/40 correct (17.5%), 33 wrong, 0 errors
+    Act  24 (ALEXAKIS  ): gold=Procedural acta                  pred=Divisio / Partitio
+    Act  66 (ALEXAKIS  ): gold=Emphyteusis                      pred=Locatio conductio rei
+    Act  26 (ALEXAKIS  ): gold=Emphyteusis                      pred=Locatio conductio rei
+    Act  34 (ALEXAKIS  ): gold=Emphyteusis                      pred=Divisio / Partitio
+    Act  85 (ALEXAKIS  ): gold=Emphyteusis                      pred=Donatio
+    Act  99 (FARMAKIS  ): gold=Instrumentum obligationis        pred=Locatio conductio rei
+    Act 131 (FARMAKIS  ): gold=Contractus agrarius mixtus       pred=Divisio / Partitio
+    Act  27 (FARMAKIS  ): gold=Venditio                         pred=Divisio / Partitio
+    Act  71 (FARMAKIS  ): gold=Testamentum                      pred=Divisio / Partitio
+    Act 109 (FARMAKIS  ): gold=Procuratio                       pred=Donatio
+    Act 115 (FARMAKIS  ): gold=Praevenditio                     pred=Emphyteusis
+    Act 107 (FARMAKIS  ): gold=Quietantia                       pred=Donatio
+    Act 160 (SPYRIS    ): gold=Praevenditio                     pred=Locatio conductio rei
+    Act 255 (SPYRIS    ): gold=Praevenditio                     pred=Donatio
+    Act 162 (SPYRIS    ): gold=Praevenditio                     pred=Donatio
+    Act 333 (SPYRIS    ): gold=Procedural acta                  pred=Divisio / Partitio
+    Act 323 (SPYRIS    ): gold=Concessio ecclesiastica          pred=Donatio (Donation)
+    Act 313 (SPYRIS    ): gold=Societas                         pred=Locatio conductio rei
+    Act 113 (SPYRIS    ): gold=Mutuum                           pred=Locatio conductio rei
+    Act 156 (TOXOTIS   ): gold=Procedural acta                  pred=Instrumentum obligationis
+    Act 179 (TOXOTIS   ): gold=Procedural acta                  pred=Venditio
+    Act 218 (TOXOTIS   ): gold=Procedural acta                  pred=Divisio / Partitio
+    Act 170 (TOXOTIS   ): gold=Procuratio                       pred=Emphyteusis
+    Act 137 (TOXOTIS   ): gold=Concessio ecclesiastica          pred=Instrumentum obligationis
+    Act 130 (TOXOTIS   ): gold=Procedural acta                  pred=Mutuum (Loan)
+    Act 203 (TOXOTIS   ): gold=Transactio                       pred=Divisio / Partitio
+    Act 181 (TOXOTIS   ): gold=Procuratio                       pred=Locatio conductio rei
+    Act   9 (VARAGAS   ): gold=Locatio conductio rei            pred=Emphyteusis
+    Act  89 (VARAGAS   ): gold=Testamentum                      pred=Divisio / Partitio
+    Act  51 (VARAGAS   ): gold=Locatio conductio rei            pred=Emphyteusis
+    Act  85 (VARAGAS   ): gold=Procedural acta                  pred=Divisio / Partitio
+    Act  19 (VARAGAS   ): gold=Instrumentum obligationis        pred=Emphyteusis
+    Act  39 (VARAGAS   ): gold=Quietantia                       pred=Donatio
+
+  Llama 4 Maverick: 24/40 correct (60.0%), 14 wrong, 2 errors
+    Act   6 (ALEXAKIS  ): gold=Concessio ecclesiastica          pred=Locatio conductio rei
+    Act 131 (FARMAKIS  ): gold=Contractus agrarius mixtus       pred=Emphyteusis
+    Act 333 (SPYRIS    ): gold=Procedural acta                  pred=Transactio
+    Act 313 (SPYRIS    ): gold=Societas                         pred=Locatio conductio rei
+    Act 113 (SPYRIS    ): gold=Mutuum                           pred=Praevenditio
+    Act 156 (TOXOTIS   ): gold=Procedural acta                  pred=Procuratio
+    Act 218 (TOXOTIS   ): gold=Procedural acta                  pred=Transactio
+    Act 170 (TOXOTIS   ): gold=Procuratio                       pred=Quietantia
+    Act 137 (TOXOTIS   ): gold=Concessio ecclesiastica          pred=Procuratio
+    Act 130 (TOXOTIS   ): gold=Procedural acta                  pred=Mutuum
+    Act 203 (TOXOTIS   ): gold=Transactio                       pred=Procuratio
+    Act 181 (TOXOTIS   ): gold=Procuratio                       pred=Praevenditio
+    Act  51 (VARAGAS   ): gold=Locatio conductio rei            pred=Emphyteusis
+    Act  85 (VARAGAS   ): gold=Procedural acta                  pred=Transactio
+
+  DeepSeek V3: 18/40 correct (45.0%), 22 wrong, 0 errors
+    Act  24 (ALEXAKIS  ): gold=Procedural acta                  pred=Permutatio
+    Act   6 (ALEXAKIS  ): gold=Concessio ecclesiastica          pred=Locatio conductio operis
+    Act  99 (FARMAKIS  ): gold=Instrumentum obligationis        pred=Mutuum
+    Act 131 (FARMAKIS  ): gold=Contractus agrarius mixtus       pred=Emphyteusis
+    Act 109 (FARMAKIS  ): gold=Procuratio                       pred=Transactio (Settlement)
+    Act 115 (FARMAKIS  ): gold=Praevenditio                     pred=Locatio conductio rei
+    Act 160 (SPYRIS    ): gold=Praevenditio                     pred=Mutuum
+    Act 255 (SPYRIS    ): gold=Praevenditio                     pred=Mutuum
+    Act 162 (SPYRIS    ): gold=Praevenditio                     pred=Mutuum (Loan)
+    Act 333 (SPYRIS    ): gold=Procedural acta                  pred=Transactio
+    Act 313 (SPYRIS    ): gold=Societas                         pred=Locatio conductio operis
+    Act 156 (TOXOTIS   ): gold=Procedural acta                  pred=Procuratio
+    Act 179 (TOXOTIS   ): gold=Procedural acta                  pred=Venditio
+    Act 218 (TOXOTIS   ): gold=Procedural acta                  pred=Quietantia
+    Act 170 (TOXOTIS   ): gold=Procuratio                       pred=Quietantia
+    Act 137 (TOXOTIS   ): gold=Concessio ecclesiastica          pred=Procuratio
+    Act 130 (TOXOTIS   ): gold=Procedural acta                  pred=Mutuum
+    Act 203 (TOXOTIS   ): gold=Transactio                       pred=Locatio conductio operis
+    Act 181 (TOXOTIS   ): gold=Procuratio                       pred=Locatio conductio rei
+    Act  51 (VARAGAS   ): gold=Locatio conductio rei            pred=Emphyteusis
+    Act  85 (VARAGAS   ): gold=Procedural acta                  pred=Donatio
+    Act  19 (VARAGAS   ): gold=Instrumentum obligationis        pred=Donatio
+
+  DeepSeek R1: 23/40 correct (57.5%), 17 wrong, 0 errors
+    Act   6 (ALEXAKIS  ): gold=Concessio ecclesiastica          pred=Locatio conductio rei
+    Act  99 (FARMAKIS  ): gold=Instrumentum obligationis        pred=Transactio
+    Act 131 (FARMAKIS  ): gold=Contractus agrarius mixtus       pred=Locatio conductio rei (Lease)
+    Act 115 (FARMAKIS  ): gold=Praevenditio                     pred=Locatio conductio rei (Lease)
+    Act 323 (SPYRIS    ): gold=Concessio ecclesiastica          pred=Emphyteusis
+    Act 113 (SPYRIS    ): gold=Mutuum                           pred=Praevenditio
+    Act 156 (TOXOTIS   ): gold=Procedural acta                  pred=Procuratio (Power of attorney)
+    Act 179 (TOXOTIS   ): gold=Procedural acta                  pred=Venditio
+    Act 218 (TOXOTIS   ): gold=Procedural acta                  pred=Quietantia
+    Act 170 (TOXOTIS   ): gold=Procuratio                       pred=Quietantia
+    Act 137 (TOXOTIS   ): gold=Concessio ecclesiastica          pred=Procuratio (Power of attorney)
+    Act 130 (TOXOTIS   ): gold=Procedural acta                  pred=Mutuum (Loan)
+    Act 203 (TOXOTIS   ): gold=Transactio                       pred=Locatio conductio operis
+    Act 181 (TOXOTIS   ): gold=Procuratio                       pred=Locatio conductio rei
+    Act  51 (VARAGAS   ): gold=Locatio conductio rei            pred=Emphyteusis
+    Act  85 (VARAGAS   ): gold=Procedural acta                  pred=Donatio
+    Act  19 (VARAGAS   ): gold=Instrumentum obligationis        pred=Mutuum (Loan)
+
+  Qwen 2.5 72B: 18/40 correct (45.0%), 22 wrong, 0 errors
+    Act  24 (ALEXAKIS  ): gold=Procedural acta                  pred=Quietantia
+    Act   6 (ALEXAKIS  ): gold=Concessio ecclesiastica          pred=Locatio conductio rei
+    Act  85 (ALEXAKIS  ): gold=Emphyteusis                      pred=Donatio
+    Act  99 (FARMAKIS  ): gold=Instrumentum obligationis        pred=Mutuum
+    Act 131 (FARMAKIS  ): gold=Contractus agrarius mixtus       pred=Emphyteusis
+    Act 115 (FARMAKIS  ): gold=Praevenditio                     pred=Locatio conductio rei
+    Act 160 (SPYRIS    ): gold=Praevenditio                     pred=Mutuum
+    Act 255 (SPYRIS    ): gold=Praevenditio                     pred=Mutuum
+    Act 162 (SPYRIS    ): gold=Praevenditio                     pred=Mutuum
+    Act 333 (SPYRIS    ): gold=Procedural acta                  pred=Transactio
+    Act 313 (SPYRIS    ): gold=Societas                         pred=Locatio conductio rei
+    Act 156 (TOXOTIS   ): gold=Procedural acta                  pred=Procuratio
+    Act 179 (TOXOTIS   ): gold=Procedural acta                  pred=Venditio
+    Act 218 (TOXOTIS   ): gold=Procedural acta                  pred=Transactio
+    Act 170 (TOXOTIS   ): gold=Procuratio                       pred=Quietantia
+    Act 137 (TOXOTIS   ): gold=Concessio ecclesiastica          pred=Procuratio
+    Act 130 (TOXOTIS   ): gold=Procedural acta                  pred=Mutuum
+    Act 203 (TOXOTIS   ): gold=Transactio                       pred=Locatio conductio rei
+    Act 181 (TOXOTIS   ): gold=Procuratio                       pred=Locatio conductio rei
+    Act  51 (VARAGAS   ): gold=Locatio conductio rei            pred=Emphyteusis
+    Act  85 (VARAGAS   ): gold=Procedural acta                  pred=Divisio / Partitio
+    Act  19 (VARAGAS   ): gold=Instrumentum obligationis        pred=Mutuum
+
+  Gemini 2.5 Flash: 24/40 correct (60.0%), 16 wrong, 0 errors
+    Act 104 (ALEXAKIS  ): gold=Donatio                          pred=Venditio
+    Act   6 (ALEXAKIS  ): gold=Concessio ecclesiastica          pred=Locatio conductio rei
+    Act  85 (ALEXAKIS  ): gold=Emphyteusis                      pred=Venditio
+    Act 131 (FARMAKIS  ): gold=Contractus agrarius mixtus       pred=Societas
+    Act 313 (SPYRIS    ): gold=Societas                         pred=Locatio conductio operis
+    Act 113 (SPYRIS    ): gold=Mutuum                           pred=Praevenditio
+    Act 156 (TOXOTIS   ): gold=Procedural acta                  pred=Procuratio
+    Act 179 (TOXOTIS   ): gold=Procedural acta                  pred=Praevenditio
+    Act 218 (TOXOTIS   ): gold=Procedural acta                  pred=Quietantia
+    Act 170 (TOXOTIS   ): gold=Procuratio                       pred=Quietantia
+    Act 137 (TOXOTIS   ): gold=Concessio ecclesiastica          pred=Procuratio
+    Act 130 (TOXOTIS   ): gold=Procedural acta                  pred=Mutuum
+    Act 203 (TOXOTIS   ): gold=Transactio                       pred=Locatio conductio operis
+    Act 181 (TOXOTIS   ): gold=Procuratio                       pred=Locatio conductio rei
+    Act  51 (VARAGAS   ): gold=Locatio conductio rei            pred=Emphyteusis
+    Act  85 (VARAGAS   ): gold=Procedural acta                  pred=Donatio
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ FEW_SHOT ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Claude 3.7 Sonnet: 26/40 correct (65.0%), 14 wrong, 0 errors
+    Act 104 (ALEXAKIS  ): gold=Donatio                          pred=Permutatio
+    Act  99 (FARMAKIS  ): gold=Instrumentum obligationis        pred=Mutuum
+    Act 131 (FARMAKIS  ): gold=Contractus agrarius mixtus       pred=Societas
+    Act 333 (SPYRIS    ): gold=Procedural acta                  pred=Transactio
+    Act 113 (SPYRIS    ): gold=Mutuum                           pred=Praevenditio
+    Act 156 (TOXOTIS   ): gold=Procedural acta                  pred=Procuratio
+    Act 179 (TOXOTIS   ): gold=Procedural acta                  pred=Venditio
+    Act 218 (TOXOTIS   ): gold=Procedural acta                  pred=Quietantia
+    Act 170 (TOXOTIS   ): gold=Procuratio                       pred=Quietantia
+    Act 137 (TOXOTIS   ): gold=Concessio ecclesiastica          pred=Procuratio
+    Act 130 (TOXOTIS   ): gold=Procedural acta                  pred=Mutuum
+    Act 203 (TOXOTIS   ): gold=Transactio                       pred=Societas
+    Act 181 (TOXOTIS   ): gold=Procuratio                       pred=Locatio conductio rei
+    Act  51 (VARAGAS   ): gold=Locatio conductio rei            pred=Emphyteusis
+
+  Claude Sonnet 4: 27/40 correct (67.5%), 13 wrong, 0 errors
+    Act  99 (FARMAKIS  ): gold=Instrumentum obligationis        pred=Quietantia
+    Act 131 (FARMAKIS  ): gold=Contractus agrarius mixtus       pred=Societas
+    Act 115 (FARMAKIS  ): gold=Praevenditio                     pred=Locatio conductio rei
+    Act 113 (SPYRIS    ): gold=Mutuum                           pred=Praevenditio
+    Act 156 (TOXOTIS   ): gold=Procedural acta                  pred=Procuratio
+    Act 179 (TOXOTIS   ): gold=Procedural acta                  pred=Praevenditio
+    Act 218 (TOXOTIS   ): gold=Procedural acta                  pred=Quietantia
+    Act 170 (TOXOTIS   ): gold=Procuratio                       pred=Quietantia
+    Act 137 (TOXOTIS   ): gold=Concessio ecclesiastica          pred=Procuratio
+    Act 130 (TOXOTIS   ): gold=Procedural acta                  pred=Mutuum
+    Act 203 (TOXOTIS   ): gold=Transactio                       pred=Locatio conductio operis
+    Act 181 (TOXOTIS   ): gold=Procuratio                       pred=Locatio conductio rei
+    Act  51 (VARAGAS   ): gold=Locatio conductio rei            pred=Emphyteusis
+
+  Claude Opus 4: 25/40 correct (62.5%), 15 wrong, 0 errors
+    Act   6 (ALEXAKIS  ): gold=Concessio ecclesiastica          pred=Locatio conductio rei
+    Act  99 (FARMAKIS  ): gold=Instrumentum obligationis        pred=Mutuum
+    Act 131 (FARMAKIS  ): gold=Contractus agrarius mixtus       pred=Societas
+    Act 115 (FARMAKIS  ): gold=Praevenditio                     pred=Locatio conductio rei
+    Act 113 (SPYRIS    ): gold=Mutuum                           pred=Praevenditio
+    Act 156 (TOXOTIS   ): gold=Procedural acta                  pred=Procuratio
+    Act 179 (TOXOTIS   ): gold=Procedural acta                  pred=Praevenditio
+    Act 218 (TOXOTIS   ): gold=Procedural acta                  pred=Quietantia
+    Act 170 (TOXOTIS   ): gold=Procuratio                       pred=Quietantia
+    Act 137 (TOXOTIS   ): gold=Concessio ecclesiastica          pred=Procuratio
+    Act 130 (TOXOTIS   ): gold=Procedural acta                  pred=Mutuum
+    Act 203 (TOXOTIS   ): gold=Transactio                       pred=Locatio conductio operis
+    Act 181 (TOXOTIS   ): gold=Procuratio                       pred=Locatio conductio rei
+    Act   9 (VARAGAS   ): gold=Locatio conductio rei            pred=Locatio conductio operis
+    Act  51 (VARAGAS   ): gold=Locatio conductio rei            pred=Emphyteusis
+
+  GPT-4o: 23/40 correct (57.5%), 17 wrong, 0 errors
+    Act  85 (ALEXAKIS  ): gold=Emphyteusis                      pred=Donatio
+    Act  99 (FARMAKIS  ): gold=Instrumentum obligationis        pred=Mutuum
+    Act 131 (FARMAKIS  ): gold=Contractus agrarius mixtus       pred=Societas
+    Act 115 (FARMAKIS  ): gold=Praevenditio                     pred=Locatio conductio rei
+    Act 333 (SPYRIS    ): gold=Procedural acta                  pred=Transactio
+    Act 113 (SPYRIS    ): gold=Mutuum                           pred=Praevenditio
+    Act 156 (TOXOTIS   ): gold=Procedural acta                  pred=Procuratio
+    Act 179 (TOXOTIS   ): gold=Procedural acta                  pred=Praevenditio
+    Act 218 (TOXOTIS   ): gold=Procedural acta                  pred=Transactio
+    Act 170 (TOXOTIS   ): gold=Procuratio                       pred=Quietantia
+    Act 137 (TOXOTIS   ): gold=Concessio ecclesiastica          pred=Procuratio
+    Act 130 (TOXOTIS   ): gold=Procedural acta                  pred=Mutuum
+    Act 203 (TOXOTIS   ): gold=Transactio                       pred=Procuratio
+    Act 181 (TOXOTIS   ): gold=Procuratio                       pred=Locatio conductio rei
+    Act  51 (VARAGAS   ): gold=Locatio conductio rei            pred=Emphyteusis
+    Act  85 (VARAGAS   ): gold=Procedural acta                  pred=Donatio
+    Act  19 (VARAGAS   ): gold=Instrumentum obligationis        pred=Mutuum
+
+  GPT-5.2 Chat: 28/40 correct (70.0%), 12 wrong, 0 errors
+    Act  85 (ALEXAKIS  ): gold=Emphyteusis                      pred=Donatio
+    Act 131 (FARMAKIS  ): gold=Contractus agrarius mixtus       pred=Societas
+    Act 113 (SPYRIS    ): gold=Mutuum                           pred=Praevenditio
+    Act 156 (TOXOTIS   ): gold=Procedural acta                  pred=Procuratio
+    Act 179 (TOXOTIS   ): gold=Procedural acta                  pred=Praevenditio
+    Act 218 (TOXOTIS   ): gold=Procedural acta                  pred=Quietantia
+    Act 170 (TOXOTIS   ): gold=Procuratio                       pred=Quietantia
+    Act 137 (TOXOTIS   ): gold=Concessio ecclesiastica          pred=Procuratio
+    Act 130 (TOXOTIS   ): gold=Procedural acta                  pred=Mutuum
+    Act 203 (TOXOTIS   ): gold=Transactio                       pred=Procuratio
+    Act 181 (TOXOTIS   ): gold=Procuratio                       pred=Locatio conductio rei
+    Act  51 (VARAGAS   ): gold=Locatio conductio rei            pred=Emphyteusis
+
+  Llama 3.3 70B: 21/40 correct (52.5%), 19 wrong, 0 errors
+    Act  24 (ALEXAKIS  ): gold=Procedural acta                  pred=Quietantia
+    Act  66 (ALEXAKIS  ): gold=Emphyteusis                      pred=Locatio conductio rei
+    Act  26 (ALEXAKIS  ): gold=Emphyteusis                      pred=Locatio conductio rei
+    Act  85 (ALEXAKIS  ): gold=Emphyteusis                      pred=Venditio
+    Act  99 (FARMAKIS  ): gold=Instrumentum obligationis        pred=Mutuum
+    Act 131 (FARMAKIS  ): gold=Contractus agrarius mixtus       pred=Societas
+    Act 115 (FARMAKIS  ): gold=Praevenditio                     pred=Locatio conductio rei
+    Act 255 (SPYRIS    ): gold=Praevenditio                     pred=Mutuum
+    Act 156 (TOXOTIS   ): gold=Procedural acta                  pred=Procuratio
+    Act 179 (TOXOTIS   ): gold=Procedural acta                  pred=Venditio
+    Act 218 (TOXOTIS   ): gold=Procedural acta                  pred=Quietantia
+    Act 170 (TOXOTIS   ): gold=Procuratio                       pred=Quietantia
+    Act 137 (TOXOTIS   ): gold=Concessio ecclesiastica          pred=Procuratio
+    Act 130 (TOXOTIS   ): gold=Procedural acta                  pred=Mutuum
+    Act 203 (TOXOTIS   ): gold=Transactio                       pred=Locatio conductio operis
+    Act 181 (TOXOTIS   ): gold=Procuratio                       pred=Locatio conductio rei
+    Act  51 (VARAGAS   ): gold=Locatio conductio rei            pred=Emphyteusis
+    Act  85 (VARAGAS   ): gold=Procedural acta                  pred=Quietantia
+    Act  19 (VARAGAS   ): gold=Instrumentum obligationis        pred=Mutuum
+
+  Llama 3.1 8B: 12/40 correct (30.0%), 28 wrong, 0 errors
+    Act  24 (ALEXAKIS  ): gold=Procedural acta                  pred=Divisio / Partitio
+    Act  66 (ALEXAKIS  ): gold=Emphyteusis                      pred=Instrumentum obligationis
+    Act  26 (ALEXAKIS  ): gold=Emphyteusis                      pred=Locatio conductio rei
+    Act  34 (ALEXAKIS  ): gold=Emphyteusis                      pred=Divisio / Partitio
+    Act  85 (ALEXAKIS  ): gold=Emphyteusis                      pred=Donatio
+    Act  99 (FARMAKIS  ): gold=Instrumentum obligationis        pred=Donatio
+    Act 131 (FARMAKIS  ): gold=Contractus agrarius mixtus       pred=Societas
+    Act  27 (FARMAKIS  ): gold=Venditio                         pred=Instrumentum obligationis
+    Act 109 (FARMAKIS  ): gold=Procuratio                       pred=Instrumentum obligationis
+    Act 115 (FARMAKIS  ): gold=Praevenditio                     pred=Locatio conductio rei
+    Act 107 (FARMAKIS  ): gold=Quietantia                       pred=Instrumentum obligationis
+    Act 117 (FARMAKIS  ): gold=Permutatio                       pred=Divisio / Partitio
+    Act 160 (SPYRIS    ): gold=Praevenditio                     pred=Locatio conductio rei
+    Act 255 (SPYRIS    ): gold=Praevenditio                     pred=Locatio conductio rei
+    Act 162 (SPYRIS    ): gold=Praevenditio                     pred=Locatio conductio rei
+    Act 313 (SPYRIS    ): gold=Societas                         pred=Locatio conductio rei
+    Act 113 (SPYRIS    ): gold=Mutuum                           pred=Instrumentum obligationis
+    Act 156 (TOXOTIS   ): gold=Procedural acta                  pred=Instrumentum obligationis
+    Act 179 (TOXOTIS   ): gold=Procedural acta                  pred=Venditio
+    Act 218 (TOXOTIS   ): gold=Procedural acta                  pred=Instrumentum obligationis
+    Act 170 (TOXOTIS   ): gold=Procuratio                       pred=Instrumentum obligationis
+    Act 137 (TOXOTIS   ): gold=Concessio ecclesiastica          pred=Procuratio
+    Act 130 (TOXOTIS   ): gold=Procedural acta                  pred=Instrumentum obligationis
+    Act 203 (TOXOTIS   ): gold=Transactio                       pred=Instrumentum obligationis
+    Act 181 (TOXOTIS   ): gold=Procuratio                       pred=Locatio conductio rei
+    Act  89 (VARAGAS   ): gold=Testamentum                      pred=Instrumentum obligationis
+    Act  85 (VARAGAS   ): gold=Procedural acta                  pred=Instrumentum obligationis
+    Act  39 (VARAGAS   ): gold=Quietantia                       pred=Instrumentum obligationis
+
+  Llama 4 Maverick: 15/40 correct (37.5%), 21 wrong, 4 errors
+    Act  24 (ALEXAKIS  ): gold=Procedural acta                  pred=Transactio
+    Act  34 (ALEXAKIS  ): gold=Emphyteusis                      pred=Societas
+    Act  85 (ALEXAKIS  ): gold=Emphyteusis                      pred=Donatio
+    Act  99 (FARMAKIS  ): gold=Instrumentum obligationis        pred=Quietantia
+    Act 131 (FARMAKIS  ): gold=Contractus agrarius mixtus       pred=Locatio conductio rei
+    Act 107 (FARMAKIS  ): gold=Quietantia                       pred=Mutuum
+    Act 160 (SPYRIS    ): gold=Praevenditio                     pred=Mutuum
+    Act 255 (SPYRIS    ): gold=Praevenditio                     pred=Mutuum
+    Act 162 (SPYRIS    ): gold=Praevenditio                     pred=Mutuum
+    Act 313 (SPYRIS    ): gold=Societas                         pred=Locatio conductio operis
+    Act 156 (TOXOTIS   ): gold=Procedural acta                  pred=Procuratio
+    Act 179 (TOXOTIS   ): gold=Procedural acta                  pred=Venditio
+    Act 218 (TOXOTIS   ): gold=Procedural acta                  pred=Quietantia
+    Act 170 (TOXOTIS   ): gold=Procuratio                       pred=Quietantia
+    Act 137 (TOXOTIS   ): gold=Concessio ecclesiastica          pred=Procuratio
+    Act 130 (TOXOTIS   ): gold=Procedural acta                  pred=Mutuum
+    Act 203 (TOXOTIS   ): gold=Transactio                       pred=Procuratio
+    Act 181 (TOXOTIS   ): gold=Procuratio                       pred=Praevenditio
+    Act   9 (VARAGAS   ): gold=Locatio conductio rei            pred=Locatio conductio operis
+    Act  51 (VARAGAS   ): gold=Locatio conductio rei            pred=Emphyteusis
+    Act  19 (VARAGAS   ): gold=Instrumentum obligationis        pred=Mutuum
+
+  DeepSeek V3: 23/40 correct (57.5%), 17 wrong, 0 errors
+    Act  24 (ALEXAKIS  ): gold=Procedural acta                  pred=Transactio
+    Act  85 (ALEXAKIS  ): gold=Emphyteusis                      pred=Donatio
+    Act  99 (FARMAKIS  ): gold=Instrumentum obligationis        pred=Mutuum
+    Act 131 (FARMAKIS  ): gold=Contractus agrarius mixtus       pred=Divisio / Partitio
+    Act 115 (FARMAKIS  ): gold=Praevenditio                     pred=Locatio conductio rei
+    Act 113 (SPYRIS    ): gold=Mutuum                           pred=Praevenditio
+    Act 156 (TOXOTIS   ): gold=Procedural acta                  pred=Procuratio
+    Act 179 (TOXOTIS   ): gold=Procedural acta                  pred=Praevenditio
+    Act 218 (TOXOTIS   ): gold=Procedural acta                  pred=Quietantia
+    Act 170 (TOXOTIS   ): gold=Procuratio                       pred=Quietantia
+    Act 137 (TOXOTIS   ): gold=Concessio ecclesiastica          pred=Procuratio
+    Act 130 (TOXOTIS   ): gold=Procedural acta                  pred=Mutuum
+    Act 203 (TOXOTIS   ): gold=Transactio                       pred=Instrumentum obligationis
+    Act 181 (TOXOTIS   ): gold=Procuratio                       pred=Locatio conductio operis
+    Act   9 (VARAGAS   ): gold=Locatio conductio rei            pred=Locatio conductio operis
+    Act  51 (VARAGAS   ): gold=Locatio conductio rei            pred=Emphyteusis
+    Act  85 (VARAGAS   ): gold=Procedural acta                  pred=Donatio
+
+  DeepSeek R1: 25/40 correct (62.5%), 15 wrong, 0 errors
+    Act 131 (FARMAKIS  ): gold=Contractus agrarius mixtus       pred=Locatio conductio rei
+    Act 115 (FARMAKIS  ): gold=Praevenditio                     pred=Locatio conductio rei
+    Act 313 (SPYRIS    ): gold=Societas                         pred=Locatio conductio rei
+    Act 113 (SPYRIS    ): gold=Mutuum                           pred=Praevenditio
+    Act 156 (TOXOTIS   ): gold=Procedural acta                  pred=Procuratio
+    Act 179 (TOXOTIS   ): gold=Procedural acta                  pred=Venditio
+    Act 218 (TOXOTIS   ): gold=Procedural acta                  pred=Quietantia
+    Act 170 (TOXOTIS   ): gold=Procuratio                       pred=Quietantia
+    Act 137 (TOXOTIS   ): gold=Concessio ecclesiastica          pred=Procuratio
+    Act 130 (TOXOTIS   ): gold=Procedural acta                  pred=Mutuum
+    Act 203 (TOXOTIS   ): gold=Transactio                       pred=Locatio conductio operis
+    Act 181 (TOXOTIS   ): gold=Procuratio                       pred=Locatio conductio rei
+    Act   9 (VARAGAS   ): gold=Locatio conductio rei            pred=Emphyteusis
+    Act  51 (VARAGAS   ): gold=Locatio conductio rei            pred=Emphyteusis
+    Act  19 (VARAGAS   ): gold=Instrumentum obligationis        pred=Mutuum
+
+  Qwen 2.5 72B: 22/40 correct (55.0%), 18 wrong, 0 errors
+    Act  85 (ALEXAKIS  ): gold=Emphyteusis                      pred=Donatio
+    Act  99 (FARMAKIS  ): gold=Instrumentum obligationis        pred=Mutuum
+    Act 131 (FARMAKIS  ): gold=Contractus agrarius mixtus       pred=Societas
+    Act 115 (FARMAKIS  ): gold=Praevenditio                     pred=Societas
+    Act 107 (FARMAKIS  ): gold=Quietantia                       pred=Mutuum
+    Act 113 (SPYRIS    ): gold=Mutuum                           pred=Praevenditio
+    Act 156 (TOXOTIS   ): gold=Procedural acta                  pred=Procuratio
+    Act 179 (TOXOTIS   ): gold=Procedural acta                  pred=Venditio
+    Act 218 (TOXOTIS   ): gold=Procedural acta                  pred=Transactio
+    Act 170 (TOXOTIS   ): gold=Procuratio                       pred=Instrumentum obligationis
+    Act 137 (TOXOTIS   ): gold=Concessio ecclesiastica          pred=Procuratio
+    Act 130 (TOXOTIS   ): gold=Procedural acta                  pred=Mutuum
+    Act 203 (TOXOTIS   ): gold=Transactio                       pred=Societas
+    Act 181 (TOXOTIS   ): gold=Procuratio                       pred=Locatio conductio rei
+    Act  51 (VARAGAS   ): gold=Locatio conductio rei            pred=Emphyteusis
+    Act  85 (VARAGAS   ): gold=Procedural acta                  pred=Transactio
+    Act  19 (VARAGAS   ): gold=Instrumentum obligationis        pred=Praevenditio
+    Act  39 (VARAGAS   ): gold=Quietantia                       pred=Procedural acta
+
+  Gemini 2.5 Flash: 23/40 correct (57.5%), 17 wrong, 0 errors
+    Act 104 (ALEXAKIS  ): gold=Donatio                          pred=Venditio
+    Act   6 (ALEXAKIS  ): gold=Concessio ecclesiastica          pred=Locatio conductio rei
+    Act  85 (ALEXAKIS  ): gold=Emphyteusis                      pred=Donatio
+    Act 131 (FARMAKIS  ): gold=Contractus agrarius mixtus       pred=Societas
+    Act 313 (SPYRIS    ): gold=Societas                         pred=Locatio conductio operis
+    Act 113 (SPYRIS    ): gold=Mutuum                           pred=Praevenditio
+    Act 156 (TOXOTIS   ): gold=Procedural acta                  pred=Procuratio
+    Act 179 (TOXOTIS   ): gold=Procedural acta                  pred=Praevenditio
+    Act 218 (TOXOTIS   ): gold=Procedural acta                  pred=Quietantia
+    Act 170 (TOXOTIS   ): gold=Procuratio                       pred=Quietantia
+    Act 137 (TOXOTIS   ): gold=Concessio ecclesiastica          pred=Procuratio
+    Act 130 (TOXOTIS   ): gold=Procedural acta                  pred=Mutuum
+    Act 203 (TOXOTIS   ): gold=Transactio                       pred=Societas
+    Act 181 (TOXOTIS   ): gold=Procuratio                       pred=Locatio conductio rei
+    Act   9 (VARAGAS   ): gold=Locatio conductio rei            pred=Locatio conductio operis
+    Act  51 (VARAGAS   ): gold=Locatio conductio rei            pred=Emphyteusis
+    Act  85 (VARAGAS   ): gold=Procedural acta                  pred=Donatio
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ FULL_CONTEXT ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Claude 3.7 Sonnet: 28/40 correct (70.0%), 12 wrong, 0 errors
+    Act 131 (FARMAKIS  ): gold=Contractus agrarius mixtus       pred=Societas
+    Act 333 (SPYRIS    ): gold=Procedural acta                  pred=Transactio
+    Act 113 (SPYRIS    ): gold=Mutuum                           pred=Praevenditio
+    Act 156 (TOXOTIS   ): gold=Procedural acta                  pred=Procuratio
+    Act 179 (TOXOTIS   ): gold=Procedural acta                  pred=Venditio
+    Act 218 (TOXOTIS   ): gold=Procedural acta                  pred=Quietantia
+    Act 170 (TOXOTIS   ): gold=Procuratio                       pred=Quietantia
+    Act 137 (TOXOTIS   ): gold=Concessio ecclesiastica          pred=Procuratio
+    Act 130 (TOXOTIS   ): gold=Procedural acta                  pred=Mutuum
+    Act 203 (TOXOTIS   ): gold=Transactio                       pred=Procuratio
+    Act 181 (TOXOTIS   ): gold=Procuratio                       pred=Locatio conductio rei
+    Act  51 (VARAGAS   ): gold=Locatio conductio rei            pred=Emphyteusis
+
+  Claude Sonnet 4: 25/40 correct (62.5%), 15 wrong, 0 errors
+    Act  99 (FARMAKIS  ): gold=Instrumentum obligationis        pred=Transactio
+    Act 131 (FARMAKIS  ): gold=Contractus agrarius mixtus       pred=Societas
+    Act 115 (FARMAKIS  ): gold=Praevenditio                     pred=Locatio conductio rei
+    Act 333 (SPYRIS    ): gold=Procedural acta                  pred=Transactio
+    Act 113 (SPYRIS    ): gold=Mutuum                           pred=Praevenditio
+    Act 156 (TOXOTIS   ): gold=Procedural acta                  pred=Procuratio
+    Act 179 (TOXOTIS   ): gold=Procedural acta                  pred=Praevenditio
+    Act 218 (TOXOTIS   ): gold=Procedural acta                  pred=Transactio
+    Act 170 (TOXOTIS   ): gold=Procuratio                       pred=Quietantia
+    Act 137 (TOXOTIS   ): gold=Concessio ecclesiastica          pred=Procuratio
+    Act 130 (TOXOTIS   ): gold=Procedural acta                  pred=Instrumentum obligationis
+    Act 203 (TOXOTIS   ): gold=Transactio                       pred=Locatio conductio operis
+    Act 181 (TOXOTIS   ): gold=Procuratio                       pred=Locatio conductio rei
+    Act   9 (VARAGAS   ): gold=Locatio conductio rei            pred=Societas
+    Act  51 (VARAGAS   ): gold=Locatio conductio rei            pred=Emphyteusis
+
+  Claude Opus 4: 28/40 correct (70.0%), 12 wrong, 0 errors
+    Act 131 (FARMAKIS  ): gold=Contractus agrarius mixtus       pred=Societas
+    Act 113 (SPYRIS    ): gold=Mutuum                           pred=Praevenditio
+    Act 156 (TOXOTIS   ): gold=Procedural acta                  pred=Procuratio
+    Act 179 (TOXOTIS   ): gold=Procedural acta                  pred=Praevenditio
+    Act 218 (TOXOTIS   ): gold=Procedural acta                  pred=Quietantia
+    Act 170 (TOXOTIS   ): gold=Procuratio                       pred=Quietantia
+    Act 137 (TOXOTIS   ): gold=Concessio ecclesiastica          pred=Procuratio
+    Act 130 (TOXOTIS   ): gold=Procedural acta                  pred=Mutuum
+    Act 203 (TOXOTIS   ): gold=Transactio                       pred=Locatio conductio operis
+    Act 181 (TOXOTIS   ): gold=Procuratio                       pred=Locatio conductio rei
+    Act   9 (VARAGAS   ): gold=Locatio conductio rei            pred=Contractus agrarius mixtus
+    Act  51 (VARAGAS   ): gold=Locatio conductio rei            pred=Emphyteusis
+
+  GPT-4o: 25/40 correct (62.5%), 15 wrong, 0 errors
+    Act  99 (FARMAKIS  ): gold=Instrumentum obligationis        pred=Mutuum
+    Act 131 (FARMAKIS  ): gold=Contractus agrarius mixtus       pred=Societas
+    Act 115 (FARMAKIS  ): gold=Praevenditio                     pred=Locatio conductio rei
+    Act 333 (SPYRIS    ): gold=Procedural acta                  pred=Transactio
+    Act 156 (TOXOTIS   ): gold=Procedural acta                  pred=Procuratio
+    Act 179 (TOXOTIS   ): gold=Procedural acta                  pred=Venditio
+    Act 218 (TOXOTIS   ): gold=Procedural acta                  pred=Quietantia
+    Act 170 (TOXOTIS   ): gold=Procuratio                       pred=Quietantia
+    Act 137 (TOXOTIS   ): gold=Concessio ecclesiastica          pred=Procuratio
+    Act 130 (TOXOTIS   ): gold=Procedural acta                  pred=Mutuum
+    Act 203 (TOXOTIS   ): gold=Transactio                       pred=Procuratio
+    Act 181 (TOXOTIS   ): gold=Procuratio                       pred=Locatio conductio rei
+    Act   9 (VARAGAS   ): gold=Locatio conductio rei            pred=Societas
+    Act  51 (VARAGAS   ): gold=Locatio conductio rei            pred=Emphyteusis
+    Act  19 (VARAGAS   ): gold=Instrumentum obligationis        pred=Mutuum
+
+  GPT-5.2 Chat: 28/40 correct (70.0%), 12 wrong, 0 errors
+    Act 113 (SPYRIS    ): gold=Mutuum                           pred=Praevenditio
+    Act 156 (TOXOTIS   ): gold=Procedural acta                  pred=Procuratio
+    Act 179 (TOXOTIS   ): gold=Procedural acta                  pred=Praevenditio
+    Act 218 (TOXOTIS   ): gold=Procedural acta                  pred=Quietantia
+    Act 170 (TOXOTIS   ): gold=Procuratio                       pred=Quietantia
+    Act 137 (TOXOTIS   ): gold=Concessio ecclesiastica          pred=Procuratio
+    Act 130 (TOXOTIS   ): gold=Procedural acta                  pred=Mutuum
+    Act 203 (TOXOTIS   ): gold=Transactio                       pred=Procuratio
+    Act 181 (TOXOTIS   ): gold=Procuratio                       pred=Locatio conductio rei
+    Act   9 (VARAGAS   ): gold=Locatio conductio rei            pred=Contractus agrarius mixtus
+    Act  51 (VARAGAS   ): gold=Locatio conductio rei            pred=Emphyteusis
+    Act  85 (VARAGAS   ): gold=Procedural acta                  pred=Donatio
+
+  Llama 3.3 70B: 23/40 correct (57.5%), 16 wrong, 1 errors
+    Act  26 (ALEXAKIS  ): gold=Emphyteusis                      pred=Locatio conductio rei
+    Act   6 (ALEXAKIS  ): gold=Concessio ecclesiastica          pred=Locatio conductio rei
+    Act  85 (ALEXAKIS  ): gold=Emphyteusis                      pred=Donatio
+    Act  99 (FARMAKIS  ): gold=Instrumentum obligationis        pred=Mutuum
+    Act 131 (FARMAKIS  ): gold=Contractus agrarius mixtus       pred=Locatio conductio rei
+    Act 115 (FARMAKIS  ): gold=Praevenditio                     pred=Locatio conductio rei
+    Act 333 (SPYRIS    ): gold=Procedural acta                  pred=Transactio
+    Act 156 (TOXOTIS   ): gold=Procedural acta                  pred=Procuratio
+    Act 179 (TOXOTIS   ): gold=Procedural acta                  pred=Venditio
+    Act 218 (TOXOTIS   ): gold=Procedural acta                  pred=Quietantia
+    Act 170 (TOXOTIS   ): gold=Procuratio                       pred=Quietantia
+    Act 137 (TOXOTIS   ): gold=Concessio ecclesiastica          pred=Procuratio
+    Act 130 (TOXOTIS   ): gold=Procedural acta                  pred=Mutuum
+    Act 181 (TOXOTIS   ): gold=Procuratio                       pred=Locatio conductio rei
+    Act  85 (VARAGAS   ): gold=Procedural acta                  pred=Donatio
+    Act  19 (VARAGAS   ): gold=Instrumentum obligationis        pred=Mutuum
+
+  Llama 3.1 8B: 9/40 correct (22.5%), 31 wrong, 0 errors
+    Act  24 (ALEXAKIS  ): gold=Procedural acta                  pred=Mutuum
+    Act  66 (ALEXAKIS  ): gold=Emphyteusis                      pred=Donatio
+    Act  26 (ALEXAKIS  ): gold=Emphyteusis                      pred=Locatio conductio rei
+    Act  34 (ALEXAKIS  ): gold=Emphyteusis                      pred=Locatio conductio rei
+    Act  85 (ALEXAKIS  ): gold=Emphyteusis                      pred=Donatio
+    Act  99 (FARMAKIS  ): gold=Instrumentum obligationis        pred=Mutuum
+    Act 131 (FARMAKIS  ): gold=Contractus agrarius mixtus       pred=Locatio conductio rei
+    Act 109 (FARMAKIS  ): gold=Procuratio                       pred=Emphyteusis
+    Act 115 (FARMAKIS  ): gold=Praevenditio                     pred=Locatio conductio rei
+    Act 107 (FARMAKIS  ): gold=Quietantia                       pred=Donatio
+    Act 160 (SPYRIS    ): gold=Praevenditio                     pred=Locatio conductio rei
+    Act 230 (SPYRIS    ): gold=Divisio / Partitio               pred=Permutatio
+    Act 255 (SPYRIS    ): gold=Praevenditio                     pred=Venditio
+    Act 162 (SPYRIS    ): gold=Praevenditio                     pred=Mutuum
+    Act 333 (SPYRIS    ): gold=Procedural acta                  pred=Procuratio
+    Act 323 (SPYRIS    ): gold=Concessio ecclesiastica          pred=Beneficium
+    Act 313 (SPYRIS    ): gold=Societas                         pred=Locatio conductio rei
+    Act 156 (TOXOTIS   ): gold=Procedural acta                  pred=Procuratio
+    Act 179 (TOXOTIS   ): gold=Procedural acta                  pred=Venditio
+    Act 218 (TOXOTIS   ): gold=Procedural acta                  pred=Mutuum
+    Act 170 (TOXOTIS   ): gold=Procuratio                       pred=Locatio conductio rei
+    Act 137 (TOXOTIS   ): gold=Concessio ecclesiastica          pred=Procuratio
+    Act 130 (TOXOTIS   ): gold=Procedural acta                  pred=Mutuum
+    Act 203 (TOXOTIS   ): gold=Transactio                       pred=Locatio conductio rei
+    Act 181 (TOXOTIS   ): gold=Procuratio                       pred=Locatio conductio rei
+    Act   9 (VARAGAS   ): gold=Locatio conductio rei            pred=Donatio
+    Act  89 (VARAGAS   ): gold=Testamentum                      pred=Donatio
+    Act  51 (VARAGAS   ): gold=Locatio conductio rei            pred=Emphyteusis
+    Act  85 (VARAGAS   ): gold=Procedural acta                  pred=Donatio
+    Act  19 (VARAGAS   ): gold=Instrumentum obligationis        pred=Donatio
+    Act  39 (VARAGAS   ): gold=Quietantia                       pred=Donatio
+
+  Llama 4 Maverick: 24/40 correct (60.0%), 16 wrong, 0 errors
+    Act  24 (ALEXAKIS  ): gold=Procedural acta                  pred=Transactio
+    Act   6 (ALEXAKIS  ): gold=Concessio ecclesiastica          pred=Locatio conductio rei
+    Act 131 (FARMAKIS  ): gold=Contractus agrarius mixtus       pred=Locatio conductio rei
+    Act 115 (FARMAKIS  ): gold=Praevenditio                     pred=Mutuum
+    Act 323 (SPYRIS    ): gold=Concessio ecclesiastica          pred=Donatio
+    Act 313 (SPYRIS    ): gold=Societas                         pred=Locatio conductio rei
+    Act 113 (SPYRIS    ): gold=Mutuum                           pred=Praevenditio
+    Act 156 (TOXOTIS   ): gold=Procedural acta                  pred=Procuratio
+    Act 179 (TOXOTIS   ): gold=Procedural acta                  pred=Venditio
+    Act 218 (TOXOTIS   ): gold=Procedural acta                  pred=Quietantia
+    Act 170 (TOXOTIS   ): gold=Procuratio                       pred=Quietantia
+    Act 137 (TOXOTIS   ): gold=Concessio ecclesiastica          pred=Procuratio
+    Act 130 (TOXOTIS   ): gold=Procedural acta                  pred=Mutuum
+    Act 203 (TOXOTIS   ): gold=Transactio                       pred=Locatio conductio operis
+    Act 181 (TOXOTIS   ): gold=Procuratio                       pred=Praevenditio
+    Act  51 (VARAGAS   ): gold=Locatio conductio rei            pred=Emphyteusis
+
+  DeepSeek V3: 22/40 correct (55.0%), 18 wrong, 0 errors
+    Act  85 (ALEXAKIS  ): gold=Emphyteusis                      pred=Donatio
+    Act  99 (FARMAKIS  ): gold=Instrumentum obligationis        pred=Mutuum
+    Act 131 (FARMAKIS  ): gold=Contractus agrarius mixtus       pred=Emphyteusis
+    Act 115 (FARMAKIS  ): gold=Praevenditio                     pred=Locatio conductio rei
+    Act 160 (SPYRIS    ): gold=Praevenditio                     pred=Mutuum
+    Act 333 (SPYRIS    ): gold=Procedural acta                  pred=Transactio
+    Act 113 (SPYRIS    ): gold=Mutuum                           pred=Praevenditio
+    Act 156 (TOXOTIS   ): gold=Procedural acta                  pred=Procuratio
+    Act 179 (TOXOTIS   ): gold=Procedural acta                  pred=Praevenditio
+    Act 218 (TOXOTIS   ): gold=Procedural acta                  pred=Quietantia
+    Act 170 (TOXOTIS   ): gold=Procuratio                       pred=Quietantia
+    Act 137 (TOXOTIS   ): gold=Concessio ecclesiastica          pred=Procuratio
+    Act 130 (TOXOTIS   ): gold=Procedural acta                  pred=Mutuum
+    Act 203 (TOXOTIS   ): gold=Transactio                       pred=Locatio conductio operis
+    Act 181 (TOXOTIS   ): gold=Procuratio                       pred=Locatio conductio rei
+    Act  51 (VARAGAS   ): gold=Locatio conductio rei            pred=Emphyteusis
+    Act  85 (VARAGAS   ): gold=Procedural acta                  pred=Donatio
+    Act  19 (VARAGAS   ): gold=Instrumentum obligationis        pred=Mutuum
+
+  DeepSeek R1: 24/40 correct (60.0%), 16 wrong, 0 errors
+    Act  26 (ALEXAKIS  ): gold=Emphyteusis                      pred=Locatio conductio rei
+    Act   6 (ALEXAKIS  ): gold=Concessio ecclesiastica          pred=Locatio conductio rei
+    Act  99 (FARMAKIS  ): gold=Instrumentum obligationis        pred=Mutuum
+    Act 131 (FARMAKIS  ): gold=Contractus agrarius mixtus       pred=Societas
+    Act 115 (FARMAKIS  ): gold=Praevenditio                     pred=Locatio conductio rei
+    Act 113 (SPYRIS    ): gold=Mutuum                           pred=Praevenditio
+    Act 156 (TOXOTIS   ): gold=Procedural acta                  pred=Procuratio
+    Act 179 (TOXOTIS   ): gold=Procedural acta                  pred=Praevenditio
+    Act 218 (TOXOTIS   ): gold=Procedural acta                  pred=Quietantia
+    Act 170 (TOXOTIS   ): gold=Procuratio                       pred=Quietantia
+    Act 137 (TOXOTIS   ): gold=Concessio ecclesiastica          pred=Procuratio
+    Act 130 (TOXOTIS   ): gold=Procedural acta                  pred=Mutuum
+    Act 203 (TOXOTIS   ): gold=Transactio                       pred=Locatio conductio rei
+    Act 181 (TOXOTIS   ): gold=Procuratio                       pred=Locatio conductio rei
+    Act  51 (VARAGAS   ): gold=Locatio conductio rei            pred=Emphyteusis
+    Act  19 (VARAGAS   ): gold=Instrumentum obligationis        pred=Mutuum
+
+  Qwen 2.5 72B: 18/40 correct (45.0%), 22 wrong, 0 errors
+    Act  24 (ALEXAKIS  ): gold=Procedural acta                  pred=Confessio
+    Act  85 (ALEXAKIS  ): gold=Emphyteusis                      pred=Donatio
+    Act  99 (FARMAKIS  ): gold=Instrumentum obligationis        pred=Mutuum
+    Act 131 (FARMAKIS  ): gold=Contractus agrarius mixtus       pred=Societas
+    Act 115 (FARMAKIS  ): gold=Praevenditio                     pred=Locatio conductio operis
+    Act 107 (FARMAKIS  ): gold=Quietantia                       pred=Mutuum
+    Act 160 (SPYRIS    ): gold=Praevenditio                     pred=Mutuum
+    Act 255 (SPYRIS    ): gold=Praevenditio                     pred=Mutuum
+    Act 162 (SPYRIS    ): gold=Praevenditio                     pred=Mutuum
+    Act 333 (SPYRIS    ): gold=Procedural acta                  pred=Transactio
+    Act 156 (TOXOTIS   ): gold=Procedural acta                  pred=Procuratio
+    Act 179 (TOXOTIS   ): gold=Procedural acta                  pred=Venditio
+    Act 218 (TOXOTIS   ): gold=Procedural acta                  pred=Transactio
+    Act 170 (TOXOTIS   ): gold=Procuratio                       pred=Quietantia
+    Act 137 (TOXOTIS   ): gold=Concessio ecclesiastica          pred=Procuratio
+    Act 130 (TOXOTIS   ): gold=Procedural acta                  pred=Mutuum
+    Act 203 (TOXOTIS   ): gold=Transactio                       pred=Locatio conductio operis
+    Act 181 (TOXOTIS   ): gold=Procuratio                       pred=Locatio conductio rei
+    Act  51 (VARAGAS   ): gold=Locatio conductio rei            pred=Emphyteusis
+    Act  85 (VARAGAS   ): gold=Procedural acta                  pred=Transactio
+    Act  19 (VARAGAS   ): gold=Instrumentum obligationis        pred=Mutuum
+    Act  39 (VARAGAS   ): gold=Quietantia                       pred=Donatio
+
+  Gemini 2.5 Flash: 25/40 correct (62.5%), 15 wrong, 0 errors
+    Act 104 (ALEXAKIS  ): gold=Donatio                          pred=Venditio
+    Act   6 (ALEXAKIS  ): gold=Concessio ecclesiastica          pred=Locatio conductio rei
+    Act 131 (FARMAKIS  ): gold=Contractus agrarius mixtus       pred=Societas
+    Act 313 (SPYRIS    ): gold=Societas                         pred=Locatio conductio operis
+    Act 113 (SPYRIS    ): gold=Mutuum                           pred=Praevenditio
+    Act 156 (TOXOTIS   ): gold=Procedural acta                  pred=Procuratio
+    Act 179 (TOXOTIS   ): gold=Procedural acta                  pred=Praevenditio
+    Act 218 (TOXOTIS   ): gold=Procedural acta                  pred=Quietantia
+    Act 170 (TOXOTIS   ): gold=Procuratio                       pred=Quietantia
+    Act 137 (TOXOTIS   ): gold=Concessio ecclesiastica          pred=Procuratio
+    Act 130 (TOXOTIS   ): gold=Procedural acta                  pred=Mutuum
+    Act 203 (TOXOTIS   ): gold=Transactio                       pred=Locatio conductio operis
+    Act 181 (TOXOTIS   ): gold=Procuratio                       pred=Locatio conductio rei
+    Act  51 (VARAGAS   ): gold=Locatio conductio rei            pred=Emphyteusis
+    Act  85 (VARAGAS   ): gold=Procedural acta                  pred=Donatio
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ NESY ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Claude 3.7 Sonnet: 28/40 correct (70.0%), 12 wrong, 0 errors
+    Act 131 (FARMAKIS  ): gold=Contractus agrarius mixtus       pred=Societas agricola
+    Act 230 (SPYRIS    ): gold=Divisio / Partitio               pred=Procedural acta
+    Act 113 (SPYRIS    ): gold=Mutuum                           pred=Praevenditio
+    Act 156 (TOXOTIS   ): gold=Procedural acta                  pred=Procuratio
+    Act 179 (TOXOTIS   ): gold=Procedural acta                  pred=Praevenditio
+    Act 218 (TOXOTIS   ): gold=Procedural acta                  pred=Quietantia
+    Act 170 (TOXOTIS   ): gold=Procuratio                       pred=Quietantia
+    Act 137 (TOXOTIS   ): gold=Concessio ecclesiastica          pred=Procuratio
+    Act 130 (TOXOTIS   ): gold=Procedural acta                  pred=Mutuum
+    Act 203 (TOXOTIS   ): gold=Transactio                       pred=Procuratio
+    Act 181 (TOXOTIS   ): gold=Procuratio                       pred=Locatio conductio rei
+    Act  51 (VARAGAS   ): gold=Locatio conductio rei            pred=Emphyteusis
+
+  Claude Sonnet 4: 28/40 correct (70.0%), 12 wrong, 0 errors
+    Act   6 (ALEXAKIS  ): gold=Concessio ecclesiastica          pred=Locatio conductio rei
+    Act 131 (FARMAKIS  ): gold=Contractus agrarius mixtus       pred=Locatio conductio rei
+    Act 113 (SPYRIS    ): gold=Mutuum                           pred=Praevenditio
+    Act 156 (TOXOTIS   ): gold=Procedural acta                  pred=Procuratio
+    Act 179 (TOXOTIS   ): gold=Procedural acta                  pred=Praevenditio
+    Act 170 (TOXOTIS   ): gold=Procuratio                       pred=Quietantia
+    Act 137 (TOXOTIS   ): gold=Concessio ecclesiastica          pred=Procuratio
+    Act 130 (TOXOTIS   ): gold=Procedural acta                  pred=Mutuum
+    Act 203 (TOXOTIS   ): gold=Transactio                       pred=Procuratio
+    Act 181 (TOXOTIS   ): gold=Procuratio                       pred=Locatio conductio rei
+    Act   9 (VARAGAS   ): gold=Locatio conductio rei            pred=Procedural acta
+    Act  51 (VARAGAS   ): gold=Locatio conductio rei            pred=Emphyteusis
+
+  Claude Opus 4: 27/40 correct (67.5%), 13 wrong, 0 errors
+    Act   6 (ALEXAKIS  ): gold=Concessio ecclesiastica          pred=Procedural acta
+    Act 131 (FARMAKIS  ): gold=Contractus agrarius mixtus       pred=Procedural acta
+    Act 230 (SPYRIS    ): gold=Divisio / Partitio               pred=Procedural acta
+    Act 113 (SPYRIS    ): gold=Mutuum                           pred=Praevenditio
+    Act 156 (TOXOTIS   ): gold=Procedural acta                  pred=Procuratio
+    Act 179 (TOXOTIS   ): gold=Procedural acta                  pred=Praevenditio
+    Act 218 (TOXOTIS   ): gold=Procedural acta                  pred=Quietantia
+    Act 170 (TOXOTIS   ): gold=Procuratio                       pred=Quietantia
+    Act 137 (TOXOTIS   ): gold=Concessio ecclesiastica          pred=Procuratio
+    Act 130 (TOXOTIS   ): gold=Procedural acta                  pred=Mutuum
+    Act 203 (TOXOTIS   ): gold=Transactio                       pred=Procuratio
+    Act 181 (TOXOTIS   ): gold=Procuratio                       pred=Locatio conductio rei
+    Act   9 (VARAGAS   ): gold=Locatio conductio rei            pred=Societas
+
+  GPT-4o: 29/40 correct (72.5%), 11 wrong, 0 errors
+    Act  99 (FARMAKIS  ): gold=Instrumentum obligationis        pred=Mutuum
+    Act 131 (FARMAKIS  ): gold=Contractus agrarius mixtus       pred=Locatio conductio rei
+    Act 156 (TOXOTIS   ): gold=Procedural acta                  pred=Procuratio
+    Act 179 (TOXOTIS   ): gold=Procedural acta                  pred=Praevenditio
+    Act 218 (TOXOTIS   ): gold=Procedural acta                  pred=Quietantia
+    Act 170 (TOXOTIS   ): gold=Procuratio                       pred=Quietantia
+    Act 137 (TOXOTIS   ): gold=Concessio ecclesiastica          pred=Procuratio
+    Act 130 (TOXOTIS   ): gold=Procedural acta                  pred=Mutuum
+    Act 203 (TOXOTIS   ): gold=Transactio                       pred=Mutuum
+    Act 181 (TOXOTIS   ): gold=Procuratio                       pred=Locatio conductio rei
+    Act  51 (VARAGAS   ): gold=Locatio conductio rei            pred=Emphyteusis
+
+  GPT-5.2 Chat: 29/40 correct (72.5%), 11 wrong, 0 errors
+    Act   6 (ALEXAKIS  ): gold=Concessio ecclesiastica          pred=Locatio conductio rei
+    Act 131 (FARMAKIS  ): gold=Contractus agrarius mixtus       pred=Locatio conductio rei
+    Act 156 (TOXOTIS   ): gold=Procedural acta                  pred=Procuratio
+    Act 179 (TOXOTIS   ): gold=Procedural acta                  pred=Praevenditio
+    Act 218 (TOXOTIS   ): gold=Procedural acta                  pred=Transactio
+    Act 170 (TOXOTIS   ): gold=Procuratio                       pred=Quietantia
+    Act 137 (TOXOTIS   ): gold=Concessio ecclesiastica          pred=Procuratio
+    Act 130 (TOXOTIS   ): gold=Procedural acta                  pred=Mutuum
+    Act 203 (TOXOTIS   ): gold=Transactio                       pred=Procuratio
+    Act 181 (TOXOTIS   ): gold=Procuratio                       pred=Locatio conductio rei
+    Act  51 (VARAGAS   ): gold=Locatio conductio rei            pred=Emphyteusis
+
+  Llama 3.3 70B: 25/40 correct (62.5%), 15 wrong, 0 errors
+    Act   6 (ALEXAKIS  ): gold=Concessio ecclesiastica          pred=Locatio conductio rei
+    Act  85 (ALEXAKIS  ): gold=Emphyteusis                      pred=Venditio
+    Act  99 (FARMAKIS  ): gold=Instrumentum obligationis        pred=Mutuum
+    Act 131 (FARMAKIS  ): gold=Contractus agrarius mixtus       pred=Locatio conductio rei
+    Act 156 (TOXOTIS   ): gold=Procedural acta                  pred=Procuratio
+    Act 179 (TOXOTIS   ): gold=Procedural acta                  pred=Venditio
+    Act 218 (TOXOTIS   ): gold=Procedural acta                  pred=Instrumentum obligationis
+    Act 170 (TOXOTIS   ): gold=Procuratio                       pred=Quietantia
+    Act 137 (TOXOTIS   ): gold=Concessio ecclesiastica          pred=Procuratio
+    Act 130 (TOXOTIS   ): gold=Procedural acta                  pred=Mutuum
+    Act 203 (TOXOTIS   ): gold=Transactio                       pred=Locatio conductio rei
+    Act 181 (TOXOTIS   ): gold=Procuratio                       pred=Locatio conductio rei
+    Act  51 (VARAGAS   ): gold=Locatio conductio rei            pred=Emphyteusis
+    Act  85 (VARAGAS   ): gold=Procedural acta                  pred=Transactio
+    Act  19 (VARAGAS   ): gold=Instrumentum obligationis        pred=Mutuum
+
+  Llama 3.1 8B: 26/40 correct (65.0%), 14 wrong, 0 errors
+    Act  85 (ALEXAKIS  ): gold=Emphyteusis                      pred=Donatio
+    Act  99 (FARMAKIS  ): gold=Instrumentum obligationis        pred=Mutuum
+    Act 131 (FARMAKIS  ): gold=Contractus agrarius mixtus       pred=Locatio conductio rei
+    Act 156 (TOXOTIS   ): gold=Procedural acta                  pred=Procuratio
+    Act 179 (TOXOTIS   ): gold=Procedural acta                  pred=Venditio
+    Act 218 (TOXOTIS   ): gold=Procedural acta                  pred=Instrumentum obligationis
+    Act 170 (TOXOTIS   ): gold=Procuratio                       pred=Quietantia
+    Act 137 (TOXOTIS   ): gold=Concessio ecclesiastica          pred=Procuratio
+    Act 130 (TOXOTIS   ): gold=Procedural acta                  pred=Mutuum
+    Act 203 (TOXOTIS   ): gold=Transactio                       pred=Mutuum
+    Act 181 (TOXOTIS   ): gold=Procuratio                       pred=Locatio conductio rei
+    Act  51 (VARAGAS   ): gold=Locatio conductio rei            pred=Emphyteusis
+    Act  85 (VARAGAS   ): gold=Procedural acta                  pred=Donatio
+    Act  39 (VARAGAS   ): gold=Quietantia                       pred=Donatio
+
+  Llama 4 Maverick: 29/40 correct (72.5%), 11 wrong, 0 errors
+    Act   6 (ALEXAKIS  ): gold=Concessio ecclesiastica          pred=Emphyteusis
+    Act 131 (FARMAKIS  ): gold=Contractus agrarius mixtus       pred=Locatio conductio rei
+    Act 156 (TOXOTIS   ): gold=Procedural acta                  pred=Procuratio
+    Act 179 (TOXOTIS   ): gold=Procedural acta                  pred=Venditio
+    Act 218 (TOXOTIS   ): gold=Procedural acta                  pred=Transactio
+    Act 170 (TOXOTIS   ): gold=Procuratio                       pred=Quietantia
+    Act 137 (TOXOTIS   ): gold=Concessio ecclesiastica          pred=Procuratio
+    Act 130 (TOXOTIS   ): gold=Procedural acta                  pred=Mutuum
+    Act 203 (TOXOTIS   ): gold=Transactio                       pred=Mutuum
+    Act 181 (TOXOTIS   ): gold=Procuratio                       pred=Praevenditio
+    Act  51 (VARAGAS   ): gold=Locatio conductio rei            pred=Emphyteusis
+
+  DeepSeek V3: 27/40 correct (67.5%), 13 wrong, 0 errors
+    Act   6 (ALEXAKIS  ): gold=Concessio ecclesiastica          pred=Locatio conductio rei
+    Act  85 (ALEXAKIS  ): gold=Emphyteusis                      pred=Donatio
+    Act  99 (FARMAKIS  ): gold=Instrumentum obligationis        pred=Mutuum
+    Act 131 (FARMAKIS  ): gold=Contractus agrarius mixtus       pred=Locatio conductio rei
+    Act 156 (TOXOTIS   ): gold=Procedural acta                  pred=Procuratio
+    Act 179 (TOXOTIS   ): gold=Procedural acta                  pred=Venditio
+    Act 218 (TOXOTIS   ): gold=Procedural acta                  pred=Quietantia
+    Act 170 (TOXOTIS   ): gold=Procuratio                       pred=Quietantia
+    Act 137 (TOXOTIS   ): gold=Concessio ecclesiastica          pred=Procuratio
+    Act 130 (TOXOTIS   ): gold=Procedural acta                  pred=Mutuum
+    Act 203 (TOXOTIS   ): gold=Transactio                       pred=Mutuum
+    Act 181 (TOXOTIS   ): gold=Procuratio                       pred=Locatio conductio rei
+    Act  51 (VARAGAS   ): gold=Locatio conductio rei            pred=Emphyteusis
+
+  DeepSeek R1: 24/40 correct (60.0%), 16 wrong, 0 errors
+    Act   6 (ALEXAKIS  ): gold=Concessio ecclesiastica          pred=Locatio conductio rei
+    Act  99 (FARMAKIS  ): gold=Instrumentum obligationis        pred=Mutuum
+    Act 131 (FARMAKIS  ): gold=Contractus agrarius mixtus       pred=Locatio conductio rei
+    Act 230 (SPYRIS    ): gold=Divisio / Partitio               pred=Procedural acta
+    Act 323 (SPYRIS    ): gold=Concessio ecclesiastica          pred=Emphyteusis
+    Act 156 (TOXOTIS   ): gold=Procedural acta                  pred=Procuratio
+    Act 179 (TOXOTIS   ): gold=Procedural acta                  pred=Venditio
+    Act 218 (TOXOTIS   ): gold=Procedural acta                  pred=Quietantia
+    Act 170 (TOXOTIS   ): gold=Procuratio                       pred=Quietantia
+    Act 137 (TOXOTIS   ): gold=Concessio ecclesiastica          pred=Procuratio
+    Act 130 (TOXOTIS   ): gold=Procedural acta                  pred=Mutuum
+    Act 203 (TOXOTIS   ): gold=Transactio                       pred=Mutuum
+    Act 181 (TOXOTIS   ): gold=Procuratio                       pred=Praevenditio
+    Act  51 (VARAGAS   ): gold=Locatio conductio rei            pred=Emphyteusis
+    Act  19 (VARAGAS   ): gold=Instrumentum obligationis        pred=Mutuum
+    Act  39 (VARAGAS   ): gold=Quietantia                       pred=Transactio
+
+  Qwen 2.5 72B: 27/40 correct (67.5%), 13 wrong, 0 errors
+    Act  99 (FARMAKIS  ): gold=Instrumentum obligationis        pred=Mutuum
+    Act 131 (FARMAKIS  ): gold=Contractus agrarius mixtus       pred=Societas agricola
+    Act 156 (TOXOTIS   ): gold=Procedural acta                  pred=Procuratio
+    Act 179 (TOXOTIS   ): gold=Procedural acta                  pred=Venditio
+    Act 218 (TOXOTIS   ): gold=Procedural acta                  pred=Instrumentum obligationis
+    Act 170 (TOXOTIS   ): gold=Procuratio                       pred=Quietantia
+    Act 137 (TOXOTIS   ): gold=Concessio ecclesiastica          pred=Procuratio
+    Act 130 (TOXOTIS   ): gold=Procedural acta                  pred=Mutuum
+    Act 203 (TOXOTIS   ): gold=Transactio                       pred=Mutuum
+    Act 181 (TOXOTIS   ): gold=Procuratio                       pred=Locatio conductio rei
+    Act  51 (VARAGAS   ): gold=Locatio conductio rei            pred=Emphyteusis
+    Act  85 (VARAGAS   ): gold=Procedural acta                  pred=Procuratio
+    Act  39 (VARAGAS   ): gold=Quietantia                       pred=Instrumentum obligationis
+
+  Gemini 2.5 Flash: 26/40 correct (65.0%), 14 wrong, 0 errors
+    Act 104 (ALEXAKIS  ): gold=Donatio                          pred=Venditio
+    Act   6 (ALEXAKIS  ): gold=Concessio ecclesiastica          pred=Locatio conductio rei
+    Act  99 (FARMAKIS  ): gold=Instrumentum obligationis        pred=Mutuum
+    Act 131 (FARMAKIS  ): gold=Contractus agrarius mixtus       pred=Societas
+    Act 230 (SPYRIS    ): gold=Divisio / Partitio               pred=Procedural acta
+    Act 323 (SPYRIS    ): gold=Concessio ecclesiastica          pred=Procedural acta
+    Act 156 (TOXOTIS   ): gold=Procedural acta                  pred=Procuratio
+    Act 179 (TOXOTIS   ): gold=Procedural acta                  pred=Praevenditio
+    Act 170 (TOXOTIS   ): gold=Procuratio                       pred=Quietantia
+    Act 137 (TOXOTIS   ): gold=Concessio ecclesiastica          pred=Procuratio
+    Act 130 (TOXOTIS   ): gold=Procedural acta                  pred=Mutuum
+    Act 203 (TOXOTIS   ): gold=Transactio                       pred=Procedural acta
+    Act 181 (TOXOTIS   ): gold=Procuratio                       pred=Locatio conductio rei
+    Act  51 (VARAGAS   ): gold=Locatio conductio rei            pred=Emphyteusis
+
+
+==================================================================================================================================
+SECTION B: CONFUSION PATTERNS (NeSy strategy, aggregated across all 12 models)
+==================================================================================================================================
+
+  Gold                                Predicted as                               N
+  ─────────────────────────────────── ──────────────────────────────────────── ───
+  Procedural acta                     Procuratio                                13
+  Procuratio                          Quietantia                                12
+  Concessio ecclesiastica             Procuratio                                12
+  Procedural acta                     Mutuum                                    12
+  Locatio conductio rei               Emphyteusis                               11
+  Procuratio                          Locatio conductio rei                     10
+  Instrumentum obligationis           Mutuum                                     9
+  Contractus agrarius mixtus          Locatio conductio rei                      8
+  Procedural acta                     Praevenditio                               6
+  Concessio ecclesiastica             Locatio conductio rei                      6
+  Transactio                          Mutuum                                     6
+  Procedural acta                     Venditio                                   6
+  Procedural acta                     Quietantia                                 5
+  Divisio / Partitio                  Procedural acta                            4
+  Transactio                          Procuratio                                 4
+  Mutuum                              Praevenditio                               3
+  Procedural acta                     Transactio                                 3
+  Procedural acta                     Instrumentum obligationis                  3
+  Contractus agrarius mixtus          Societas agricola                          2
+  Concessio ecclesiastica             Procedural acta                            2
+  Emphyteusis                         Donatio                                    2
+  Concessio ecclesiastica             Emphyteusis                                2
+  Procuratio                          Praevenditio                               2
+  Locatio conductio rei               Procedural acta                            1
+  Contractus agrarius mixtus          Procedural acta                            1
+  Locatio conductio rei               Societas                                   1
+  Emphyteusis                         Venditio                                   1
+  Transactio                          Locatio conductio rei                      1
+  Procedural acta                     Donatio                                    1
+  Quietantia                          Donatio                                    1
+  Quietantia                          Transactio                                 1
+  Quietantia                          Instrumentum obligationis                  1
+  Donatio                             Venditio                                   1
+  Contractus agrarius mixtus          Societas                                   1
+  Transactio                          Procedural acta                            1
+
+
+==================================================================================================================================
+SECTION C: CONFUSION PATTERNS (ALL strategies, aggregated across all 12 models)
+==================================================================================================================================
+
+  Gold                                Predicted as                                N
+  ─────────────────────────────────── ──────────────────────────────────────── ────
+  Procedural acta                     Procuratio                                 47
+  Locatio conductio rei               Emphyteusis                                47
+  Concessio ecclesiastica             Procuratio                                 46
+  Procedural acta                     Mutuum                                     46
+  Procuratio                          Quietantia                                 44
+  Procuratio                          Locatio conductio rei                      42
+  Procedural acta                     Transactio                                 35
+  Procedural acta                     Quietantia                                 34
+  Instrumentum obligationis           Mutuum                                     34
+  Procedural acta                     Venditio                                   27
+  Mutuum                              Praevenditio                               26
+  Praevenditio                        Locatio conductio rei                      25
+  Contractus agrarius mixtus          Societas                                   22
+  Concessio ecclesiastica             Locatio conductio rei                      21
+  Procedural acta                     Praevenditio                               20
+  Praevenditio                        Mutuum                                     17
+  Procedural acta                     Donatio                                    16
+  Transactio                          Locatio conductio operis                   16
+  Emphyteusis                         Donatio                                    16
+  Contractus agrarius mixtus          Locatio conductio rei                      14
+  Transactio                          Procuratio                                 13
+  Societas                            Locatio conductio rei                      11
+  Emphyteusis                         Locatio conductio rei                      11
+  Procedural acta                     Instrumentum obligationis                   9
+  Societas                            Locatio conductio operis                    6
+  Transactio                          Mutuum                                      6
+  Procedural acta                     Divisio / Partitio                          6
+  Quietantia                          Donatio                                     6
+  Contractus agrarius mixtus          Emphyteusis                                 5
+  Procuratio                          Praevenditio                                5
+  Transactio                          Societas                                    4
+  Divisio / Partitio                  Procedural acta                             4
+  Locatio conductio rei               Locatio conductio operis                    4
+  Concessio ecclesiastica             Emphyteusis                                 4
+  Transactio                          Locatio conductio rei                       4
+  Donatio                             Venditio                                    4
+  Instrumentum obligationis           Quietantia                                  3
+  Instrumentum obligationis           Transactio                                  3
+  Locatio conductio rei               Societas                                    3
+  Emphyteusis                         Venditio                                    3
+  Instrumentum obligationis           Donatio                                     3
+  Procuratio                          Instrumentum obligationis                   3
+  Quietantia                          Instrumentum obligationis                   3
+  Quietantia                          Mutuum                                      3
+  Contractus agrarius mixtus          Societas agricola                           2
+  Locatio conductio rei               Contractus agrarius mixtus                  2
+  Concessio ecclesiastica             Procedural acta                             2
+  Emphyteusis                         Divisio / Partitio                          2
+  Contractus agrarius mixtus          Divisio / Partitio                          2
+  Testamentum                         Divisio / Partitio                          2
+  Praevenditio                        Donatio                                     2
+  Procuratio                          Emphyteusis                                 2
+  Procedural acta                     Mutuum (Loan)                               2
+  Transactio                          Instrumentum obligationis                   2
+  Donatio                             Permutatio                                  1
+  Locatio conductio rei               Procedural acta                             1
+  Contractus agrarius mixtus          Procedural acta                             1
+  Procuratio                          Locatio conductio rei (Lease)               1
+  Instrumentum obligationis           Locatio conductio rei                       1
+  Venditio                            Divisio / Partitio                          1
+  Procuratio                          Donatio                                     1
+  Praevenditio                        Emphyteusis                                 1
+  Concessio ecclesiastica             Donatio (Donation)                          1
+  Mutuum                              Locatio conductio rei                       1
+  Concessio ecclesiastica             Instrumentum obligationis                   1
+  Transactio                          Divisio / Partitio                          1
+  Instrumentum obligationis           Emphyteusis                                 1
+  Emphyteusis                         Instrumentum obligationis                   1
+  Venditio                            Instrumentum obligationis                   1
+  Permutatio                          Divisio / Partitio                          1
+  Mutuum                              Instrumentum obligationis                   1
+  Testamentum                         Instrumentum obligationis                   1
+  Divisio / Partitio                  Permutatio                                  1
+  Praevenditio                        Venditio                                    1
+  Concessio ecclesiastica             Beneficium                                  1
+  Locatio conductio rei               Donatio                                     1
+  Testamentum                         Donatio                                     1
+  Emphyteusis                         Societas                                    1
+  Concessio ecclesiastica             Donatio                                     1
+  Procedural acta                     Permutatio                                  1
+  Concessio ecclesiastica             Locatio conductio operis                    1
+  Procuratio                          Transactio (Settlement)                     1
+  Praevenditio                        Mutuum (Loan)                               1
+  Procuratio                          Locatio conductio operis                    1
+  Contractus agrarius mixtus          Locatio conductio rei (Lease)               1
+  Praevenditio                        Locatio conductio rei (Lease)               1
+  Procedural acta                     Procuratio (Power of attorney)              1
+  Concessio ecclesiastica             Procuratio (Power of attorney)              1
+  Instrumentum obligationis           Mutuum (Loan)                               1
+  Quietantia                          Transactio                                  1
+  Praevenditio                        Societas                                    1
+  Instrumentum obligationis           Praevenditio                                1
+  Quietantia                          Procedural acta                             1
+  Procedural acta                     Confessio                                   1
+  Praevenditio                        Locatio conductio operis                    1
+  Transactio                          Procedural acta                             1
+
+
+==================================================================================================================================
+SECTION D: HARDEST ACTS (NeSy: how many of the 12 models got each act wrong)
+==================================================================================================================================
+
+  Act                  Gold                              OK  Bad  Err  Wrong predictions
+  ──────────────────── ──────────────────────────────── ─── ──── ────  ────────────────────────────────────────────────────────────
+  131 (FARMAKIS  )    Contractus agrarius mixtus         0   12    0  Cl.3.7Son:Societas agricola; Cl.Son4:Locatio conductio rei; Cl.Opus4:Procedural acta; GPT-4o:Locatio conductio rei; GPT-5.2:Locatio conductio rei; Ll.70B:Locatio conductio rei; Ll.8B:Locatio conductio rei; Ll.Mav:Locatio conductio rei (+4 more)
+  156 (TOXOTIS   )    Procedural acta                    0   12    0  Cl.3.7Son:Procuratio; Cl.Son4:Procuratio; Cl.Opus4:Procuratio; GPT-4o:Procuratio; GPT-5.2:Procuratio; Ll.70B:Procuratio; Ll.8B:Procuratio; Ll.Mav:Procuratio (+4 more)
+  179 (TOXOTIS   )    Procedural acta                    0   12    0  Cl.3.7Son:Praevenditio; Cl.Son4:Praevenditio; Cl.Opus4:Praevenditio; GPT-4o:Praevenditio; GPT-5.2:Praevenditio; Ll.70B:Venditio; Ll.8B:Venditio; Ll.Mav:Venditio (+4 more)
+  170 (TOXOTIS   )    Procuratio                         0   12    0  Cl.3.7Son:Quietantia; Cl.Son4:Quietantia; Cl.Opus4:Quietantia; GPT-4o:Quietantia; GPT-5.2:Quietantia; Ll.70B:Quietantia; Ll.8B:Quietantia; Ll.Mav:Quietantia (+4 more)
+  137 (TOXOTIS   )    Concessio ecclesiastica            0   12    0  Cl.3.7Son:Procuratio; Cl.Son4:Procuratio; Cl.Opus4:Procuratio; GPT-4o:Procuratio; GPT-5.2:Procuratio; Ll.70B:Procuratio; Ll.8B:Procuratio; Ll.Mav:Procuratio (+4 more)
+  130 (TOXOTIS   )    Procedural acta                    0   12    0  Cl.3.7Son:Mutuum; Cl.Son4:Mutuum; Cl.Opus4:Mutuum; GPT-4o:Mutuum; GPT-5.2:Mutuum; Ll.70B:Mutuum; Ll.8B:Mutuum; Ll.Mav:Mutuum (+4 more)
+  203 (TOXOTIS   )    Transactio                         0   12    0  Cl.3.7Son:Procuratio; Cl.Son4:Procuratio; Cl.Opus4:Procuratio; GPT-4o:Mutuum; GPT-5.2:Procuratio; Ll.70B:Locatio conductio rei; Ll.8B:Mutuum; Ll.Mav:Mutuum (+4 more)
+  181 (TOXOTIS   )    Procuratio                         0   12    0  Cl.3.7Son:Locatio conductio rei; Cl.Son4:Locatio conductio rei; Cl.Opus4:Locatio conductio rei; GPT-4o:Locatio conductio rei; GPT-5.2:Locatio conductio rei; Ll.70B:Locatio conductio rei; Ll.8B:Locatio conductio rei; Ll.Mav:Praevenditio (+4 more)
+   51 (VARAGAS   )    Locatio conductio rei              1   11    0  Cl.3.7Son:Emphyteusis; Cl.Son4:Emphyteusis; GPT-4o:Emphyteusis; GPT-5.2:Emphyteusis; Ll.70B:Emphyteusis; Ll.8B:Emphyteusis; Ll.Mav:Emphyteusis; DSv3:Emphyteusis (+3 more)
+  218 (TOXOTIS   )    Procedural acta                    2   10    0  Cl.3.7Son:Quietantia; Cl.Opus4:Quietantia; GPT-4o:Quietantia; GPT-5.2:Transactio; Ll.70B:Instrumentum obligationis; Ll.8B:Instrumentum obligationis; Ll.Mav:Transactio; DSv3:Quietantia (+2 more)
+    6 (ALEXAKIS  )    Concessio ecclesiastica            4    8    0  Cl.Son4:Locatio conductio rei; Cl.Opus4:Procedural acta; GPT-5.2:Locatio conductio rei; Ll.70B:Locatio conductio rei; Ll.Mav:Emphyteusis; DSv3:Locatio conductio rei; DSr1:Locatio conductio rei; Gem2.5:Locatio conductio rei
+   99 (FARMAKIS  )    Instrumentum obligationis          5    7    0  GPT-4o:Mutuum; Ll.70B:Mutuum; Ll.8B:Mutuum; DSv3:Mutuum; DSr1:Mutuum; Qwen72:Mutuum; Gem2.5:Mutuum
+  230 (SPYRIS    )    Divisio / Partitio                 8    4    0  Cl.3.7Son:Procedural acta; Cl.Opus4:Procedural acta; DSr1:Procedural acta; Gem2.5:Procedural acta
+   85 (ALEXAKIS  )    Emphyteusis                        9    3    0  Ll.70B:Venditio; Ll.8B:Donatio; DSv3:Donatio
+  113 (SPYRIS    )    Mutuum                             9    3    0  Cl.3.7Son:Praevenditio; Cl.Son4:Praevenditio; Cl.Opus4:Praevenditio
+   85 (VARAGAS   )    Procedural acta                    9    3    0  Ll.70B:Transactio; Ll.8B:Donatio; Qwen72:Procuratio
+   39 (VARAGAS   )    Quietantia                         9    3    0  Ll.8B:Donatio; DSr1:Transactio; Qwen72:Instrumentum obligationis
+  323 (SPYRIS    )    Concessio ecclesiastica           10    2    0  DSr1:Emphyteusis; Gem2.5:Procedural acta
+    9 (VARAGAS   )    Locatio conductio rei             10    2    0  Cl.Son4:Procedural acta; Cl.Opus4:Societas
+   19 (VARAGAS   )    Instrumentum obligationis         10    2    0  Ll.70B:Mutuum; DSr1:Mutuum
+  104 (ALEXAKIS  )    Donatio                           11    1    0  Gem2.5:Venditio
+
+
+==================================================================================================================================
+SECTION E: HARDEST ACTS (ALL strategies x 12 models = 48 attempts per act)
+==================================================================================================================================
+
+  Act                  Gold                              OK  Bad  Err   %Wrong
+  ──────────────────── ──────────────────────────────── ─── ──── ────  ───────
+  156 (TOXOTIS   )    Procedural acta                    0   48    0   100.0%
+  170 (TOXOTIS   )    Procuratio                         0   48    0   100.0%
+  137 (TOXOTIS   )    Concessio ecclesiastica            0   48    0   100.0%
+  130 (TOXOTIS   )    Procedural acta                    0   48    0   100.0%
+  181 (TOXOTIS   )    Procuratio                         0   48    0   100.0%
+  131 (FARMAKIS  )    Contractus agrarius mixtus         1   47    0    97.9%
+  179 (TOXOTIS   )    Procedural acta                    0   47    1    97.9%
+  203 (TOXOTIS   )    Transactio                         0   47    1    97.9%
+  218 (TOXOTIS   )    Procedural acta                    2   46    0    95.8%
+   51 (VARAGAS   )    Locatio conductio rei              3   45    0    93.8%
+   99 (FARMAKIS  )    Instrumentum obligationis         18   29    1    60.4%
+  113 (SPYRIS    )    Mutuum                            20   28    0    58.3%
+   85 (VARAGAS   )    Procedural acta                   20   27    1    56.2%
+    6 (ALEXAKIS  )    Concessio ecclesiastica           24   24    0    50.0%
+  115 (FARMAKIS  )    Praevenditio                      23   24    1    50.0%
+   85 (ALEXAKIS  )    Emphyteusis                       30   18    0    37.5%
+   19 (VARAGAS   )    Instrumentum obligationis         30   18    0    37.5%
+  333 (SPYRIS    )    Procedural acta                   30   17    1    35.4%
+  313 (SPYRIS    )    Societas                          31   17    0    35.4%
+    9 (VARAGAS   )    Locatio conductio rei             35   13    0    27.1%
+   24 (ALEXAKIS  )    Procedural acta                   36   12    0    25.0%
+  160 (SPYRIS    )    Praevenditio                      39    9    0    18.8%
+  255 (SPYRIS    )    Praevenditio                      39    9    0    18.8%
+  162 (SPYRIS    )    Praevenditio                      40    8    0    16.7%
+   39 (VARAGAS   )    Quietantia                        40    8    0    16.7%
+  323 (SPYRIS    )    Concessio ecclesiastica           41    7    0    14.6%
+   66 (ALEXAKIS  )    Emphyteusis                       41    6    1    12.5%
+   26 (ALEXAKIS  )    Emphyteusis                       42    6    0    12.5%
+  107 (FARMAKIS  )    Quietantia                        42    6    0    12.5%
+  104 (ALEXAKIS  )    Donatio                           43    5    0    10.4%
+  230 (SPYRIS    )    Divisio / Partitio                43    5    0    10.4%
+   34 (ALEXAKIS  )    Emphyteusis                       44    4    0     8.3%
+  109 (FARMAKIS  )    Procuratio                        44    4    0     8.3%
+   89 (VARAGAS   )    Testamentum                       45    3    0     6.2%
+   27 (FARMAKIS  )    Venditio                          46    2    0     4.2%
+   71 (FARMAKIS  )    Testamentum                       47    1    0     2.1%
+  117 (FARMAKIS  )    Permutatio                        47    1    0     2.1%
+   74 (ALEXAKIS  )    Venditio                          48    0    0     0.0%
+    3 (VARAGAS   )    Permutatio                        48    0    0     0.0%
+   95 (VARAGAS   )    Testamentum                       48    0    0     0.0%

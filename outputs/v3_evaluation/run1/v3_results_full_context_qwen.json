@@ -1,0 +1,326 @@
+[
+  {
+    "core_layer": "Confessio",
+    "extension_layer": null,
+    "hybrid_tags": [],
+    "act_id": "24",
+    "corpus": "ALEXAKIS"
+  },
+  {
+    "core_layer": "Emphyteusis",
+    "extension_layer": "concessio cum canone",
+    "hybrid_tags": [],
+    "act_id": "66",
+    "corpus": "ALEXAKIS"
+  },
+  {
+    "core_layer": "Donatio",
+    "extension_layer": "donatio inter vivos",
+    "hybrid_tags": [],
+    "act_id": "104",
+    "corpus": "ALEXAKIS"
+  },
+  {
+    "core_layer": "Emphyteusis",
+    "extension_layer": "concessio cum canone",
+    "hybrid_tags": [
+      "agricultural credit"
+    ],
+    "act_id": "26",
+    "corpus": "ALEXAKIS"
+  },
+  {
+    "core_layer": "Venditio",
+    "extension_layer": "venditio rei immobilis",
+    "hybrid_tags": [],
+    "act_id": "74",
+    "corpus": "ALEXAKIS"
+  },
+  {
+    "core_layer": "Emphyteusis",
+    "extension_layer": "concessio cum canone",
+    "hybrid_tags": [
+      "agricultural credit"
+    ],
+    "act_id": "34",
+    "corpus": "ALEXAKIS"
+  },
+  {
+    "core_layer": "Concessio ecclesiastica",
+    "extension_layer": "concessio cum canone",
+    "hybrid_tags": [
+      "agricultural credit",
+      "settlement-like"
+    ],
+    "act_id": "6",
+    "corpus": "ALEXAKIS"
+  },
+  {
+    "core_layer": "Donatio",
+    "extension_layer": "donatio propter animam",
+    "hybrid_tags": [
+      "emphyteusis-like"
+    ],
+    "act_id": "85",
+    "corpus": "ALEXAKIS"
+  },
+  {
+    "core_layer": "Mutuum",
+    "extension_layer": "Mutuum cum pignore",
+    "hybrid_tags": [
+      "loan + pledge"
+    ],
+    "act_id": "99",
+    "corpus": "FARMAKIS"
+  },
+  {
+    "core_layer": "Societas",
+    "extension_layer": "societas agricola",
+    "hybrid_tags": [],
+    "act_id": "131",
+    "corpus": "FARMAKIS"
+  },
+  {
+    "core_layer": "Venditio",
+    "extension_layer": "venditio rei immobilis",
+    "hybrid_tags": [],
+    "act_id": "27",
+    "corpus": "FARMAKIS"
+  },
+  {
+    "core_layer": "Testamentum",
+    "extension_layer": "null",
+    "hybrid_tags": [],
+    "act_id": "71",
+    "corpus": "FARMAKIS"
+  },
+  {
+    "core_layer": "Procuratio",
+    "extension_layer": null,
+    "hybrid_tags": [],
+    "act_id": "109",
+    "corpus": "FARMAKIS"
+  },
+  {
+    "core_layer": "Locatio conductio operis",
+    "extension_layer": "locatio agricola",
+    "hybrid_tags": [
+      "mutuum cum solutione in fructibus"
+    ],
+    "act_id": "115",
+    "corpus": "FARMAKIS"
+  },
+  {
+    "core_layer": "Mutuum",
+    "extension_layer": "null",
+    "hybrid_tags": [],
+    "act_id": "107",
+    "corpus": "FARMAKIS"
+  },
+  {
+    "core_layer": "Permutatio",
+    "extension_layer": null,
+    "hybrid_tags": [],
+    "act_id": "117",
+    "corpus": "FARMAKIS"
+  },
+  {
+    "core_layer": "Mutuum",
+    "extension_layer": "mutuum cum solutione in fructibus",
+    "hybrid_tags": [
+      "loan + pledge"
+    ],
+    "act_id": "160",
+    "corpus": "SPYRIS"
+  },
+  {
+    "core_layer": "Divisio / Partitio",
+    "extension_layer": null,
+    "hybrid_tags": [],
+    "act_id": "230",
+    "corpus": "SPYRIS"
+  },
+  {
+    "core_layer": "Mutuum",
+    "extension_layer": "mutuum cum solutione in fructibus",
+    "hybrid_tags": [
+      "loan + pledge"
+    ],
+    "act_id": "255",
+    "corpus": "SPYRIS"
+  },
+  {
+    "core_layer": "Mutuum",
+    "extension_layer": "mutuum cum solutione in fructibus",
+    "hybrid_tags": [
+      "loan + pledge"
+    ],
+    "act_id": "162",
+    "corpus": "SPYRIS"
+  },
+  {
+    "core_layer": "Transactio",
+    "extension_layer": "null",
+    "hybrid_tags": [
+      "settlement-like"
+    ],
+    "act_id": "333",
+    "corpus": "SPYRIS"
+  },
+  {
+    "core_layer": "Concessio ecclesiastica",
+    "extension_layer": "Concessio ecclesiastica",
+    "hybrid_tags": [
+      "loan + pledge",
+      "agricultural credit"
+    ],
+    "act_id": "323",
+    "corpus": "SPYRIS"
+  },
+  {
+    "core_layer": "Societas",
+    "extension_layer": "Societas agricola",
+    "hybrid_tags": [
+      "agricultural credit"
+    ],
+    "act_id": "313",
+    "corpus": "SPYRIS"
+  },
+  {
+    "core_layer": "Mutuum",
+    "extension_layer": "mutuum cum solutione in fructibus",
+    "hybrid_tags": [
+      "loan + pledge"
+    ],
+    "act_id": "113",
+    "corpus": "SPYRIS"
+  },
+  {
+    "core_layer": "Procuratio",
+    "extension_layer": null,
+    "hybrid_tags": [],
+    "act_id": "156",
+    "corpus": "TOXOTIS"
+  },
+  {
+    "core_layer": "Venditio",
+    "extension_layer": "venditio rei mobilis",
+    "hybrid_tags": [],
+    "act_id": "179",
+    "corpus": "TOXOTIS"
+  },
+  {
+    "core_layer": "Transactio",
+    "extension_layer": "null",
+    "hybrid_tags": [
+      "settlement-like"
+    ],
+    "act_id": "218",
+    "corpus": "TOXOTIS"
+  },
+  {
+    "core_layer": "Quietantia",
+    "extension_layer": null,
+    "hybrid_tags": [],
+    "act_id": "170",
+    "corpus": "TOXOTIS"
+  },
+  {
+    "core_layer": "Procuratio",
+    "extension_layer": null,
+    "hybrid_tags": [],
+    "act_id": "137",
+    "corpus": "TOXOTIS"
+  },
+  {
+    "core_layer": "Mutuum",
+    "extension_layer": "null",
+    "hybrid_tags": [
+      "mutuum cum pignore"
+    ],
+    "act_id": "130",
+    "corpus": "TOXOTIS"
+  },
+  {
+    "core_layer": "Locatio conductio operis",
+    "extension_layer": "null",
+    "hybrid_tags": [
+      "loan + pledge"
+    ],
+    "act_id": "203",
+    "corpus": "TOXOTIS"
+  },
+  {
+    "core_layer": "Locatio conductio rei",
+    "extension_layer": "locatio agricola",
+    "hybrid_tags": [
+      "loan + pledge"
+    ],
+    "act_id": "181",
+    "corpus": "TOXOTIS"
+  },
+  {
+    "core_layer": "Permutatio",
+    "extension_layer": null,
+    "hybrid_tags": [],
+    "act_id": "3",
+    "corpus": "VARAGAS"
+  },
+  {
+    "core_layer": "Locatio conductio rei",
+    "extension_layer": "locatio agricola",
+    "hybrid_tags": [
+      "sharecropping agreement"
+    ],
+    "act_id": "9",
+    "corpus": "VARAGAS"
+  },
+  {
+    "core_layer": "Testamentum",
+    "extension_layer": null,
+    "hybrid_tags": [],
+    "act_id": "95",
+    "corpus": "VARAGAS"
+  },
+  {
+    "core_layer": "Testamentum",
+    "extension_layer": "null",
+    "hybrid_tags": [],
+    "act_id": "89",
+    "corpus": "VARAGAS"
+  },
+  {
+    "core_layer": "Emphyteusis",
+    "extension_layer": "emphyteusis perpetua",
+    "hybrid_tags": [
+      "agricultural credit"
+    ],
+    "act_id": "51",
+    "corpus": "VARAGAS"
+  },
+  {
+    "core_layer": "Transactio",
+    "extension_layer": "null",
+    "hybrid_tags": [
+      "settlement-like"
+    ],
+    "act_id": "85",
+    "corpus": "VARAGAS"
+  },
+  {
+    "core_layer": "Mutuum",
+    "extension_layer": "mutuum cum pignore",
+    "hybrid_tags": [
+      "loan + pledge"
+    ],
+    "act_id": "19",
+    "corpus": "VARAGAS"
+  },
+  {
+    "core_layer": "Donatio",
+    "extension_layer": "donatio propter animam",
+    "hybrid_tags": [],
+    "act_id": "39",
+    "corpus": "VARAGAS"
+  }
+]

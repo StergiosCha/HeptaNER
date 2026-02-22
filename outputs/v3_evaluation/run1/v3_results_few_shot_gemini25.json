@@ -1,0 +1,342 @@
+[
+  {
+    "core_layer": "Procedural acta",
+    "extension_layer": "Revocatio instrumenti",
+    "hybrid_tags": [],
+    "act_id": "24",
+    "corpus": "ALEXAKIS"
+  },
+  {
+    "core_layer": "Emphyteusis",
+    "extension_layer": "emphyteusis perpetua",
+    "hybrid_tags": [],
+    "act_id": "66",
+    "corpus": "ALEXAKIS"
+  },
+  {
+    "core_layer": "Venditio",
+    "extension_layer": "venditio rei immobilis",
+    "hybrid_tags": [],
+    "act_id": "104",
+    "corpus": "ALEXAKIS"
+  },
+  {
+    "core_layer": "Emphyteusis",
+    "extension_layer": "emphyteusis perpetua",
+    "hybrid_tags": [
+      "agricultural lease",
+      "decimatic land"
+    ],
+    "act_id": "26",
+    "corpus": "ALEXAKIS"
+  },
+  {
+    "core_layer": "Venditio",
+    "extension_layer": "venditio rei immobilis",
+    "hybrid_tags": [],
+    "act_id": "74",
+    "corpus": "ALEXAKIS"
+  },
+  {
+    "core_layer": "Emphyteusis",
+    "extension_layer": "emphyteusis perpetua",
+    "hybrid_tags": [],
+    "act_id": "34",
+    "corpus": "ALEXAKIS"
+  },
+  {
+    "core_layer": "Locatio conductio rei",
+    "extension_layer": "locatio conductio rei ecclesiasticae",
+    "hybrid_tags": [
+      "lease of ecclesiastical property",
+      "stipulated improvements"
+    ],
+    "act_id": "6",
+    "corpus": "ALEXAKIS"
+  },
+  {
+    "core_layer": "Donatio",
+    "extension_layer": "donatio inter vivos",
+    "hybrid_tags": [
+      "onerous donation",
+      "perpetual rent"
+    ],
+    "act_id": "85",
+    "corpus": "ALEXAKIS"
+  },
+  {
+    "core_layer": "Instrumentum obligationis",
+    "extension_layer": "confessio debiti",
+    "hybrid_tags": [
+      "account settlement",
+      "loan repayment"
+    ],
+    "act_id": "99",
+    "corpus": "FARMAKIS"
+  },
+  {
+    "core_layer": "Societas",
+    "extension_layer": "societas agriculturae",
+    "hybrid_tags": [
+      "land cultivation agreement",
+      "profit sharing"
+    ],
+    "act_id": "131",
+    "corpus": "FARMAKIS"
+  },
+  {
+    "core_layer": "Venditio",
+    "extension_layer": "venditio rei immobilis",
+    "hybrid_tags": [],
+    "act_id": "27",
+    "corpus": "FARMAKIS"
+  },
+  {
+    "core_layer": "Testamentum",
+    "extension_layer": "testamentum apertum",
+    "hybrid_tags": [
+      "mortis causa disposition"
+    ],
+    "act_id": "71",
+    "corpus": "FARMAKIS"
+  },
+  {
+    "core_layer": "Procuratio",
+    "extension_layer": "procuratio ad lites",
+    "hybrid_tags": [],
+    "act_id": "109",
+    "corpus": "FARMAKIS"
+  },
+  {
+    "core_layer": "Praevenditio",
+    "extension_layer": "venditio futurae rei",
+    "hybrid_tags": [
+      "agricultural credit",
+      "pledge"
+    ],
+    "act_id": "115",
+    "corpus": "FARMAKIS"
+  },
+  {
+    "core_layer": "Quietantia",
+    "extension_layer": null,
+    "hybrid_tags": [],
+    "act_id": "107",
+    "corpus": "FARMAKIS"
+  },
+  {
+    "core_layer": "Permutatio",
+    "extension_layer": "permutatio rei immobilis",
+    "hybrid_tags": [],
+    "act_id": "117",
+    "corpus": "FARMAKIS"
+  },
+  {
+    "core_layer": "Praevenditio",
+    "extension_layer": "venditio futurae rei",
+    "hybrid_tags": [
+      "agricultural credit"
+    ],
+    "act_id": "160",
+    "corpus": "SPYRIS"
+  },
+  {
+    "core_layer": "Divisio / Partitio",
+    "extension_layer": "divisio bonorum",
+    "hybrid_tags": [
+      "fraternal division",
+      "inheritance division"
+    ],
+    "act_id": "230",
+    "corpus": "SPYRIS"
+  },
+  {
+    "core_layer": "Praevenditio",
+    "extension_layer": "venditio futurae rei",
+    "hybrid_tags": [
+      "agricultural credit"
+    ],
+    "act_id": "255",
+    "corpus": "SPYRIS"
+  },
+  {
+    "core_layer": "Praevenditio",
+    "extension_layer": "venditio futurae rei",
+    "hybrid_tags": [
+      "agricultural credit"
+    ],
+    "act_id": "162",
+    "corpus": "SPYRIS"
+  },
+  {
+    "core_layer": "Procedural acta",
+    "extension_layer": "Compromissum",
+    "hybrid_tags": [
+      "arbitration"
+    ],
+    "act_id": "333",
+    "corpus": "SPYRIS"
+  },
+  {
+    "core_layer": "Concessio ecclesiastica",
+    "extension_layer": null,
+    "hybrid_tags": [
+      "emphyteusis-like",
+      "ecclesiastical benefice"
+    ],
+    "act_id": "323",
+    "corpus": "SPYRIS"
+  },
+  {
+    "core_layer": "Locatio conductio operis",
+    "extension_layer": "locatio operis faciendi",
+    "hybrid_tags": [
+      "societas-like",
+      "agricultural contract"
+    ],
+    "act_id": "313",
+    "corpus": "SPYRIS"
+  },
+  {
+    "core_layer": "Praevenditio",
+    "extension_layer": "venditio futurae rei",
+    "hybrid_tags": [
+      "agricultural credit"
+    ],
+    "act_id": "113",
+    "corpus": "SPYRIS"
+  },
+  {
+    "core_layer": "Procuratio",
+    "extension_layer": "procuratio ad lites et ad negotia",
+    "hybrid_tags": [],
+    "act_id": "156",
+    "corpus": "TOXOTIS"
+  },
+  {
+    "core_layer": "Praevenditio",
+    "extension_layer": "venditio futurae rei",
+    "hybrid_tags": [
+      "agricultural credit"
+    ],
+    "act_id": "179",
+    "corpus": "TOXOTIS"
+  },
+  {
+    "core_layer": "Quietantia",
+    "extension_layer": "quietantia pro solutione",
+    "hybrid_tags": [
+      "shipping contract settlement"
+    ],
+    "act_id": "218",
+    "corpus": "TOXOTIS"
+  },
+  {
+    "core_layer": "Quietantia",
+    "extension_layer": "quietantia pro solutione debiti",
+    "hybrid_tags": [
+      "lease payment",
+      "debt discharge"
+    ],
+    "act_id": "170",
+    "corpus": "TOXOTIS"
+  },
+  {
+    "core_layer": "Procuratio",
+    "extension_layer": "procuratio ad litem",
+    "hybrid_tags": [],
+    "act_id": "137",
+    "corpus": "TOXOTIS"
+  },
+  {
+    "core_layer": "Mutuum",
+    "extension_layer": null,
+    "hybrid_tags": [],
+    "act_id": "130",
+    "corpus": "TOXOTIS"
+  },
+  {
+    "core_layer": "Societas",
+    "extension_layer": "societas ad laborem",
+    "hybrid_tags": [
+      "labor contract",
+      "profit sharing"
+    ],
+    "act_id": "203",
+    "corpus": "TOXOTIS"
+  },
+  {
+    "core_layer": "Locatio conductio rei",
+    "extension_layer": "locatio navis",
+    "hybrid_tags": [],
+    "act_id": "181",
+    "corpus": "TOXOTIS"
+  },
+  {
+    "core_layer": "Permutatio",
+    "extension_layer": "permutatio rerum immobilium",
+    "hybrid_tags": [],
+    "act_id": "3",
+    "corpus": "VARAGAS"
+  },
+  {
+    "core_layer": "Locatio conductio operis",
+    "extension_layer": "locatio operis faciendi",
+    "hybrid_tags": [
+      "agricultural contract",
+      "profit-sharing"
+    ],
+    "act_id": "9",
+    "corpus": "VARAGAS"
+  },
+  {
+    "core_layer": "Testamentum",
+    "extension_layer": "testamentum apertum",
+    "hybrid_tags": [
+      "mortis causa disposition"
+    ],
+    "act_id": "95",
+    "corpus": "VARAGAS"
+  },
+  {
+    "core_layer": "Testamentum",
+    "extension_layer": null,
+    "hybrid_tags": [],
+    "act_id": "89",
+    "corpus": "VARAGAS"
+  },
+  {
+    "core_layer": "Emphyteusis",
+    "extension_layer": "emphyteusis ad meliorandum",
+    "hybrid_tags": [],
+    "act_id": "51",
+    "corpus": "VARAGAS"
+  },
+  {
+    "core_layer": "Donatio",
+    "extension_layer": "donatio inter vivos",
+    "hybrid_tags": [
+      "renunciation of inheritance",
+      "renunciation of dowry claim"
+    ],
+    "act_id": "85",
+    "corpus": "VARAGAS"
+  },
+  {
+    "core_layer": "Instrumentum obligationis",
+    "extension_layer": "obligatio solvendi",
+    "hybrid_tags": [
+      "debt repayment",
+      "security for debt"
+    ],
+    "act_id": "19",
+    "corpus": "VARAGAS"
+  },
+  {
+    "core_layer": "Quietantia",
+    "extension_layer": "quietantia de dote",
+    "hybrid_tags": [],
+    "act_id": "39",
+    "corpus": "VARAGAS"
+  }
+]
