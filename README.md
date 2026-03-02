@@ -1,4 +1,4 @@
-# HeptaNER: Neuro-Symbolic Genre Classification of 16th-Century Heptanesian Notarial Acts
+# HeptaTAX: Neuro-Symbolic Genre Classification of 16th-Century Heptanesian Notarial Acts
 
 Code, data, and reproduction materials for the paper submitted to the [DialRes 2026 Workshop](https://sites.google.com/view/dialres2026/) (LREC-COLING 2026, Palma de Mallorca).
 
